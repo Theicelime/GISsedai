@@ -863,7 +863,11 @@
     "tags": ["Sand", "Spice", "Trade"],
     "colors": ["#4a332a", "#6b4a3d", "#8c6150", "#ad7863", "#ce8f76", "#eebca9", "#d4a76a", "#ba922b", "#a17d00"]
   },
-  { "name": "2001: A Space Odyssey", "category": "Cinema", "tags": ["Sci-Fi", "Clean", "Red-White"], "colors": ["#e8e8e8", "#d6d6d6", "#a3a3a3", "#cf4848", "#b82525", "#8f0000", "#520000"] },
+  { "name": "2001: A Space Odyssey", 
+    "category": "Cinema",
+    "tags": ["Sci-Fi", "Clean", "Red-White"], 
+    "colors": ["#e8e8e8", "#d6d6d6", "#a3a3a3", "#cf4848", "#b82525", "#8f0000", "#520000"] 
+  },
   { "name": "Alien (1979)", "category": "Cinema", "tags": ["Sci-Fi", "Dark", "Green"], "colors": ["#050805", "#0d1a0f", "#1a331f", "#2b4d32", "#406949", "#7aa382", "#b0ccb6"] },
   { "name": "Amadeus", "category": "Cinema", "tags": ["Period", "Gold", "Opulent"], "colors": ["#2e1e0f", "#52361b", "#7a542e", "#a37643", "#cc9b5e", "#f0c680", "#ffebbd"] },
   { "name": "American Beauty", "category": "Cinema", "tags": ["Drama", "Red", "Rose"], "colors": ["#2b0a0d", "#4a1216", "#6e1b21", "#94262d", "#ba323b", "#e0414b", "#ff6b75"] },
