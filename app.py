@@ -1,8 +1,10 @@
 import streamlit as st
 import json
-import pandas as pd
+import os
 
-# 页面配置
+# --------------------------------------------------------
+# 1. 页面配置
+# --------------------------------------------------------
 st.set_page_config(
     page_title="GIS Color Studio Pro",
     page_icon="🎬",
@@ -10,29 +12,21 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# --- 辅助函数 ---
+# --------------------------------------------------------
+# 2. 辅助函数
+# --------------------------------------------------------
 @st.cache_data
 def load_data():
     """读取本地 JSON 数据库"""
     try:
-        # 尝试读取两个文件（基础库+新加的）并合并，或者只读取一个
-        files = ['palettes.json'] 
-        all_data = []
-        for file in files:
-            if os.path.exists(file):
-                with open(file, 'r', encoding='utf-8') as f:
-                    data = json.load(f)
-                    all_data.extend(data)
-        # 去重（按名称）
-        seen = set()
-        unique_data = []
-        for d in all_data:
-            if d['name'] not in seen:
-                unique_data.append(d)
-                seen.add(d['name'])
-        return unique_data
-    except Exception:
-        # 如果没有文件，返回空，避免报错
+        if os.path.exists('palettes.json'):
+            with open('palettes.json', 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                return data
+        else:
+            return []
+    except Exception as e:
+        st.error(f"数据加载失败: {e}")
         return []
 
 def hex_to_rgb(hex_code):
@@ -49,23 +43,27 @@ def generate_clr(colors):
 def generate_css_gradient(colors):
     return f"linear-gradient(to right, {', '.join(colors)})"
 
-import os
-
-# --- 初始化数据 ---
+# --------------------------------------------------------
+# 3. 初始化状态与数据
+# --------------------------------------------------------
 if 'selected_ramps' not in st.session_state:
     st.session_state.selected_ramps = []
 
+# 加载全量数据
 all_ramps = load_data()
+all_ramp_names = [r['name'] for r in all_ramps]
 
-# --- 侧边栏：筛选 ---
+# --------------------------------------------------------
+# 4. 侧边栏：筛选器
+# --------------------------------------------------------
 st.sidebar.title("🎬 GIS Color Studio")
 st.sidebar.caption("电影级 · 空间色彩美学")
 
 categories = ["全部"] + sorted(list(set(r.get('category', 'Uncategorized') for r in all_ramps)))
 selected_cat = st.sidebar.selectbox("分类筛选", categories)
-search_term = st.sidebar.text_input("搜索 (电影名/色系)", "")
+search_term = st.sidebar.text_input("搜索 (名称/色系)", "")
 
-# 过滤逻辑
+# 过滤数据 (仅用于卡片展示)
 filtered_ramps = all_ramps
 if selected_cat != "全部":
     filtered_ramps = [r for r in filtered_ramps if r.get('category') == selected_cat]
@@ -74,116 +72,113 @@ if search_term:
     filtered_ramps = [r for r in filtered_ramps if term in r['name'].lower() or any(term in t.lower() for t in r.get('tags', []))]
 
 st.sidebar.divider()
-st.sidebar.metric("当前显示", len(filtered_ramps))
-st.sidebar.metric("总收录", len(all_ramps))
+st.sidebar.metric("当前展示", len(filtered_ramps))
 
-# --- 主界面：导出管理器 ---
+# --------------------------------------------------------
+# 5. 主界面：导出管理器 (Export Manager)
+# --------------------------------------------------------
 st.title("色彩资产库")
 
-with st.expander("📦 导出管理器 (Export Manager)", expanded=True):
-    c1, c2 = st.columns([3, 1])
-    with c1:
-        # 提取当前筛选结果的名字
-        filtered_names = [r['name'] for r in filtered_ramps]
-        
-        # 多选框
-        selected_names = st.multiselect(
-            "选择要打包下载的色带 (支持多选/搜索):",
-            options=filtered_names,
-            default=st.session_state.selected_ramps
-        )
-        
-        # 全选按钮逻辑
-        if st.button("全选当前筛选结果"):
-            selected_names = filtered_names
-            # 强制刷新UI选中状态需要一点技巧，这里简单处理
-            st.session_state.selected_ramps = selected_names
-            st.rerun()
+# 使用容器包裹顶部管理器
+with st.container():
+    st.info("💡 提示：点击下方色带卡片中的按钮，即可加入/移除待导出列表。")
+    
+    # 修复核心 Bug：Multiselect 的 options 必须包含所有可能的值
+    # 我们使用 all_ramp_names 而不是 filtered_ramps 的名字
+    selected_from_multiselect = st.multiselect(
+        "📦 待导出清单 (已选色带):",
+        options=all_ramp_names,
+        default=st.session_state.selected_ramps,
+        key="global_multiselect"
+    )
 
-    with c2:
-        st.write("###") # Spacer
-        # 准备下载数据
-        export_data = [r for r in all_ramps if r['name'] in selected_names]
+    # 状态同步逻辑：如果用户在多选框里删除了某项，需要更新 session state
+    if selected_from_multiselect != st.session_state.selected_ramps:
+        st.session_state.selected_ramps = selected_from_multiselect
+        st.rerun()
+
+    # 下载按钮
+    if st.session_state.selected_ramps:
+        export_data = [r for r in all_ramps if r['name'] in st.session_state.selected_ramps]
+        json_str = json.dumps(export_data, indent=2)
         
-        if export_data:
-            json_str = json.dumps(export_data, indent=2)
+        col_dl_1, col_dl_2 = st.columns([1, 5])
+        with col_dl_1:
             st.download_button(
-                label=f"⬇️ 下载选中包 ({len(export_data)}个)",
+                label=f"⬇️ 下载数据包 ({len(export_data)}个)",
                 data=json_str,
-                file_name="selected_movie_colors.json",
+                file_name="selected_colors.json",
                 mime="application/json",
                 type="primary"
             )
-        else:
-            st.button("请先选择色带", disabled=True)
+        with col_dl_2:
+            if st.button("清空选择"):
+                st.session_state.selected_ramps = []
+                st.rerun()
 
-# --- 选项卡展示 ---
-tab1, tab2 = st.tabs(["👁️ 色带预览", "🛠️ 构建工具下载"])
+# --------------------------------------------------------
+# 6. 色带网格展示 (Grid Display)
+# --------------------------------------------------------
+st.divider()
 
-with tab1:
-    if not filtered_ramps:
-        st.info("没有找到匹配的电影色带。")
-    
-    # 网格展示
+if not filtered_ramps:
+    st.warning("没有找到匹配的色带。")
+else:
+    # 3列布局
     cols = st.columns(3)
     for idx, ramp in enumerate(filtered_ramps):
         with cols[idx % 3]:
-            with st.container():
-                # CSS 卡片样式
-                st.markdown(f"""
+            # CSS 卡片样式
+            st.markdown(f"""
+            <div style="
+                border:1px solid #e0e0e0; 
+                border-radius:8px; 
+                padding:12px; 
+                margin-bottom:8px; 
+                background-color: white;
+                box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
                 <div style="
-                    border:1px solid #e0e0e0; 
-                    border-radius:8px; 
-                    padding:12px; 
-                    margin-bottom:16px; 
-                    background-color: white;
-                    transition: transform 0.2s;
-                    box-shadow: 0 1px 3px rgba(0,0,0,0.1);">
-                    <div style="
-                        height: 40px; 
-                        width: 100%; 
-                        background: {generate_css_gradient(ramp['colors'])}; 
-                        border-radius: 4px;
-                        margin-bottom: 8px;">
-                    </div>
-                    <div style="display:flex; justify-content:space-between; align-items:center;">
-                        <h5 style="margin:0; font-size:14px; font-weight:600;">{ramp['name']}</h5>
-                        <span style="font-size:10px; background:#f0f2f6; padding:2px 6px; rounded:4px;">{ramp.get('category')}</span>
-                    </div>
-                    <p style="margin:4px 0 0 0; color:#888; font-size:11px;">
-                        {' · '.join(ramp.get('tags', [])[:3])}
-                    </p>
+                    height: 45px; 
+                    width: 100%; 
+                    background: {generate_css_gradient(ramp['colors'])}; 
+                    border-radius: 4px;
+                    margin-bottom: 8px;">
                 </div>
-                """, unsafe_allow_html=True)
-                
-                # 单个操作按钮
-                b1, b2 = st.columns(2)
-                
-                # 下载单文件
-                clr_data = generate_clr(ramp['colors'])
-                b1.download_button(
-                    "CLR", 
-                    clr_data, 
-                    file_name=f"{ramp['name']}.clr", 
-                    key=f"btn_clr_{idx}",
-                    help="直接下载适用于 ArcGIS 的 .clr 文件"
-                )
-                
-                # 快速添加到选中列表（模拟）
-                # 由于Streamlit的立即刷新机制，这里仅做展示，主要操作在上方多选框
-                st.caption(f"Colors: {len(ramp['colors'])}")
+                <div style="display:flex; justify-content:space-between; align-items:center;">
+                    <h5 style="margin:0; font-size:14px; font-weight:600; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;">{ramp['name']}</h5>
+                    <span style="font-size:10px; background:#f0f2f6; padding:2px 6px; border-radius:4px;">{len(ramp['colors'])} C</span>
+                </div>
+            </div>
+            """, unsafe_allow_html=True)
 
-with tab2:
-    st.markdown("### 🚀 如何将下载的 JSON 转为 ArcGIS .stylx？")
-    st.markdown("1. 在上方 **'导出管理器'** 中下载 JSON 文件（例如 `selected_movie_colors.json`）。")
-    st.markdown("2. 下载下方的 Python 构建脚本。")
-    st.markdown("3. 在 ArcGIS Pro 的 Python 窗口运行该脚本。")
-    
-    with open("arcgis_builder.py", "r", encoding='utf-8') as f:
-            script_content = f.read()
-            st.download_button(
-                label="🛠️ 下载 Python 构建器脚本",
-                data=script_content,
-                file_name="arcgis_builder.py",
-                mime="text/x-python"
+            # 按钮区域
+            btn_col1, btn_col2 = st.columns([1, 1])
+            
+            # 1. 交互式选择按钮 (Click to Select)
+            is_selected = ramp['name'] in st.session_state.selected_ramps
+            
+            if is_selected:
+                if btn_col1.button("✅ 已选", key=f"btn_remove_{idx}", type="secondary", use_container_width=True):
+                    st.session_state.selected_ramps.remove(ramp['name'])
+                    st.rerun()
+            else:
+                if btn_col1.button("➕ 加入", key=f"btn_add_{idx}", type="primary", use_container_width=True):
+                    st.session_state.selected_ramps.append(ramp['name'])
+                    st.rerun()
+
+            # 2. 单文件下载按钮
+            clr_data = generate_clr(ramp['colors'])
+            btn_col2.download_button(
+                "下载 CLR", 
+                clr_data, 
+                file_name=f"{ramp['name'].replace(' ', '_')}.clr", 
+                key=f"dl_clr_{idx}",
+                use_container_width=True
             )
+            
+            # 标签展示
+            st.markdown(f"""
+            <div style="margin-bottom:20px; font-size:11px; color:#888;">
+                 {' · '.join(ramp.get('tags', [])[:3])}
+            </div>
+            """, unsafe_allow_html=True)
