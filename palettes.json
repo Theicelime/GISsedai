@@ -1,0 +1,302 @@
+[
+  {
+    "name": "Batlow",
+    "category": "Scientific",
+    "tags": ["Nature", "Rainbow-Alternative"],
+    "colors": ["#001959", "#0B3363", "#164D6D", "#216872", "#2E8272", "#429B69", "#63B25D", "#8CCC4E", "#BDE23C", "#FDE333"]
+  },
+  {
+    "name": "Viridis",
+    "category": "Scientific",
+    "tags": ["Standard", "Perceptually Uniform"],
+    "colors": ["#440154", "#482475", "#414487", "#355f8d", "#2a788e", "#21918c", "#22a884", "#44bf70", "#7ad151", "#bddf26", "#fde725"]
+  },
+  {
+    "name": "Magma",
+    "category": "Scientific",
+    "tags": ["Heatmap", "Dark"],
+    "colors": ["#000004", "#180f3d", "#440f76", "#721f81", "#9e2f7f", "#cd4071", "#f1605d", "#fd9668", "#fcfdbf"]
+  },
+  {
+    "name": "Qing Lu (千里江山)",
+    "category": "Oriental",
+    "tags": ["China", "Landscape"],
+    "colors": ["#2d4059", "#3e6e73", "#5c9291", "#8bbab3", "#c5cf99", "#d4bb83", "#a67c52"]
+  },
+  {
+    "name": "Dunhuang (敦煌)",
+    "category": "Oriental",
+    "tags": ["Mural", "History"],
+    "colors": ["#5e2a2a", "#8f3b28", "#b85c38", "#d68755", "#e6b380", "#8fbab3", "#4d8076", "#264d47"]
+  },
+  {
+    "name": "Forbidden City",
+    "category": "Oriental",
+    "tags": ["Red", "Gold"],
+    "colors": ["#4a0e0e", "#851e1e", "#a82e2e", "#cf4040", "#e86b6b", "#ffd700", "#d4af37", "#a6892b"]
+  },
+  {
+    "name": "Porcelain (青花)",
+    "category": "Oriental",
+    "tags": ["Blue", "Ceramic"],
+    "colors": ["#081e42", "#123063", "#1e4685", "#3566b5", "#628dd1", "#9abaf0", "#d1e3ff", "#f5f7fa"]
+  },
+  {
+    "name": "Ink Wash (水墨)",
+    "category": "Oriental",
+    "tags": ["Monochrome"],
+    "colors": ["#000000", "#1c1c1c", "#363636", "#525252", "#737373", "#969696", "#bdbdbd", "#e0e0e0", "#f5f5f5"]
+  },
+  {
+    "name": "Spectral",
+    "category": "Geographic",
+    "tags": ["Diverging", "Elevation"],
+    "colors": ["#9e0142", "#d53e4f", "#f46d43", "#fdae61", "#fee08b", "#ffffbf", "#e6f598", "#abdda4", "#66c2a5", "#3288bd", "#5e4fa2"]
+  },
+  {
+    "name": "RdYlBu",
+    "category": "Geographic",
+    "tags": ["Temperature", "Diverging"],
+    "colors": ["#313695", "#4575b4", "#74add1", "#abd9e9", "#e0f3f8", "#ffffbf", "#fee090", "#fdae61", "#f46d43", "#d73027", "#a50026"]
+  },
+  {
+    "name": "Terrain",
+    "category": "Geographic",
+    "tags": ["DEM", "Physical"],
+    "colors": ["#004c00", "#54b200", "#ffff00", "#e6bd00", "#b25500", "#7f0000"]
+  },
+  {
+    "name": "Ocean Depth",
+    "category": "Geographic",
+    "tags": ["Water", "Bathymetry"],
+    "colors": ["#020c1b", "#061a35", "#0b2c56", "#12437c", "#1c5fa6", "#3180bd", "#5faac9", "#94d2d4", "#d1eeea"]
+  },
+  {
+    "name": "Grand Budapest",
+    "category": "Movies",
+    "tags": ["Wes Anderson", "Pink"],
+    "colors": ["#5d2e46", "#b55b5f", "#e68478", "#fcae91", "#fddbc7", "#d1c2d9", "#9484a1", "#524461"]
+  },
+  {
+    "name": "Moonrise Kingdom",
+    "category": "Movies",
+    "tags": ["Wes Anderson", "Yellow"],
+    "colors": ["#4a4224", "#706433", "#b0a048", "#e6d35c", "#f2e694", "#d98f4e", "#b54e28", "#6e2516"]
+  },
+  {
+    "name": "Totoro",
+    "category": "Movies",
+    "tags": ["Ghibli", "Forest"],
+    "colors": ["#2d4030", "#456b45", "#6a9c6a", "#95c995", "#c4e6c4", "#8fb3d9", "#5b8cc2"]
+  },
+  {
+    "name": "Ponyo",
+    "category": "Movies",
+    "tags": ["Ghibli", "Sea"],
+    "colors": ["#0f2c4d", "#1f4e7a", "#3c7bb0", "#69aed9", "#d94c4c", "#f08080", "#ffb3b3"]
+  },
+  {
+    "name": "Cyberpunk",
+    "category": "Movies",
+    "tags": ["Neon", "Sci-Fi"],
+    "colors": ["#0b0c15", "#292147", "#5a1e5d", "#9a0e66", "#d90d56", "#fe2d48", "#00f0ff", "#fcee0a"]
+  },
+  {
+    "name": "Matrix",
+    "category": "Movies",
+    "tags": ["Digital", "Green"],
+    "colors": ["#000000", "#0d1a0d", "#1a331a", "#264d26", "#336633", "#408040", "#4da64d", "#66cc66"]
+  },
+  {
+    "name": "Blade Runner",
+    "category": "Movies",
+    "tags": ["Orange", "Teal"],
+    "colors": ["#001721", "#00364d", "#005f7a", "#008da8", "#a85f32", "#cc7a3d", "#f09a4b"]
+  },
+  {
+    "name": "Starry Night",
+    "category": "Artistic",
+    "tags": ["Van Gogh", "Blue-Yellow"],
+    "colors": ["#1a3458", "#254876", "#3d6499", "#5b84c4", "#8fb3e6", "#d8d689", "#dbb835", "#d69811"]
+  },
+  {
+    "name": "Water Lilies",
+    "category": "Artistic",
+    "tags": ["Monet", "Pastel"],
+    "colors": ["#5d7a8d", "#86a69d", "#b5c9c3", "#dbe6e1", "#f0eaf4", "#d5b4c4", "#a88fa2", "#7b697d"]
+  },
+  {
+    "name": "The Scream",
+    "category": "Artistic",
+    "tags": ["Munch", "Sunset"],
+    "colors": ["#3b3a4a", "#2e3b55", "#4d5d75", "#c67b5c", "#e3934d", "#e36e35", "#c23826", "#8a1e16"]
+  },
+  {
+    "name": "Girl w Pearl",
+    "category": "Artistic",
+    "tags": ["Vermeer", "Blue-Gold"],
+    "colors": ["#0d1114", "#252d37", "#475c75", "#6b8ba4", "#dcb969", "#e8d39f", "#f4ecd6"]
+  },
+  {
+    "name": "Hockney Pool",
+    "category": "Artistic",
+    "tags": ["Pop Art", "Blue"],
+    "colors": ["#0064b0", "#008bd2", "#38b6ff", "#7ed6ff", "#f09696", "#ffb4b4", "#ffe6e6"]
+  },
+  {
+    "name": "Morandi Earth",
+    "category": "Modern",
+    "tags": ["Muted", "Elegant"],
+    "colors": ["#4a3b32", "#6e5c4f", "#917d6e", "#b5a08f", "#d9c4b3", "#f2e6d9"]
+  },
+  {
+    "name": "Nordic Winter",
+    "category": "Modern",
+    "tags": ["Cold", "Minimal"],
+    "colors": ["#2e3440", "#3b4252", "#4c566a", "#d8dee9", "#e5e9f0", "#eceff4", "#88c0d0"]
+  },
+  {
+    "name": "Sunset Vibes",
+    "category": "Modern",
+    "tags": ["Instagram", "Gradient"],
+    "colors": ["#405de6", "#5851db", "#833ab4", "#c13584", "#e1306c", "#fd1d1d", "#f56040", "#f77737", "#fcaf45", "#ffdc80"]
+  },
+  {
+    "name": "Plasma",
+    "category": "Scientific",
+    "tags": ["Vibrant", "Purple"],
+    "colors": ["#0d0887", "#46039f", "#7201a8", "#9c179e", "#bd3786", "#d8576b", "#ed7953", "#fb9f3a", "#f0f921"]
+  },
+  {
+    "name": "Inferno",
+    "category": "Scientific",
+    "tags": ["Fire", "Dark"],
+    "colors": ["#000004", "#160b39", "#420a68", "#6a176e", "#932667", "#bc3754", "#dd513a", "#f37819", "#fca50a", "#f6d746", "#fcffa4"]
+  },
+  {
+    "name": "Cividis",
+    "category": "Scientific",
+    "tags": ["Colorblind Safe", "Blue-Yellow"],
+    "colors": ["#00204d", "#002d6c", "#3d4b6b", "#63676b", "#7f7c6b", "#9f9363", "#c1ab56", "#e5c43d", "#ffea46"]
+  },
+  {
+    "name": "Turbo",
+    "category": "Scientific",
+    "tags": ["Rainbow", "Google"],
+    "colors": ["#23171b", "#4a2d8a", "#466be3", "#2da0f5", "#20d0e6", "#35f1b8", "#74fb7c", "#c1f334", "#fada24", "#f58f08", "#d23e03", "#900c00"]
+  },
+  {
+    "name": "Twilight",
+    "category": "Scientific",
+    "tags": ["Cyclic", "Shifted"],
+    "colors": ["#e2d9e2", "#9d91c5", "#5e5898", "#332c66", "#2d234a", "#563857", "#8e5c6a", "#c28981", "#e6c3a6"]
+  },
+  {
+    "name": "PuOr",
+    "category": "Geographic",
+    "tags": ["Diverging", "Orange-Purple"],
+    "colors": ["#7f3b08", "#b35806", "#e08214", "#fdb863", "#fee0b6", "#f7f7f7", "#d8daeb", "#b2abd2", "#8073ac", "#542788", "#2d004b"]
+  },
+  {
+    "name": "BrBG",
+    "category": "Geographic",
+    "tags": ["Diverging", "Brown-Green"],
+    "colors": ["#543005", "#8c510a", "#bf812d", "#dfc27d", "#f6e8c3", "#f5f5f5", "#c7eae5", "#80cdc1", "#35978f", "#01665e", "#003c30"]
+  },
+  {
+    "name": "PiYG",
+    "category": "Geographic",
+    "tags": ["Diverging", "Pink-Green"],
+    "colors": ["#8e0152", "#c51b7d", "#de77ae", "#f1b6da", "#fde0ef", "#f7f7f7", "#e6f5d0", "#b8e186", "#7fbc41", "#4d9221", "#276419"]
+  },
+  {
+    "name": "YlGnBu",
+    "category": "Geographic",
+    "tags": ["Sequential", "Multi-hue"],
+    "colors": ["#ffffd9", "#edf8b1", "#c7e9b4", "#7fcdbb", "#41b6c4", "#1d91c0", "#225ea8", "#253494", "#081d58"]
+  },
+  {
+    "name": "Blues",
+    "category": "Geographic",
+    "tags": ["Sequential", "Single-hue"],
+    "colors": ["#f7fbff", "#deebf7", "#c6dbef", "#9ecae1", "#6baed6", "#4292c6", "#2171b5", "#08519c", "#08306b"]
+  },
+  {
+    "name": "Reds",
+    "category": "Geographic",
+    "tags": ["Sequential", "Single-hue"],
+    "colors": ["#fff5f0", "#fee0d2", "#fcbba1", "#fc9272", "#fb6a4a", "#ef3b2c", "#cb181d", "#a50f15", "#67000d"]
+  },
+  {
+    "name": "Greens",
+    "category": "Geographic",
+    "tags": ["Sequential", "Single-hue"],
+    "colors": ["#f7fcf5", "#e5f5e0", "#c7e9c0", "#a1d99b", "#74c476", "#41ab5d", "#238b45", "#005a32", "#00441b"]
+  },
+  {
+    "name": "Greys",
+    "category": "Geographic",
+    "tags": ["Sequential", "Grayscale"],
+    "colors": ["#ffffff", "#f0f0f0", "#d9d9d9", "#bdbdbd", "#969696", "#737373", "#525252", "#252525", "#000000"]
+  },
+  {
+    "name": "Pastel1",
+    "category": "Artistic",
+    "tags": ["Qualitative", "Soft"],
+    "colors": ["#fbb4ae", "#b3cde3", "#ccebc5", "#decbe4", "#fed9a6", "#ffffcc", "#e5d8bd", "#fddaec", "#f2f2f2"]
+  },
+  {
+    "name": "Dark2",
+    "category": "Artistic",
+    "tags": ["Qualitative", "Dark"],
+    "colors": ["#1b9e77", "#d95f02", "#7570b3", "#e7298a", "#66a61e", "#e6ab02", "#a6761d", "#666666"]
+  },
+  {
+    "name": "Set3",
+    "category": "Artistic",
+    "tags": ["Qualitative", "Medium"],
+    "colors": ["#8dd3c7", "#ffffb3", "#bebada", "#fb8072", "#80b1d3", "#fdb462", "#b3de69", "#fccde5", "#d9d9d9", "#bc80bd", "#ccebc5", "#ffed6f"]
+  },
+  {
+    "name": "Paired",
+    "category": "Artistic",
+    "tags": ["Qualitative", "Pairs"],
+    "colors": ["#a6cee3", "#1f78b4", "#b2df8a", "#33a02c", "#fb9a99", "#e31a1c", "#fdbf6f", "#ff7f00", "#cab2d6", "#6a3d9a", "#ffff99", "#b15928"]
+  },
+  {
+    "name": "Tab10",
+    "category": "Scientific",
+    "tags": ["Tableau", "Standard"],
+    "colors": ["#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd", "#8c564b", "#e377c2", "#7f7f7f", "#bcbd22", "#17becf"]
+  },
+  {
+    "name": "Accent",
+    "category": "Artistic",
+    "tags": ["Qualitative", "Highlight"],
+    "colors": ["#7fc97f", "#beaed4", "#fdc086", "#ffff99", "#386cb0", "#f0027f", "#bf5b17", "#666666"]
+  },
+  {
+    "name": "Ghibli Spirited",
+    "category": "Movies",
+    "tags": ["Ghibli", "Bathhouse"],
+    "colors": ["#c44e52", "#d95f02", "#e6ab02", "#a6761d", "#666666", "#1b9e77", "#7570b3"]
+  },
+  {
+    "name": "Kiki Delivery",
+    "category": "Movies",
+    "tags": ["Ghibli", "Town"],
+    "colors": ["#e41a1c", "#377eb8", "#4daf4a", "#984ea3", "#ff7f00", "#ffff33", "#a65628", "#f781bf"]
+  },
+  {
+    "name": "Howls Castle",
+    "category": "Movies",
+    "tags": ["Ghibli", "Magic"],
+    "colors": ["#fbb4ae", "#b3cde3", "#ccebc5", "#decbe4", "#fed9a6", "#ffffcc", "#e5d8bd", "#fddaec"]
+  },
+  {
+    "name": "Amelie",
+    "category": "Movies",
+    "tags": ["French", "Green-Red"],
+    "colors": ["#4d9221", "#c51b7d", "#e6f5d0", "#fde0ef", "#f1b6da", "#b8e186", "#7fbc41", "#276419"]
+  }
+]
