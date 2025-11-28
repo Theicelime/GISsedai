@@ -298,5 +298,569 @@
     "category": "Movies",
     "tags": ["French", "Green-Red"],
     "colors": ["#4d9221", "#c51b7d", "#e6f5d0", "#fde0ef", "#f1b6da", "#b8e186", "#7fbc41", "#276419"]
+  },
+  {
+    "name": "cmocean Thermal",
+    "category": "Scientific",
+    "tags": ["Ocean", "Temperature", "Diverging"],
+    "colors": ["#04103b", "#3a3a99", "#6b6ecf", "#9696d7", "#c4c4e4", "#ebebff", "#ffebbe", "#ffd27f", "#e69046", "#a64927", "#521612"]
+  },
+  {
+    "name": "cmocean Haline",
+    "category": "Scientific",
+    "tags": ["Salinity", "Ocean", "Blue-Green"],
+    "colors": ["#2A2B5E", "#2E4779", "#346191", "#3B7BA6", "#4494B7", "#52ABC4", "#66C0CC", "#80D2D0", "#9EE1D1", "#C0EDD0", "#E4F6D2"]
+  },
+  {
+    "name": "cmocean Solar",
+    "category": "Scientific",
+    "tags": ["Sun", "Radiation", "Warm"],
+    "colors": ["#421603", "#6A2207", "#8F320C", "#B04712", "#CD6019", "#E47D23", "#F59D33", "#FDBE4C", "#FFDE70", "#FFF8A2", "#FFFFE5"]
+  },
+  {
+    "name": "cmocean Ice",
+    "category": "Scientific",
+    "tags": ["Cryosphere", "Cold", "Dark-Light"],
+    "colors": ["#000000", "#0D111E", "#162039", "#1D3054", "#26426F", "#325688", "#426BA1", "#5782B8", "#7299CC", "#94B2DE", "#BDCCED"]
+  },
+  {
+    "name": "cmocean Algae",
+    "category": "Scientific",
+    "tags": ["Chlorophyll", "Biology", "Green"],
+    "colors": ["#02290B", "#053E17", "#0C5424", "#156B33", "#228243", "#349953", "#4BB062", "#68C56F", "#8AD87D", "#B0E88B", "#D9F59A"]
+  },
+  {
+    "name": "cmocean Matter",
+    "category": "Scientific",
+    "tags": ["Turbidity", "Sediment", "Purple-Orange"],
+    "colors": ["#251B3E", "#382550", "#4D3060", "#633D6D", "#794B77", "#8F5A7E", "#A46B82", "#B87E84", "#CA9284", "#D9A983", "#E3C287"]
+  },
+  {
+    "name": "cmocean Speed",
+    "category": "Scientific",
+    "tags": ["Velocity", "Currents", "Yellow-Green"],
+    "colors": ["#FBFEC9", "#EAF69D", "#D2EB7B", "#B4DE64", "#92CF54", "#70BD48", "#50AB3E", "#339735", "#1B822C", "#076C23", "#00571B"]
+  },
+  {
+    "name": "cmocean Amp",
+    "category": "Scientific",
+    "tags": ["Wave Height", "Red", "Warning"],
+    "colors": ["#280B0D", "#481014", "#69171C", "#8B2025", "#AC2B2E", "#CA3938", "#E34D44", "#F36955", "#FB8A6D", "#FEAF8B", "#FFD5B2"]
+  },
+  {
+    "name": "ColorCET Rainbow",
+    "category": "Scientific",
+    "tags": ["Perceptual", "Rainbow", "Alternative"],
+    "colors": ["#1A1A1A", "#1C3678", "#235BA8", "#2580C7", "#1FA2D3", "#2BBFCD", "#55D6B6", "#8BED9A", "#C6F883", "#FBF58D", "#FCE07C"]
+  },
+  {
+    "name": "ColorCET Fire",
+    "category": "Scientific",
+    "tags": ["Heat", "Intensity", "Light"],
+    "colors": ["#000000", "#1D0907", "#3B100E", "#5B1814", "#7D211A", "#A02B1F", "#C43823", "#E44E26", "#F67129", "#FF9936", "#FFC355"]
+  },
+  {
+    "name": "ColorCET Coolwarm",
+    "category": "Scientific",
+    "tags": ["Diverging", "Blue-Red", "Isoluminant"],
+    "colors": ["#364B9A", "#4A7BB7", "#6EA6CD", "#98CAE1", "#C2E4EF", "#EAECCC", "#FEDA8B", "#FDB366", "#F67E4B", "#DD3D2D", "#A50026"]
+  },
+  {
+    "name": "NASA NDVI",
+    "category": "Cartography",
+    "tags": ["Vegetation", "Remote Sensing"],
+    "colors": ["#000000", "#a50026", "#d73027", "#f46d43", "#fdae61", "#fee08b", "#ffffbf", "#d9ef8b", "#a6d96a", "#66bd63", "#1a9850", "#006837"]
+  },
+  {
+    "name": "Precipitation 1",
+    "category": "Cartography",
+    "tags": ["Rain", "Weather", "Blue"],
+    "colors": ["#ffffff", "#e0f3f8", "#abd9e9", "#74add1", "#4575b4", "#313695", "#08306b"]
+  },
+  {
+    "name": "Precipitation 2",
+    "category": "Cartography",
+    "tags": ["Rain", "Extreme", "Multi-hue"],
+    "colors": ["#ffffff", "#b2df8a", "#33a02c", "#a6cee3", "#1f78b4", "#fb9a99", "#e31a1c", "#fdbf6f", "#ff7f00", "#cab2d6", "#6a3d9a"]
+  },
+  {
+    "name": "DEM Earth",
+    "category": "Cartography",
+    "tags": ["Topography", "Elevation", "Physical"],
+    "colors": ["#3d6a48", "#6a8d56", "#9db278", "#d1d79d", "#f0e7c1", "#d8c39e", "#bda07b", "#a17e59", "#855d38", "#684020", "#7a7a7a", "#a3a3a3", "#cfcfcf", "#ffffff"]
+  },
+  {
+    "name": "Night Lights",
+    "category": "Cartography",
+    "tags": ["Urban", "Black Background", "Yellow"],
+    "colors": ["#000000", "#181404", "#312809", "#4b3e0e", "#665413", "#826b18", "#9f831e", "#bc9c24", "#dab62a", "#f9d030", "#ffeda0", "#ffffeb"]
+  },
+  {
+    "name": "Population Density",
+    "category": "Cartography",
+    "tags": ["Census", "Red-Purple", "White"],
+    "colors": ["#fcfbfd", "#efedf5", "#dadaeb", "#bcbddc", "#9e9ac8", "#807dba", "#6a51a3", "#54278f", "#3f007d"]
+  },
+  {
+    "name": "Land Cover",
+    "category": "Cartography",
+    "tags": ["Categorical", "Map"],
+    "colors": ["#e41a1c", "#377eb8", "#4daf4a", "#984ea3", "#ff7f00", "#ffff33", "#a65628", "#f781bf", "#999999"]
+  },
+  {
+    "name": "Dune (Arrakis)",
+    "category": "Movies",
+    "tags": ["Sci-Fi", "Sand", "Orange"],
+    "colors": ["#1a0f0a", "#362013", "#543318", "#754921", "#8c5e2a", "#a8753a", "#c48d4a", "#d69c5e", "#e8b87d", "#f2cf94"]
+  },
+  {
+    "name": "Dune (Harkonnen)",
+    "category": "Movies",
+    "tags": ["Sci-Fi", "Dark", "Monochrome"],
+    "colors": ["#050505", "#141414", "#262626", "#3d3d3d", "#5c5c5c", "#7a7a7a", "#9e9e9e", "#c7c7c7", "#f0f0f0"]
+  },
+  {
+    "name": "Joker",
+    "category": "Movies",
+    "tags": ["Villian", "Green-Red", "Contrast"],
+    "colors": ["#113b28", "#1c5c3e", "#298555", "#b34e29", "#d63e26", "#8f1d18", "#d9863d", "#f0a860"]
+  },
+  {
+    "name": "La La Land",
+    "category": "Movies",
+    "tags": ["Romance", "Purple-Yellow", "Twilight"],
+    "colors": ["#1f143d", "#38205f", "#552f7d", "#7a468c", "#a36496", "#c98696", "#eba98f", "#ffcd85", "#ffe494"]
+  },
+  {
+    "name": "Her",
+    "category": "Movies",
+    "tags": ["Warm", "Red", "Emotional"],
+    "colors": ["#420f0f", "#6b1c1c", "#942e2e", "#bd4646", "#d66565", "#e88e8e", "#f2b6b6", "#fae1e1"]
+  },
+  {
+    "name": "Interstellar",
+    "category": "Movies",
+    "tags": ["Space", "Black Hole", "Cornfield"],
+    "colors": ["#000000", "#080b12", "#131926", "#232d40", "#455263", "#747f8c", "#a8aeb5", "#d4d1ba", "#e6d793", "#f2d966"]
+  },
+  {
+    "name": "Barbie",
+    "category": "Movies",
+    "tags": ["Pink", "Pop", "Cyan"],
+    "colors": ["#E0218A", "#E856A3", "#F289BD", "#F9BBD6", "#FEE4F1", "#94E1F2", "#5AD2EA", "#00B8DE"]
+  },
+  {
+    "name": "Oppenheimer",
+    "category": "Movies",
+    "tags": ["Fire", "Explosion", "Dark"],
+    "colors": ["#050202", "#2e0905", "#591007", "#871f0a", "#b5360b", "#e05809", "#fc880f", "#ffb947", "#ffe8a3"]
+  },
+  {
+    "name": "Arrival",
+    "category": "Movies",
+    "tags": ["Sci-Fi", "Muted", "Fog"],
+    "colors": ["#1c1f21", "#2e3336", "#454d52", "#5f6970", "#7d8a91", "#9daab3", "#c2ccd1", "#e0e6e8"]
+  },
+  {
+    "name": "The Shining",
+    "category": "Movies",
+    "tags": ["Horror", "Pattern", "Red-Orange"],
+    "colors": ["#6e1411", "#8f231b", "#b03526", "#d14b34", "#e36c44", "#f09159", "#fab675", "#ffdcb5"]
+  },
+  {
+    "name": "Ghibli Ponyo Sea",
+    "category": "Movies",
+    "tags": ["Anime", "Blue", "Deep"],
+    "colors": ["#00213d", "#003d66", "#005c8f", "#007eb8", "#339ed1", "#66bce6", "#99d9f7", "#ccefff"]
+  },
+  {
+    "name": "Ghibli Mononoke",
+    "category": "Movies",
+    "tags": ["Anime", "Forest", "Spirit"],
+    "colors": ["#26331a", "#3d5229", "#57733b", "#759450", "#96b568", "#badd85", "#d9f0ab", "#f5fae6"]
+  },
+  {
+    "name": "Great Wave (Hokusai)",
+    "category": "Artistic",
+    "tags": ["Ukiyo-e", "Indigo", "Japan"],
+    "colors": ["#17223b", "#263859", "#3e5c8a", "#6b8caf", "#a4c5e0", "#d4e6f1", "#f0f6fa", "#e8dec8"]
+  },
+  {
+    "name": "Wheat Field (Van Gogh)",
+    "category": "Artistic",
+    "tags": ["Impressionism", "Yellow", "Cypress"],
+    "colors": ["#314028", "#4f6642", "#6e8c5d", "#9fb879", "#d4d678", "#ebd552", "#f5c32c", "#faa816"]
+  },
+  {
+    "name": "Impression Sunrise",
+    "category": "Artistic",
+    "tags": ["Monet", "Fog", "Orange-Blue"],
+    "colors": ["#3b4952", "#52636e", "#6e828f", "#8ca3b0", "#abc2cf", "#c9dbe3", "#ffb38f", "#ff8c61", "#f56242"]
+  },
+  {
+    "name": "Kandinsky Composition",
+    "category": "Artistic",
+    "tags": ["Abstract", "Geometric", "Vivid"],
+    "colors": ["#D92B2B", "#F28B30", "#F2CB05", "#407F3E", "#2D5E8C", "#482C73", "#0D0D0D"]
+  },
+  {
+    "name": "Matisse Dance",
+    "category": "Artistic",
+    "tags": ["Fauvism", "Blue", "Orange"],
+    "colors": ["#164a78", "#2368a3", "#3d8ecf", "#6bb5e8", "#a3d6f5", "#d68b67", "#cc6237", "#a63d1e"]
+  },
+  {
+    "name": "Rothko Orange",
+    "category": "Artistic",
+    "tags": ["Abstract", "Color Field", "Warm"],
+    "colors": ["#6e1e04", "#942b08", "#ba3c0e", "#e05216", "#f57c2a", "#fab041", "#fce67e"]
+  },
+  {
+    "name": "Georgia O'Keeffe",
+    "category": "Artistic",
+    "tags": ["Modernism", "Flower", "Soft"],
+    "colors": ["#4a2f3a", "#734657", "#9c6076", "#c7839b", "#e6acc1", "#fad4e1", "#fff0f5"]
+  },
+  {
+    "name": "Hopper Nighthawks",
+    "category": "Artistic",
+    "tags": ["Realism", "Night", "Green"],
+    "colors": ["#14211a", "#1f3328", "#334f40", "#4d6e5c", "#70917f", "#a6b5ad", "#dcd9c6", "#e8e19e"]
+  },
+  {
+    "name": "Frida Kahlo",
+    "category": "Artistic",
+    "tags": ["Mexico", "Vibrant", "Green-Red"],
+    "colors": ["#2e4d26", "#4a7a3b", "#7ab066", "#c93f3f", "#e66e6e", "#f2a2a2", "#3b6978", "#629aa6"]
+  },
+  {
+    "name": "Warhol Marilyn",
+    "category": "Artistic",
+    "tags": ["Pop Art", "Neon", "Contrast"],
+    "colors": ["#FFEA00", "#FF007C", "#00AEEF", "#8DC63F", "#662D91", "#ED1C24"]
+  },
+  {
+    "name": "CN Yanzhi (Rouge)",
+    "category": "Oriental",
+    "tags": ["China", "Red", "Makeup"],
+    "colors": ["#450810", "#6b131e", "#94202e", "#bd2f41", "#e3465a", "#fa6e81", "#ff9eaf"]
+  },
+  {
+    "name": "CN Landinyin (Indigo)",
+    "category": "Oriental",
+    "tags": ["China", "Blue", "Fabric"],
+    "colors": ["#0f1423", "#1a253a", "#293c57", "#3d5775", "#567596", "#7596b8", "#9abada", "#c4dcf5"]
+  },
+  {
+    "name": "CN Zhulv (Bamboo)",
+    "category": "Oriental",
+    "tags": ["China", "Green", "Nature"],
+    "colors": ["#1a2e12", "#2e4a21", "#466935", "#638a4d", "#83ad68", "#a6cf88", "#cceed2"]
+  },
+  {
+    "name": "CN TengHuang (Vine)",
+    "category": "Oriental",
+    "tags": ["China", "Yellow", "Royal"],
+    "colors": ["#cc8800", "#e6a300", "#ffbf00", "#ffd54f", "#ffe68f", "#fff5c2"]
+  },
+  {
+    "name": "CN DianQing (Mineral)",
+    "category": "Oriental",
+    "tags": ["China", "Blue", "Painting"],
+    "colors": ["#142e42", "#20425c", "#2f5c7a", "#427899", "#5996b8", "#74b5d6", "#96d2f0"]
+  },
+  {
+    "name": "Aurora Borealis",
+    "category": "Nature",
+    "tags": ["Night", "Green-Purple", "Space"],
+    "colors": ["#0b1026", "#1c2242", "#283b5e", "#2c5e5c", "#388a64", "#5ccf68", "#9aff7a"]
+  },
+  {
+    "name": "Coral Reef",
+    "category": "Nature",
+    "tags": ["Ocean", "Vibrant", "Pink-Cyan"],
+    "colors": ["#007a87", "#00a3b0", "#5cc9d1", "#9ae0e6", "#f2c4d6", "#f08bb2", "#eb4d86", "#c71f59"]
+  },
+  {
+    "name": "Sahara Desert",
+    "category": "Nature",
+    "tags": ["Sand", "Heat", "Orange"],
+    "colors": ["#5c2e08", "#7a4111", "#9c581c", "#bd712a", "#de8c3c", "#faa952", "#ffc675", "#ffe3a3"]
+  },
+  {
+    "name": "Autumn Leaves",
+    "category": "Nature",
+    "tags": ["Season", "Red-Yellow", "Forest"],
+    "colors": ["#4a1812", "#6e251b", "#943525", "#ba4b31", "#de653f", "#fa8452", "#ffaa6b", "#ffd18a"]
+  },
+  {
+    "name": "Deep Jungle",
+    "category": "Nature",
+    "tags": ["Green", "Dense", "Tropical"],
+    "colors": ["#051c0d", "#0d2e16", "#194223", "#285932", "#3b7044", "#518a59", "#6ba371", "#8abf8e"]
+  },
+  {
+    "name": "Volcanic Ash",
+    "category": "Nature",
+    "tags": ["Geology", "Grey-Red", "Disaster"],
+    "colors": ["#2b2b2b", "#474747", "#666666", "#878787", "#a8a8a8", "#c9c9c9", "#e3b3a8", "#ed8a79", "#f25c49"]
+  },
+  {
+    "name": "Cherry Blossom",
+    "category": "Nature",
+    "tags": ["Spring", "Pink", "Japan"],
+    "colors": ["#4f2c30", "#753e45", "#9c525d", "#c46a78", "#e88597", "#ffa6b6", "#ffc9d6", "#ffebf0"]
+  },
+  {
+    "name": "Glacier Blue",
+    "category": "Nature",
+    "tags": ["Ice", "Cold", "Cyan"],
+    "colors": ["#1f3642", "#2d4d5c", "#3e6678", "#538194", "#6b9eb3", "#87bcd1", "#a6dbf0", "#ccf0ff"]
+  },
+  {
+    "name": "Grand Canyon",
+    "category": "Nature",
+    "tags": ["Geology", "Red-Rock", "USA"],
+    "colors": ["#4a2118", "#6b3225", "#8f4636", "#b35d49", "#d6765e", "#f59376", "#ffb499", "#ffd6c2"]
+  },
+  {
+    "name": "Tropical Ocean",
+    "category": "Nature",
+    "tags": ["Water", "Turquoise", "Vacation"],
+    "colors": ["#004f6e", "#006e8a", "#008fa6", "#00b0c2", "#2ed1db", "#6bf0f5", "#a8fdff", "#e0ffff"]
+  },
+  {
+    "name": "Vaporwave",
+    "category": "Modern",
+    "tags": ["Aesthetic", "Pink-Cyan", "Retro"],
+    "colors": ["#2e003e", "#56086e", "#851ba1", "#b832d4", "#ff5cfc", "#5ceaff", "#00c4ff", "#008cff"]
+  },
+  {
+    "name": "Synthwave",
+    "category": "Modern",
+    "tags": ["Neon", "Night", "Grid"],
+    "colors": ["#0d0221", "#260b45", "#46146e", "#6b1c9c", "#9621cf", "#c82afc", "#ff3d8e", "#ff8a5c", "#ffca85"]
+  },
+  {
+    "name": "Pastel Goth",
+    "category": "Modern",
+    "tags": ["Black", "Pink", "Edgy"],
+    "colors": ["#000000", "#1a1a1a", "#333333", "#4d4d4d", "#b58da3", "#d9a7c2", "#ffc2e0", "#ffe6f2"]
+  },
+  {
+    "name": "Material Indigo",
+    "category": "Modern",
+    "tags": ["Google", "UI", "Blue"],
+    "colors": ["#1a237e", "#283593", "#303f9f", "#3949ab", "#3f51b5", "#5c6bc0", "#7986cb", "#9fa8da", "#c5cae9", "#e8eaf6"]
+  },
+  {
+    "name": "Material Teal",
+    "category": "Modern",
+    "tags": ["Google", "UI", "Green"],
+    "colors": ["#004d40", "#00695c", "#00796b", "#00897b", "#009688", "#26a69a", "#4db6ac", "#80cbc4", "#b2dfdb", "#e0f2f1"]
+  },
+  {
+    "name": "Gruvbox Dark",
+    "category": "Modern",
+    "tags": ["Code", "Retro", "Warm"],
+    "colors": ["#282828", "#cc241d", "#98971a", "#d79921", "#458588", "#b16286", "#689d6a", "#a89984"]
+  },
+  {
+    "name": "Dracula",
+    "category": "Modern",
+    "tags": ["Code", "Dark", "Contrast"],
+    "colors": ["#282a36", "#44475a", "#6272a4", "#8be9fd", "#50fa7b", "#ffb86c", "#ff79c6", "#bd93f9", "#ff5555", "#f1fa8c"]
+  },
+  {
+    "name": "Solarized Light",
+    "category": "Modern",
+    "tags": ["Code", "Low Contrast", "Beige"],
+    "colors": ["#fdf6e3", "#eee8d5", "#93a1a1", "#839496", "#657b83", "#586e75", "#073642", "#002b36"]
+  },
+  {
+    "name": "Monokai",
+    "category": "Modern",
+    "tags": ["Code", "Vivid", "Dark"],
+    "colors": ["#272822", "#f92672", "#a6e22e", "#f4bf75", "#66d9ef", "#ae81ff", "#f8f8f2"]
+  },
+  {
+    "name": "Coffee Roasts",
+    "category": "Nature",
+    "tags": ["Brown", "Food", "Gradient"],
+    "colors": ["#2e1e12", "#4a3321", "#694931", "#8a6143", "#ad7b57", "#d1986d", "#f5b785"]
+  },
+  {
+    "name": "Berry Smoothie",
+    "category": "Nature",
+    "tags": ["Purple", "Food", "Pink"],
+    "colors": ["#361225", "#541e3a", "#752c51", "#963d6b", "#b85287", "#db6aa6", "#fc88c7"]
+  },
+  {
+    "name": "Citrus Burst",
+    "category": "Nature",
+    "tags": ["Fruit", "Orange", "Yellow"],
+    "colors": ["#d9560b", "#ed700c", "#fc8d12", "#ffac1f", "#ffcc33", "#ffea4f", "#ffff75"]
+  },
+  {
+    "name": "Wine Tasting",
+    "category": "Nature",
+    "tags": ["Red", "Deep", "Elegant"],
+    "colors": ["#2e0a0e", "#4a1217", "#691b22", "#8a262e", "#ac333b", "#cf424a", "#f2555c"]
+  },
+  {
+    "name": "Arctic Aurora",
+    "category": "Nature",
+    "tags": ["Blue", "Green", "Cold"],
+    "colors": ["#002033", "#003b4d", "#005966", "#007a78", "#009c85", "#00bf8e", "#00e393", "#4fffa6"]
+  },
+  {
+    "name": "Magma (Inverse)",
+    "category": "Scientific",
+    "tags": ["Heatmap", "Reverse"],
+    "colors": ["#fcfdbf", "#fd9668", "#f1605d", "#cd4071", "#9e2f7f", "#721f81", "#440f76", "#180f3d", "#000004"]
+  },
+  {
+    "name": "Viridis (Inverse)",
+    "category": "Scientific",
+    "tags": ["Standard", "Reverse"],
+    "colors": ["#fde725", "#bddf26", "#7ad151", "#44bf70", "#22a884", "#21918c", "#2a788e", "#355f8d", "#414487", "#482475", "#440154"]
+  },
+  {
+    "name": "Spectral (Inverse)",
+    "category": "Geographic",
+    "tags": ["Diverging", "Reverse"],
+    "colors": ["#5e4fa2", "#3288bd", "#66c2a5", "#abdda4", "#e6f598", "#ffffbf", "#fee08b", "#fdae61", "#f46d43", "#d53e4f", "#9e0142"]
+  },
+  {
+    "name": "RdBu (Inverse)",
+    "category": "Geographic",
+    "tags": ["Diverging", "Reverse"],
+    "colors": ["#a50026", "#d73027", "#f46d43", "#fdae61", "#fee090", "#ffffbf", "#e0f3f8", "#abd9e9", "#74add1", "#4575b4", "#313695"]
+  },
+  {
+    "name": "Greys (Inverse)",
+    "category": "Geographic",
+    "tags": ["Grayscale", "Reverse"],
+    "colors": ["#000000", "#252525", "#525252", "#737373", "#969696", "#bdbdbd", "#d9d9d9", "#f0f0f0", "#ffffff"]
+  },
+  {
+    "name": "Parula (MATLAB)",
+    "category": "Scientific",
+    "tags": ["Engineering", "Standard"],
+    "colors": ["#352a87", "#0363e1", "#1485d4", "#06a7c6", "#38b99e", "#92bf73", "#d9ba56", "#fcce2e", "#f9fb0e"]
+  },
+  {
+    "name": "Jet (Rainbow)",
+    "category": "Scientific",
+    "tags": ["Classic", "High Contrast"],
+    "colors": ["#000080", "#0000ff", "#0080ff", "#00ffff", "#80ff80", "#ffff00", "#ff8000", "#ff0000", "#800000"]
+  },
+  {
+    "name": "HSV Rainbow",
+    "category": "Scientific",
+    "tags": ["Cyclic", "Spectrum"],
+    "colors": ["#ff0000", "#ffff00", "#00ff00", "#00ffff", "#0000ff", "#ff00ff", "#ff0000"]
+  },
+  {
+    "name": "Cool",
+    "category": "Scientific",
+    "tags": ["Cyan-Magenta", "Gradient"],
+    "colors": ["#00ffff", "#2ad5ff", "#55aaff", "#8080ff", "#aa55ff", "#d42aff", "#ff00ff"]
+  },
+  {
+    "name": "Wistia",
+    "category": "Scientific",
+    "tags": ["Yellow-Orange", "Warm"],
+    "colors": ["#e4ff7a", "#fce84c", "#ffcc29", "#ffa600", "#ff7c00", "#ff4b00"]
+  },
+  {
+    "name": "Spring",
+    "category": "Scientific",
+    "tags": ["Magenta-Yellow", "Fresh"],
+    "colors": ["#ff00ff", "#ff2bff", "#ff55ff", "#ff80ff", "#ffaaff", "#ffd4ff", "#ffffff", "#ffffd4", "#ffffaa", "#ffff80", "#ffff55", "#ffff2b", "#ffff00"]
+  },
+  {
+    "name": "Summer",
+    "category": "Scientific",
+    "tags": ["Green-Yellow", "Hot"],
+    "colors": ["#008066", "#1a9466", "#33a866", "#4dbd66", "#66d166", "#80e666", "#99fa66", "#b3ff66", "#ccff66", "#e6ff66", "#ffff66"]
+  },
+  {
+    "name": "Autumn",
+    "category": "Scientific",
+    "tags": ["Red-Yellow", "Fall"],
+    "colors": ["#ff0000", "#ff1a00", "#ff3300", "#ff4d00", "#ff6600", "#ff8000", "#ff9900", "#ffb300", "#ffcc00", "#ffe600", "#ffff00"]
+  },
+  {
+    "name": "Winter",
+    "category": "Scientific",
+    "tags": ["Blue-Green", "Cold"],
+    "colors": ["#0000ff", "#001aff", "#0033ff", "#004dff", "#0066ff", "#0080ff", "#0099ff", "#00b3ff", "#00ccff", "#00e6ff", "#00ffff"]
+  },
+  {
+    "name": "Bone",
+    "category": "Scientific",
+    "tags": ["Medical", "X-Ray", "Greyscale-Blue"],
+    "colors": ["#000000", "#16161a", "#2c2c34", "#42424e", "#595969", "#6f6f83", "#85859d", "#9b9bb7", "#b1b1d1", "#c8c8eb", "#dedeff"]
+  },
+  {
+    "name": "Copper",
+    "category": "Scientific",
+    "tags": ["Metal", "Brown", "Metallic"],
+    "colors": ["#000000", "#1d120d", "#3a251a", "#573726", "#744a33", "#915d40", "#ae6f4d", "#cb825a", "#e89467", "#ffa774"]
+  },
+  {
+    "name": "Pink",
+    "category": "Scientific",
+    "tags": ["Sepia", "Soft"],
+    "colors": ["#1e0000", "#3d1e1e", "#5c3d3d", "#7b5c5c", "#9a7b7b", "#b99a9a", "#d8b9b9", "#f7d8d8"]
+  },
+  {
+    "name": "Cyber Yellow",
+    "category": "Modern",
+    "tags": ["Neon", "Black-Yellow"],
+    "colors": ["#1a1a1a", "#333300", "#4d4d00", "#666600", "#808000", "#999900", "#b3b300", "#cccc00", "#e6e600", "#ffff00"]
+  },
+  {
+    "name": "Laser Green",
+    "category": "Modern",
+    "tags": ["Neon", "Black-Green"],
+    "colors": ["#000000", "#001a00", "#003300", "#004d00", "#006600", "#008000", "#009900", "#00b300", "#00cc00", "#00e600", "#00ff00"]
+  },
+  {
+    "name": "Electric Blue",
+    "category": "Modern",
+    "tags": ["Neon", "Black-Blue"],
+    "colors": ["#000000", "#00001a", "#000033", "#00004d", "#000066", "#000080", "#000099", "#0000b3", "#0000cc", "#0000e6", "#0000ff"]
+  },
+  {
+    "name": "Hot Pink",
+    "category": "Modern",
+    "tags": ["Neon", "Black-Pink"],
+    "colors": ["#000000", "#1a0011", "#330022", "#4d0033", "#660044", "#800055", "#990066", "#b30077", "#cc0088", "#e60099", "#ff00aa"]
+  },
+  {
+    "name": "Tokyo Night",
+    "category": "Modern",
+    "tags": ["Purple", "City", "Dark"],
+    "colors": ["#0c0e24", "#181a38", "#25284d", "#323561", "#3f4376", "#4c508a", "#595e9f", "#666bb3", "#7379c8", "#8086dc"]
+  },
+  {
+    "name": "Zen Garden",
+    "category": "Oriental",
+    "tags": ["Stone", "Moss", "Calm"],
+    "colors": ["#2e2e2e", "#454545", "#5c5c5c", "#737373", "#8a8a8a", "#8f9e8a", "#7a946e", "#658a52", "#4f8036"]
+  },
+  {
+    "name": "Kyoto Autumn",
+    "category": "Oriental",
+    "tags": ["Red", "Temple", "Japan"],
+    "colors": ["#2b0a0a", "#4a1212", "#691a1a", "#882222", "#a72a2a", "#c63232", "#e53a3a", "#e87a56", "#ebb972"]
+  },
+  {
+    "name": "Silk Road",
+    "category": "Oriental",
+    "tags": ["Sand", "Spice", "Trade"],
+    "colors": ["#4a332a", "#6b4a3d", "#8c6150", "#ad7863", "#ce8f76", "#eebca9", "#d4a76a", "#ba922b", "#a17d00"]
   }
 ]
