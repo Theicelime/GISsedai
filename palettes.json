@@ -863,128 +863,724 @@
     "tags": ["Sand", "Spice", "Trade"],
     "colors": ["#4a332a", "#6b4a3d", "#8c6150", "#ad7863", "#ce8f76", "#eebca9", "#d4a76a", "#ba922b", "#a17d00"]
   },
-  { "name": "2001: A Space Odyssey", 
+  {
+    "name": "2001: A Space Odyssey",
     "category": "Cinema",
-    "tags": ["Sci-Fi", "Clean", "Red-White"], 
-    "colors": ["#e8e8e8", "#d6d6d6", "#a3a3a3", "#cf4848", "#b82525", "#8f0000", "#520000"] 
+    "tags": ["Sci-Fi", "Clean", "Red-White"],
+    "colors": ["#e8e8e8", "#d6d6d6", "#a3a3a3", "#cf4848", "#b82525", "#8f0000", "#520000"]
   },
-  { "name": "Alien (1979)", "category": "Cinema", "tags": ["Sci-Fi", "Dark", "Green"], "colors": ["#050805", "#0d1a0f", "#1a331f", "#2b4d32", "#406949", "#7aa382", "#b0ccb6"] },
-  { "name": "Amadeus", "category": "Cinema", "tags": ["Period", "Gold", "Opulent"], "colors": ["#2e1e0f", "#52361b", "#7a542e", "#a37643", "#cc9b5e", "#f0c680", "#ffebbd"] },
-  { "name": "American Beauty", "category": "Cinema", "tags": ["Drama", "Red", "Rose"], "colors": ["#2b0a0d", "#4a1216", "#6e1b21", "#94262d", "#ba323b", "#e0414b", "#ff6b75"] },
-  { "name": "American Psycho", "category": "Cinema", "tags": ["Thriller", "Cold", "Steel"], "colors": ["#1a1f24", "#2e363d", "#465059", "#616d78", "#7e8c99", "#9daebd", "#c2d1de", "#eef4fa"] },
-  { "name": "Annihilation", "category": "Cinema", "tags": ["Sci-Fi", "Shimmer", "Pastel"], "colors": ["#2e1c3b", "#4a2f5e", "#6b4782", "#8f63a8", "#b582cf", "#dab6eb", "#f2d9ff", "#e0f7fa"] },
-  { "name": "Apocalypse Now", "category": "Cinema", "tags": ["War", "Sunset", "Haze"], "colors": ["#240e05", "#421c0a", "#662e11", "#8f441b", "#bd5e28", "#eb7d38", "#ff9f57", "#ffc485"] },
-  { "name": "Arrival (Heptapod)", "category": "Cinema", "tags": ["Sci-Fi", "Fog", "Muted"], "colors": ["#0f1214", "#1f2426", "#333b3d", "#4a5457", "#646e73", "#808b91", "#a3adb3", "#c9d1d6"] },
-  { "name": "Asteroid City", "category": "Cinema", "tags": ["Wes Anderson", "Teal", "Desert"], "colors": ["#d99a6c", "#e8b482", "#f7dcb0", "#ccebe8", "#8fd4cf", "#5bbdb6", "#2d8f8a"] },
-  { "name": "Avatar: Way of Water", "category": "Cinema", "tags": ["Sci-Fi", "Ocean", "Biolum"], "colors": ["#031026", "#092242", "#133a66", "#1e548c", "#2b70b5", "#4091e0", "#6bc2ff", "#a3e4ff"] },
-  { "name": "Barry Lyndon", "category": "Cinema", "tags": ["Period", "Candlelight", "Painting"], "colors": ["#1f140a", "#3d2814", "#5e3e21", "#805832", "#a37546", "#c7965e", "#ebba7a", "#ffdb9e"] },
-  { "name": "Batman (1989)", "category": "Cinema", "tags": ["Action", "Gothic", "Purple-Black"], "colors": ["#08050a", "#160d1f", "#261636", "#39224f", "#4f316b", "#69428a", "#8558a8", "#a37ac2"] },
-  { "name": "Big Fish", "category": "Cinema", "tags": ["Fantasy", "Bloom", "Yellow"], "colors": ["#2e290e", "#4f4618", "#736724", "#968832", "#baba43", "#dede56", "#ffff6b"] },
-  { "name": "Birdman", "category": "Cinema", "tags": ["Drama", "Backstage", "Warm"], "colors": ["#261512", "#422520", "#613831", "#804d44", "#a1655a", "#c28074", "#e39e91", "#ffc2b3"] },
-  { "name": "Blade Runner 2049 (Desert)", "category": "Cinema", "tags": ["Sci-Fi", "Orange", "Dust"], "colors": ["#361400", "#5c2402", "#823706", "#a84c0c", "#cf6315", "#f57c20", "#ff9b47", "#ffbd7a"] },
-  { "name": "Blue Velvet", "category": "Cinema", "tags": ["Lynch", "Noir", "Blue"], "colors": ["#030312", "#0a0a24", "#121238", "#1c1c52", "#29296e", "#38388c", "#4d4dab", "#6666cc"] },
-  { "name": "Call Me by Your Name", "category": "Cinema", "tags": ["Romance", "Summer", "Peach"], "colors": ["#334a52", "#4d6b6e", "#6b8f87", "#8eb5a1", "#b8d9bd", "#f2e6d0", "#ffdcb5", "#ffbfa3"] },
-  { "name": "Carol", "category": "Cinema", "tags": ["Romance", "Vintage", "Green-Red"], "colors": ["#2e3626", "#455239", "#5e704f", "#798f68", "#97ab85", "#cf8e8e", "#b85c5c", "#8f3232"] },
-  { "name": "Casablanca", "category": "Cinema", "tags": ["Classic", "B&W", "Sepia"], "colors": ["#1a1715", "#332e2b", "#4f4742", "#6b615b", "#8a7d75", "#a89a91", "#c7b9af", "#e6dace"] },
-  { "name": "Children of Men", "category": "Cinema", "tags": ["Dystopia", "Desaturated", "Green"], "colors": ["#1c1f1c", "#2e332e", "#424742", "#575e57", "#6d756d", "#858f85", "#9ea89e", "#b8c2b8"] },
-  { "name": "Chungking Express", "category": "Cinema", "tags": ["Wong Kar-wai", "Blur", "Green"], "colors": ["#1a2614", "#2b3d21", "#3e5730", "#547342", "#6c9157", "#86b06e", "#a3d188", "#c2f0a3"] },
-  { "name": "City of God", "category": "Cinema", "tags": ["Drama", "Heat", "Gold"], "colors": ["#4a2e0a", "#6e4511", "#945e1a", "#ba7925", "#e09734", "#ffb847", "#ffd670"] },
-  { "name": "Clockwork Orange", "category": "Cinema", "tags": ["Kubrick", "White", "Orange"], "colors": ["#f0f0f0", "#e0e0e0", "#d1d1d1", "#c2c2c2", "#e08e24", "#f5a638", "#ffbd54"] },
-  { "name": "Coco", "category": "Cinema", "tags": ["Animation", "Marigold", "Orange"], "colors": ["#4a1c03", "#752d06", "#a1400a", "#cc550e", "#f76e14", "#ff8f33", "#ffb05c", "#ffd18a"] },
-  { "name": "Coraline", "category": "Cinema", "tags": ["Animation", "Purple", "Night"], "colors": ["#160b24", "#25143b", "#361e52", "#4a2a6b", "#603885", "#7949a1", "#945cbf", "#b073de"] },
-  { "name": "Crimson Peak", "category": "Cinema", "tags": ["Horror", "Gothic", "Red"], "colors": ["#290808", "#450e0e", "#631616", "#851e1e", "#a82828", "#cc3535", "#f04646", "#ff7373"] },
-  { "name": "Crouching Tiger", "category": "Cinema", "tags": ["Wuxia", "Bamboo", "Green"], "colors": ["#122114", "#203823", "#315234", "#446e48", "#598c5e", "#70ab76", "#8acc92", "#a8e8b1"] },
-  { "name": "Drive", "category": "Cinema", "tags": ["Noir", "Neon", "Pink-Blue"], "colors": ["#12081f", "#211036", "#331952", "#472470", "#662f8a", "#9e3ca3", "#d64abd", "#ff63d6"] },
-  { "name": "Dunkirk", "category": "Cinema", "tags": ["War", "Sea", "Cold"], "colors": ["#202e36", "#334550", "#485d69", "#5f7682", "#77909c", "#91abb8", "#abc8d4", "#c8e4f0"] },
-  { "name": "Edward Scissorhands", "category": "Cinema", "tags": ["Fantasy", "Suburban", "Pastel"], "colors": ["#362a32", "#6b6e8a", "#8cb0d1", "#a6d6d4", "#bde8c5", "#f5f5c4", "#fae1e1"] },
-  { "name": "Enter the Void", "category": "Cinema", "tags": ["Neon", "Psychedelic", "Vivid"], "colors": ["#1a0529", "#41084f", "#6e0c60", "#9c1159", "#cc183f", "#f2411f", "#ff8000", "#ffcc00"] },
-  { "name": "Eternal Sunshine", "category": "Cinema", "tags": ["Romance", "Winter", "Faded"], "colors": ["#2b3036", "#3f474d", "#555f66", "#6c7980", "#849399", "#9daeb3", "#b9c9cd", "#d6e3e6"] },
-  { "name": "Ex Machina", "category": "Cinema", "tags": ["Sci-Fi", "Sterile", "Glass"], "colors": ["#141716", "#232926", "#343d39", "#47524c", "#5c6962", "#738078", "#8c9990", "#a8b3ac"] },
-  { "name": "Fargo", "category": "Cinema", "tags": ["Thriller", "Snow", "White"], "colors": ["#5c6369", "#737a80", "#8b9296", "#a4aaad", "#bdc2c4", "#d7dbdc", "#f0f2f2", "#ffffff"] },
-  { "name": "Fight Club", "category": "Cinema", "tags": ["Thriller", "Grime", "Green"], "colors": ["#171c14", "#262e21", "#36402f", "#47543e", "#5a694e", "#6e7d60", "#849474", "#9caeb8"] },
-  { "name": "Finding Nemo", "category": "Cinema", "tags": ["Animation", "Ocean", "Blue-Orange"], "colors": ["#001e4d", "#00366e", "#005291", "#0071b5", "#0093d9", "#2bb6fc", "#ffb733", "#ff8c00"] },
-  { "name": "Gattaca", "category": "Cinema", "tags": ["Sci-Fi", "Sepia", "Gold"], "colors": ["#292111", "#42351c", "#5e4b29", "#7a6338", "#997d49", "#b8985c", "#d9b671", "#fad689"] },
-  { "name": "Ghost in the Shell", "category": "Cinema", "tags": ["Anime", "Cyberpunk", "Green"], "colors": ["#081214", "#112629", "#1d3d40", "#2b5457", "#3c6e70", "#4f8a8a", "#65a6a6", "#7dc4c4"] },
-  { "name": "Gladiator", "category": "Cinema", "tags": ["Epic", "Wheat", "Earth"], "colors": ["#2e2215", "#4a3824", "#695034", "#8a6a47", "#ab865b", "#cca470", "#edc48a", "#fae1b4"] },
-  { "name": "Gone Girl", "category": "Cinema", "tags": ["Thriller", "Fincher", "Cold"], "colors": ["#121617", "#1f2629", "#2e383b", "#3e4a4d", "#505e61", "#637375", "#788a8c", "#8fa3a3"] },
-  { "name": "Goodfellas", "category": "Cinema", "tags": ["Crime", "Red", "Dark"], "colors": ["#1c0808", "#330e0e", "#4d1515", "#691d1d", "#872727", "#a63333", "#c74242", "#e85656"] },
-  { "name": "Gravity", "category": "Cinema", "tags": ["Space", "Earth", "Blue"], "colors": ["#000000", "#08101a", "#122033", "#1e334d", "#2c4866", "#3d5e80", "#527799", "#6b91b3"] },
-  { "name": "Hanna", "category": "Cinema", "tags": ["Action", "Ice", "Grey"], "colors": ["#2e3336", "#424a4d", "#586166", "#6f7a80", "#889499", "#a2aeb3", "#bdc9cc", "#dbe6e8"] },
-  { "name": "Harry Potter (Slytherin)", "category": "Cinema", "tags": ["Fantasy", "Green", "Silver"], "colors": ["#0d1f0d", "#1a331a", "#294d29", "#3b663b", "#4f804f", "#669966", "#8ab38a", "#b0ccb0"] },
-  { "name": "Harry Potter (Gryffindor)", "category": "Cinema", "tags": ["Fantasy", "Red", "Gold"], "colors": ["#2e0a0a", "#4d1010", "#6e1616", "#8f1e1e", "#b02828", "#d13434", "#d4af37", "#f2c84b"] },
-  { "name": "Heat", "category": "Cinema", "tags": ["Crime", "LA", "Blue-Grey"], "colors": ["#0d121c", "#1a2333", "#29364d", "#3a4b66", "#4d6180", "#627999", "#7a91b3", "#94acce"] },
-  { "name": "Hero (Yimou)", "category": "Cinema", "tags": ["Wuxia", "Red", "Monochrome"], "colors": ["#360505", "#5c0808", "#820b0b", "#a80e0e", "#cf1111", "#f51616", "#ff4747", "#ff7a7a"] },
-  { "name": "In the Mood for Love", "category": "Cinema", "tags": ["Romance", "Red", "Shadow"], "colors": ["#240909", "#3d1111", "#591a1a", "#752626", "#943333", "#b34242", "#d15454", "#f06c6c"] },
-  { "name": "Inception", "category": "Cinema", "tags": ["Sci-Fi", "Dream", "Steel"], "colors": ["#1c2126", "#2b333b", "#3c4652", "#4e5b69", "#627180", "#778896", "#8da1ad", "#a5bbc4"] },
-  { "name": "Inglourious Basterds", "category": "Cinema", "tags": ["War", "Tarantino", "Green"], "colors": ["#1f2416", "#303823", "#434d31", "#576340", "#6c7a52", "#829165", "#9aa87d", "#b3c296"] },
-  { "name": "Interstellar (Gargantua)", "category": "Cinema", "tags": ["Space", "Orange", "Light"], "colors": ["#000000", "#1c140a", "#382914", "#543e1e", "#73562a", "#916d36", "#b08745", "#d1a354", "#f2c166"] },
-  { "name": "Into the Wild", "category": "Cinema", "tags": ["Adventure", "Nature", "Green"], "colors": ["#1f2e18", "#334a27", "#496639", "#60824b", "#79a15f", "#93bf73", "#b0de8a", "#cfff9e"] },
-  { "name": "Isle of Dogs", "category": "Cinema", "tags": ["Wes Anderson", "Trash", "Grey-Red"], "colors": ["#362e2b", "#524541", "#6e5c57", "#8c766f", "#ab9188", "#c9ada3", "#bf5a5a", "#e37676"] },
-  { "name": "Jaws", "category": "Cinema", "tags": ["Thriller", "Ocean", "Blue"], "colors": ["#051c2e", "#0e2d45", "#1a405e", "#295678", "#3a6d91", "#4d85ad", "#639ec9", "#7bb8e6"] },
-  { "name": "John Wick", "category": "Cinema", "tags": ["Action", "Neon", "Blue-Purple"], "colors": ["#0a0a1f", "#141433", "#20204d", "#2d2d66", "#3b3b80", "#54428f", "#754a9e", "#9954ad"] },
-  { "name": "Jojo Rabbit", "category": "Cinema", "tags": ["War", "Satire", "Vibrant"], "colors": ["#2e2a14", "#4f4722", "#736732", "#968742", "#baba55", "#dede6a", "#e87b67", "#f2a091"] },
-  { "name": "Kill Bill", "category": "Cinema", "tags": ["Action", "Yellow", "Blood"], "colors": ["#362a00", "#5c4800", "#826600", "#a88400", "#cfa300", "#f5c100", "#ffdb4d", "#cf1d1d"] },
-  { "name": "Lawrence of Arabia", "category": "Cinema", "tags": ["Epic", "Desert", "Sky"], "colors": ["#6e4c30", "#8c6240", "#ab7a52", "#cc9466", "#edaf7e", "#99ccee", "#bfe3fa", "#e3f4ff"] },
-  { "name": "Life of Pi", "category": "Cinema", "tags": ["Fantasy", "Sunset", "Ocean"], "colors": ["#001a33", "#003366", "#5e3e56", "#8f4448", "#bf4d3b", "#ed5b2f", "#ff8c42", "#ffc361"] },
-  { "name": "Little Miss Sunshine", "category": "Cinema", "tags": ["Comedy", "Yellow", "Road"], "colors": ["#4d3e05", "#735c08", "#997b0a", "#bf9a0d", "#e6b910", "#ffd714", "#ffe45e", "#fff099"] },
-  { "name": "Lost in Translation", "category": "Cinema", "tags": ["Romance", "City", "Muted"], "colors": ["#1c181f", "#2e2733", "#413847", "#554a5c", "#6b5d73", "#82718a", "#9a87a3", "#b39ebd"] },
-  { "name": "Mad Max: Fury Road", "category": "Cinema", "tags": ["Action", "Orange", "Teal"], "colors": ["#1a0d00", "#401f05", "#66330a", "#8c480f", "#b35e14", "#d9761a", "#ff9124", "#006666"] },
-  { "name": "Melancholia", "category": "Cinema", "tags": ["Drama", "Green", "Doom"], "colors": ["#141f17", "#223326", "#324a37", "#44614a", "#577a60", "#6d9478", "#85ad91", "#9fc7ac"] },
-  { "name": "Memento", "category": "Cinema", "tags": ["Thriller", "Polaroid", "Faded"], "colors": ["#2e2b26", "#454039", "#5c554c", "#756c60", "#8f8475", "#a89b8b", "#c2b4a3", "#ded1bd"] },
-  { "name": "Metropolis", "category": "Cinema", "tags": ["Classic", "B&W", "Art Deco"], "colors": ["#0f0f0f", "#242424", "#383838", "#4f4f4f", "#666666", "#808080", "#999999", "#b3b3b3"] },
-  { "name": "Midnight in Paris", "category": "Cinema", "tags": ["Romance", "Golden Hour", "Warm"], "colors": ["#36210b", "#543311", "#754617", "#965b1e", "#b87025", "#db872c", "#fc9f35", "#ffb861"] },
-  { "name": "Midsommar", "category": "Cinema", "tags": ["Horror", "Bright", "Floral"], "colors": ["#4a7026", "#688c3e", "#88aa59", "#a8c977", "#cbf097", "#f7f7f7", "#fff2cc", "#ffe0e0"] },
-  { "name": "Minari", "category": "Cinema", "tags": ["Drama", "Green", "Earth"], "colors": ["#2b2112", "#45361e", "#614d2b", "#5e753a", "#7a944f", "#98b568", "#b9d685", "#dbf7a3"] },
-  { "name": "Moonlight", "category": "Cinema", "tags": ["Drama", "Blue", "Purple"], "colors": ["#080a14", "#12172e", "#1e264a", "#2b3869", "#3a4c8a", "#4c63ad", "#657ed1", "#879ef2"] },
-  { "name": "Moulin Rouge", "category": "Cinema", "tags": ["Musical", "Red", "Blue"], "colors": ["#1f0508", "#3d0a10", "#5c0f18", "#7d1621", "#9e1e2b", "#bf2836", "#e03444", "#304269"] },
-  { "name": "Mulholland Drive", "category": "Cinema", "tags": ["Lynch", "Noir", "Pink"], "colors": ["#0d080d", "#1f131f", "#331f33", "#4a2d4a", "#613b61", "#7a4a7a", "#945b94", "#b06cb0"] },
-  { "name": "My Neighbor Totoro", "category": "Cinema", "tags": ["Ghibli", "Rural", "Green"], "colors": ["#1f2e14", "#334a21", "#496631", "#618542", "#7ba356", "#97c26b", "#b5e082", "#8ab3cf"] },
-  { "name": "No Country for Old Men", "category": "Cinema", "tags": ["Western", "Dry", "Brown"], "colors": ["#2e2418", "#473825", "#614d34", "#7d6343", "#997b54", "#b59466", "#d1af79", "#edca8e"] },
-  { "name": "Oldboy", "category": "Cinema", "tags": ["Thriller", "Green", "Grim"], "colors": ["#121411", "#1f241d", "#2d362a", "#3c4738", "#4c5947", "#5d6e58", "#6f8269", "#82967b"] },
-  { "name": "Pan's Labyrinth", "category": "Cinema", "tags": ["Fantasy", "Blue", "Gold"], "colors": ["#0a121f", "#15243b", "#213759", "#2e4c7a", "#3d629c", "#8f6e2b", "#b58c38", "#dbc24f"] },
-  { "name": "Parasite", "category": "Cinema", "tags": ["Thriller", "Green", "Subterranean"], "colors": ["#171f18", "#243026", "#324234", "#415745", "#516b57", "#63806a", "#76967f", "#8cac96"] },
-  { "name": "Perfect Blue", "category": "Cinema", "tags": ["Anime", "Psychological", "Red"], "colors": ["#2b0d0d", "#471515", "#661e1e", "#872828", "#a83333", "#cc4040", "#f04f4f", "#2b4080"] },
-  { "name": "Portrait of a Lady on Fire", "category": "Cinema", "tags": ["Romance", "Sea", "Natural"], "colors": ["#24201b", "#3d362e", "#574e43", "#736759", "#8f8170", "#ab9c88", "#c9b9a1", "#e8d7be"] },
-  { "name": "Princess Mononoke", "category": "Cinema", "tags": ["Ghibli", "Forest", "Deep"], "colors": ["#122114", "#203823", "#305234", "#426e46", "#568a5c", "#6ca873", "#85c78d", "#a1e6aa"] },
-  { "name": "Pulp Fiction", "category": "Cinema", "tags": ["Crime", "Noir", "Yellow"], "colors": ["#0f0f0f", "#262626", "#404040", "#595959", "#f2c230", "#f5ce56", "#f7db7c", "#fae8a3"] },
-  { "name": "Rear Window", "category": "Cinema", "tags": ["Hitchcock", "Technicolor", "Warm"], "colors": ["#361f18", "#543025", "#754334", "#965844", "#b86e56", "#db8569", "#fc9d7e", "#ffbfa8"] },
-  { "name": "Requiem for a Dream", "category": "Cinema", "tags": ["Drama", "Blue", "Despair"], "colors": ["#080a12", "#121726", "#1e253d", "#2b3554", "#3a476e", "#4b5b8a", "#5e71a6", "#7289c4"] },
-  { "name": "Reservoir Dogs", "category": "Cinema", "tags": ["Crime", "Black", "White"], "colors": ["#000000", "#1a1a1a", "#333333", "#4d4d4d", "#666666", "#808080", "#999999", "#b3b3b3"] },
-  { "name": "Roma", "category": "Cinema", "tags": ["Drama", "B&W", "Clean"], "colors": ["#171717", "#2e2e2e", "#474747", "#616161", "#7d7d7d", "#999999", "#b5b5b5", "#d4d4d4"] },
-  { "name": "Schindler's List (Red Coat)", "category": "Cinema", "tags": ["History", "Greyscale", "Red"], "colors": ["#0f0f0f", "#333333", "#595959", "#808080", "#a6a6a6", "#cc0000", "#e63939", "#ff7373"] },
-  { "name": "Scott Pilgrim", "category": "Cinema", "tags": ["Comedy", "Game", "Vibrant"], "colors": ["#2b0d24", "#4d153e", "#731f5c", "#9c2a7c", "#c7389e", "#f24bc1", "#ff7ae6", "#5ceaff"] },
-  { "name": "Seven", "category": "Cinema", "tags": ["Thriller", "Fincher", "Yellow-Green"], "colors": ["#1c1a11", "#2e2b1c", "#423d29", "#575137", "#6e6646", "#857c56", "#9e9367", "#b8ac7a"] },
-  { "name": "Shape of Water", "category": "Cinema", "tags": ["Fantasy", "Teal", "Water"], "colors": ["#0b1f1e", "#163030", "#244242", "#345757", "#466e6e", "#5a8585", "#709e9e", "#8ab8b8"] },
-  { "name": "Sicario", "category": "Cinema", "tags": ["Thriller", "Dust", "Yellow"], "colors": ["#2e2718", "#473d26", "#615335", "#7d6b46", "#998457", "#b59e6a", "#d4bb7e", "#f2d894"] },
-  { "name": "Silence of the Lambs", "category": "Cinema", "tags": ["Thriller", "Muted", "Skin"], "colors": ["#2e221b", "#47352b", "#634b3d", "#806250", "#9e7b66", "#bd967c", "#deb395", "#ffd1b0"] },
-  { "name": "Sin City", "category": "Cinema", "tags": ["Noir", "Contrast", "Red"], "colors": ["#000000", "#1a1a1a", "#4d4d4d", "#808080", "#b3b3b3", "#e6e6e6", "#ff0000", "#ffffff"] },
-  { "name": "Skyfall", "category": "Cinema", "tags": ["Action", "Scotland", "Cold"], "colors": ["#1f1c18", "#363029", "#4f453b", "#695c4f", "#857463", "#a18d79", "#bda790", "#dac2a8"] },
-  { "name": "Spirited Away (Bathhouse)", "category": "Cinema", "tags": ["Ghibli", "Red", "Gold"], "colors": ["#4a0e0e", "#701616", "#991f1f", "#c22929", "#eb3434", "#f27938", "#f7b53b", "#fce883"] },
-  { "name": "Star Wars: New Hope", "category": "Cinema", "tags": ["Sci-Fi", "Sand", "Space"], "colors": ["#121010", "#2b2626", "#473e3e", "#635858", "#a68868", "#ccaa85", "#e6c39c", "#f2e4d5"] },
-  { "name": "Suspiria (1977)", "category": "Cinema", "tags": ["Horror", "Neon", "Red-Blue"], "colors": ["#290000", "#5c0000", "#940000", "#cc0000", "#ff0000", "#ae00ff", "#3c00ff", "#001aff"] },
-  { "name": "Taxi Driver", "category": "Cinema", "tags": ["Noir", "Night", "Yellow"], "colors": ["#171408", "#2b250f", "#423918", "#594e22", "#73642d", "#8f7c39", "#ab9546", "#c9b055"] },
-  { "name": "Tenet", "category": "Cinema", "tags": ["Sci-Fi", "Blue", "Red"], "colors": ["#0a141f", "#152433", "#223547", "#30475c", "#3e5a73", "#5c4141", "#754646", "#914d4d"] },
-  { "name": "The Dark Knight", "category": "Cinema", "tags": ["Action", "Blue", "Grey"], "colors": ["#080b12", "#121926", "#1e293d", "#2c3b54", "#3d506e", "#50678a", "#6680a6", "#7e9bc4"] },
-  { "name": "The Fall", "category": "Cinema", "tags": ["Fantasy", "Orange", "Teal"], "colors": ["#6e2c00", "#8f3e00", "#b05300", "#d46b00", "#f78600", "#008f8f", "#00b3b3", "#00d9d9"] },
-  { "name": "The Fifth Element", "category": "Cinema", "tags": ["Sci-Fi", "Orange", "White"], "colors": ["#e65c00", "#ff7a1f", "#ff9947", "#ffb56e", "#ffd196", "#f0f0f0", "#ffffff", "#e0f7fa"] },
-  { "name": "The Godfather", "category": "Cinema", "tags": ["Crime", "Shadow", "Warm"], "colors": ["#120b05", "#24160a", "#382310", "#4d3117", "#63411f", "#7a5228", "#916533", "#a8783e"] },
-  { "name": "The Grand Budapest Hotel", "category": "Cinema", "tags": ["Wes Anderson", "Pink", "Purple"], "colors": ["#5c3a4d", "#804b66", "#a65c82", "#cc6fa0", "#f285bf", "#fabee0", "#e0d3de", "#c7c1d1"] },
-  { "name": "The Green Knight", "category": "Cinema", "tags": ["Fantasy", "Dark", "Green"], "colors": ["#0b1208", "#172411", "#25381b", "#354f27", "#466634", "#598042", "#6c9c51", "#82b861"] },
-  { "name": "The Lighthouse", "category": "Cinema", "tags": ["Horror", "B&W", "Storm"], "colors": ["#080808", "#1c1c1c", "#303030", "#454545", "#5c5c5c", "#737373", "#8a8a8a", "#a3a3a3"] },
-  { "name": "The Lion King", "category": "Cinema", "tags": ["Animation", "Savanna", "Gold"], "colors": ["#4f2c04", "#704108", "#94590d", "#b87314", "#db901c", "#fcae26", "#ffcc5c", "#ffeb99"] },
-  { "name": "The Martian", "category": "Cinema", "tags": ["Sci-Fi", "Mars", "Red-Orange"], "colors": ["#361109", "#571d11", "#7a2b1a", "#9e3a24", "#c24a2f", "#e65c3b", "#ff7b5c", "#ff9e85"] },
-  { "name": "The Matrix", "category": "Cinema", "tags": ["Sci-Fi", "Digital", "Green"], "colors": ["#050d05", "#0d1f0d", "#173317", "#234a23", "#316131", "#417a41", "#539453", "#69b069"] },
-  { "name": "The Revenant", "category": "Cinema", "tags": ["Western", "Snow", "Cold"], "colors": ["#1a1f21", "#2e363b", "#444f57", "#5c6b75", "#768994", "#92a8b5", "#b0c9d6", "#d1e8f5"] },
-  { "name": "The Royal Tenenbaums", "category": "Cinema", "tags": ["Wes Anderson", "Brown", "Red"], "colors": ["#4a2f26", "#6b4539", "#8f5d4e", "#b37766", "#d69480", "#c45a4a", "#e37464", "#f5dcd5"] },
-  { "name": "The Truman Show", "category": "Cinema", "tags": ["Drama", "Sky", "Perfect"], "colors": ["#004d66", "#006b8f", "#008cb8", "#00b0e0", "#29d1ff", "#66e0ff", "#a3efff", "#e0fbff"] },
-  { "name": "The Witch", "category": "Cinema", "tags": ["Horror", "Grey", "Desaturated"], "colors": ["#21201f", "#363331", "#4d4946", "#635f5c", "#7a7673", "#918e8b", "#a8a6a4", "#c2c0bf"] },
-  { "name": "There Will Be Blood", "category": "Cinema", "tags": ["Drama", "Oil", "Dark"], "colors": ["#0a0805", "#1f180f", "#33291a", "#4a3c26", "#614f33", "#7a6542", "#947c52", "#ad9463"] },
-  { "name": "Top Gun: Maverick", "category": "Cinema", "tags": ["Action", "Sunset", "Orange"], "colors": ["#3b200b", "#5e3413", "#824b1c", "#a66427", "#cc8033", "#f29e41", "#ffbd6b", "#ffe0a3"] },
-  { "name": "Toy Story", "category": "Cinema", "tags": ["Animation", "Blue", "Cloud"], "colors": ["#1f4e7a", "#2e6da3", "#408ecf", "#56b0fc", "#8ac7ff", "#bde1ff", "#e6f4ff", "#ffffff"] },
-  { "name": "Trainspotting", "category": "Cinema", "tags": ["Drama", "Orange", "Grime"], "colors": ["#2e1a05", "#4a2b0a", "#693d11", "#875119", "#a66623", "#c77e2e", "#e8983a", "#ffb459"] },
-  { "name": "Tron: Legacy", "category": "Cinema", "tags": ["Sci-Fi", "Neon", "Blue-Black"], "colors": ["#030d0d", "#081f1f", "#0f3636", "#174f4f", "#206b6b", "#2a8a8a", "#35abab", "#42cfcf"] },
-  { "name": "Vertigo", "category": "Cinema", "tags": ["Hitchcock", "Green", "Red"], "colors": ["#1c331f", "#2d4f32", "#3f6e46", "#548f5d", "#6bb377", "#bd3535", "#e35252", "#ff7a7a"] },
-  { "name": "Wall-E", "category": "Cinema", "tags": ["Animation", "Earth", "Space"], "colors": ["#3b2a1a", "#5e442b", "#825f3d", "#a87c52", "#cf9b69", "#1a2b40", "#2c4563", "#41628a"] },
-  { "name": "Whiplash", "category": "Cinema", "tags": ["Drama", "Gold", "Sweat"], "colors": ["#291f09", "#453410", "#634b18", "#826321", "#a37d2b", "#c49836", "#e6b543", "#ffd461"] },
-  { "name": "Wolf of Wall Street", "category": "Cinema", "tags": ["Comedy", "Money", "Teal-Gold"], "colors": ["#00331f", "#005233", "#007347", "#00965e", "#b89642", "#dbb558", "#fcd672", "#ffeb99"] }
+  {
+    "name": "Alien (1979)",
+    "category": "Cinema",
+    "tags": ["Sci-Fi", "Dark", "Green"],
+    "colors": ["#050805", "#0d1a0f", "#1a331f", "#2b4d32", "#406949", "#7aa382", "#b0ccb6"]
+  },
+  {
+    "name": "Amadeus",
+    "category": "Cinema",
+    "tags": ["Period", "Gold", "Opulent"],
+    "colors": ["#2e1e0f", "#52361b", "#7a542e", "#a37643", "#cc9b5e", "#f0c680", "#ffebbd"]
+  },
+  {
+    "name": "American Beauty",
+    "category": "Cinema",
+    "tags": ["Drama", "Red", "Rose"],
+    "colors": ["#2b0a0d", "#4a1216", "#6e1b21", "#94262d", "#ba323b", "#e0414b", "#ff6b75"]
+  },
+  {
+    "name": "American Psycho",
+    "category": "Cinema",
+    "tags": ["Thriller", "Cold", "Steel"],
+    "colors": ["#1a1f24", "#2e363d", "#465059", "#616d78", "#7e8c99", "#9daebd", "#c2d1de", "#eef4fa"]
+  },
+  {
+    "name": "Annihilation",
+    "category": "Cinema",
+    "tags": ["Sci-Fi", "Shimmer", "Pastel"],
+    "colors": ["#2e1c3b", "#4a2f5e", "#6b4782", "#8f63a8", "#b582cf", "#dab6eb", "#f2d9ff", "#e0f7fa"]
+  },
+  {
+    "name": "Apocalypse Now",
+    "category": "Cinema",
+    "tags": ["War", "Sunset", "Haze"],
+    "colors": ["#240e05", "#421c0a", "#662e11", "#8f441b", "#bd5e28", "#eb7d38", "#ff9f57", "#ffc485"]
+  },
+  {
+    "name": "Arrival (Heptapod)",
+    "category": "Cinema",
+    "tags": ["Sci-Fi", "Fog", "Muted"],
+    "colors": ["#0f1214", "#1f2426", "#333b3d", "#4a5457", "#646e73", "#808b91", "#a3adb3", "#c9d1d6"]
+  },
+  {
+    "name": "Asteroid City",
+    "category": "Cinema",
+    "tags": ["Wes Anderson", "Teal", "Desert"],
+    "colors": ["#d99a6c", "#e8b482", "#f7dcb0", "#ccebe8", "#8fd4cf", "#5bbdb6", "#2d8f8a"]
+  },
+  {
+    "name": "Avatar: Way of Water",
+    "category": "Cinema",
+    "tags": ["Sci-Fi", "Ocean", "Biolum"],
+    "colors": ["#031026", "#092242", "#133a66", "#1e548c", "#2b70b5", "#4091e0", "#6bc2ff", "#a3e4ff"]
+  },
+  {
+    "name": "Barry Lyndon",
+    "category": "Cinema",
+    "tags": ["Period", "Candlelight", "Painting"],
+    "colors": ["#1f140a", "#3d2814", "#5e3e21", "#805832", "#a37546", "#c7965e", "#ebba7a", "#ffdb9e"]
+  },
+  {
+    "name": "Batman (1989)",
+    "category": "Cinema",
+    "tags": ["Action", "Gothic", "Purple-Black"],
+    "colors": ["#08050a", "#160d1f", "#261636", "#39224f", "#4f316b", "#69428a", "#8558a8", "#a37ac2"]
+  },
+  {
+    "name": "Big Fish",
+    "category": "Cinema",
+    "tags": ["Fantasy", "Bloom", "Yellow"],
+    "colors": ["#2e290e", "#4f4618", "#736724", "#968832", "#baba43", "#dede56", "#ffff6b"]
+  },
+  {
+    "name": "Birdman",
+    "category": "Cinema",
+    "tags": ["Drama", "Backstage", "Warm"],
+    "colors": ["#261512", "#422520", "#613831", "#804d44", "#a1655a", "#c28074", "#e39e91", "#ffc2b3"]
+  },
+  {
+    "name": "Blade Runner 2049 (Desert)",
+    "category": "Cinema",
+    "tags": ["Sci-Fi", "Orange", "Dust"],
+    "colors": ["#361400", "#5c2402", "#823706", "#a84c0c", "#cf6315", "#f57c20", "#ff9b47", "#ffbd7a"]
+  },
+  {
+    "name": "Blue Velvet",
+    "category": "Cinema",
+    "tags": ["Lynch", "Noir", "Blue"],
+    "colors": ["#030312", "#0a0a24", "#121238", "#1c1c52", "#29296e", "#38388c", "#4d4dab", "#6666cc"]
+  },
+  {
+    "name": "Call Me by Your Name",
+    "category": "Cinema",
+    "tags": ["Romance", "Summer", "Peach"],
+    "colors": ["#334a52", "#4d6b6e", "#6b8f87", "#8eb5a1", "#b8d9bd", "#f2e6d0", "#ffdcb5", "#ffbfa3"]
+  },
+  {
+    "name": "Carol",
+    "category": "Cinema",
+    "tags": ["Romance", "Vintage", "Green-Red"],
+    "colors": ["#2e3626", "#455239", "#5e704f", "#798f68", "#97ab85", "#cf8e8e", "#b85c5c", "#8f3232"]
+  },
+  {
+    "name": "Casablanca",
+    "category": "Cinema",
+    "tags": ["Classic", "B&W", "Sepia"],
+    "colors": ["#1a1715", "#332e2b", "#4f4742", "#6b615b", "#8a7d75", "#a89a91", "#c7b9af", "#e6dace"]
+  },
+  {
+    "name": "Children of Men",
+    "category": "Cinema",
+    "tags": ["Dystopia", "Desaturated", "Green"],
+    "colors": ["#1c1f1c", "#2e332e", "#424742", "#575e57", "#6d756d", "#858f85", "#9ea89e", "#b8c2b8"]
+  },
+  {
+    "name": "Chungking Express",
+    "category": "Cinema",
+    "tags": ["Wong Kar-wai", "Blur", "Green"],
+    "colors": ["#1a2614", "#2b3d21", "#3e5730", "#547342", "#6c9157", "#86b06e", "#a3d188", "#c2f0a3"]
+  },
+  {
+    "name": "City of God",
+    "category": "Cinema",
+    "tags": ["Drama", "Heat", "Gold"],
+    "colors": ["#4a2e0a", "#6e4511", "#945e1a", "#ba7925", "#e09734", "#ffb847", "#ffd670"]
+  },
+  {
+    "name": "Clockwork Orange",
+    "category": "Cinema",
+    "tags": ["Kubrick", "White", "Orange"],
+    "colors": ["#f0f0f0", "#e0e0e0", "#d1d1d1", "#c2c2c2", "#e08e24", "#f5a638", "#ffbd54"]
+  },
+  {
+    "name": "Coco",
+    "category": "Cinema",
+    "tags": ["Animation", "Marigold", "Orange"],
+    "colors": ["#4a1c03", "#752d06", "#a1400a", "#cc550e", "#f76e14", "#ff8f33", "#ffb05c", "#ffd18a"]
+  },
+  {
+    "name": "Coraline",
+    "category": "Cinema",
+    "tags": ["Animation", "Purple", "Night"],
+    "colors": ["#160b24", "#25143b", "#361e52", "#4a2a6b", "#603885", "#7949a1", "#945cbf", "#b073de"]
+  },
+  {
+    "name": "Crimson Peak",
+    "category": "Cinema",
+    "tags": ["Horror", "Gothic", "Red"],
+    "colors": ["#290808", "#450e0e", "#631616", "#851e1e", "#a82828", "#cc3535", "#f04646", "#ff7373"]
+  },
+  {
+    "name": "Crouching Tiger",
+    "category": "Cinema",
+    "tags": ["Wuxia", "Bamboo", "Green"],
+    "colors": ["#122114", "#203823", "#315234", "#446e48", "#598c5e", "#70ab76", "#8acc92", "#a8e8b1"]
+  },
+  {
+    "name": "Drive",
+    "category": "Cinema",
+    "tags": ["Noir", "Neon", "Pink-Blue"],
+    "colors": ["#12081f", "#211036", "#331952", "#472470", "#662f8a", "#9e3ca3", "#d64abd", "#ff63d6"]
+  },
+  {
+    "name": "Dunkirk",
+    "category": "Cinema",
+    "tags": ["War", "Sea", "Cold"],
+    "colors": ["#202e36", "#334550", "#485d69", "#5f7682", "#77909c", "#91abb8", "#abc8d4", "#c8e4f0"]
+  },
+  {
+    "name": "Edward Scissorhands",
+    "category": "Cinema",
+    "tags": ["Fantasy", "Suburban", "Pastel"],
+    "colors": ["#362a32", "#6b6e8a", "#8cb0d1", "#a6d6d4", "#bde8c5", "#f5f5c4", "#fae1e1"]
+  },
+  {
+    "name": "Enter the Void",
+    "category": "Cinema",
+    "tags": ["Neon", "Psychedelic", "Vivid"],
+    "colors": ["#1a0529", "#41084f", "#6e0c60", "#9c1159", "#cc183f", "#f2411f", "#ff8000", "#ffcc00"]
+  },
+  {
+    "name": "Eternal Sunshine",
+    "category": "Cinema",
+    "tags": ["Romance", "Winter", "Faded"],
+    "colors": ["#2b3036", "#3f474d", "#555f66", "#6c7980", "#849399", "#9daeb3", "#b9c9cd", "#d6e3e6"]
+  },
+  {
+    "name": "Ex Machina",
+    "category": "Cinema",
+    "tags": ["Sci-Fi", "Sterile", "Glass"],
+    "colors": ["#141716", "#232926", "#343d39", "#47524c", "#5c6962", "#738078", "#8c9990", "#a8b3ac"]
+  },
+  {
+    "name": "Fargo",
+    "category": "Cinema",
+    "tags": ["Thriller", "Snow", "White"],
+    "colors": ["#5c6369", "#737a80", "#8b9296", "#a4aaad", "#bdc2c4", "#d7dbdc", "#f0f2f2", "#ffffff"]
+  },
+  {
+    "name": "Fight Club",
+    "category": "Cinema",
+    "tags": ["Thriller", "Grime", "Green"],
+    "colors": ["#171c14", "#262e21", "#36402f", "#47543e", "#5a694e", "#6e7d60", "#849474", "#9caeb8"]
+  },
+  {
+    "name": "Finding Nemo",
+    "category": "Cinema",
+    "tags": ["Animation", "Ocean", "Blue-Orange"],
+    "colors": ["#001e4d", "#00366e", "#005291", "#0071b5", "#0093d9", "#2bb6fc", "#ffb733", "#ff8c00"]
+  },
+  {
+    "name": "Gattaca",
+    "category": "Cinema",
+    "tags": ["Sci-Fi", "Sepia", "Gold"],
+    "colors": ["#292111", "#42351c", "#5e4b29", "#7a6338", "#997d49", "#b8985c", "#d9b671", "#fad689"]
+  },
+  {
+    "name": "Ghost in the Shell",
+    "category": "Cinema",
+    "tags": ["Anime", "Cyberpunk", "Green"],
+    "colors": ["#081214", "#112629", "#1d3d40", "#2b5457", "#3c6e70", "#4f8a8a", "#65a6a6", "#7dc4c4"]
+  },
+  {
+    "name": "Gladiator",
+    "category": "Cinema",
+    "tags": ["Epic", "Wheat", "Earth"],
+    "colors": ["#2e2215", "#4a3824", "#695034", "#8a6a47", "#ab865b", "#cca470", "#edc48a", "#fae1b4"]
+  },
+  {
+    "name": "Gone Girl",
+    "category": "Cinema",
+    "tags": ["Thriller", "Fincher", "Cold"],
+    "colors": ["#121617", "#1f2629", "#2e383b", "#3e4a4d", "#505e61", "#637375", "#788a8c", "#8fa3a3"]
+  },
+  {
+    "name": "Goodfellas",
+    "category": "Cinema",
+    "tags": ["Crime", "Red", "Dark"],
+    "colors": ["#1c0808", "#330e0e", "#4d1515", "#691d1d", "#872727", "#a63333", "#c74242", "#e85656"]
+  },
+  {
+    "name": "Gravity",
+    "category": "Cinema",
+    "tags": ["Space", "Earth", "Blue"],
+    "colors": ["#000000", "#08101a", "#122033", "#1e334d", "#2c4866", "#3d5e80", "#527799", "#6b91b3"]
+  },
+  {
+    "name": "Hanna",
+    "category": "Cinema",
+    "tags": ["Action", "Ice", "Grey"],
+    "colors": ["#2e3336", "#424a4d", "#586166", "#6f7a80", "#889499", "#a2aeb3", "#bdc9cc", "#dbe6e8"]
+  },
+  {
+    "name": "Harry Potter (Slytherin)",
+    "category": "Cinema",
+    "tags": ["Fantasy", "Green", "Silver"],
+    "colors": ["#0d1f0d", "#1a331a", "#294d29", "#3b663b", "#4f804f", "#669966", "#8ab38a", "#b0ccb0"]
+  },
+  {
+    "name": "Harry Potter (Gryffindor)",
+    "category": "Cinema",
+    "tags": ["Fantasy", "Red", "Gold"],
+    "colors": ["#2e0a0a", "#4d1010", "#6e1616", "#8f1e1e", "#b02828", "#d13434", "#d4af37", "#f2c84b"]
+  },
+  {
+    "name": "Heat",
+    "category": "Cinema",
+    "tags": ["Crime", "LA", "Blue-Grey"],
+    "colors": ["#0d121c", "#1a2333", "#29364d", "#3a4b66", "#4d6180", "#627999", "#7a91b3", "#94acce"]
+  },
+  {
+    "name": "Hero (Yimou)",
+    "category": "Cinema",
+    "tags": ["Wuxia", "Red", "Monochrome"],
+    "colors": ["#360505", "#5c0808", "#820b0b", "#a80e0e", "#cf1111", "#f51616", "#ff4747", "#ff7a7a"]
+  },
+  {
+    "name": "In the Mood for Love",
+    "category": "Cinema",
+    "tags": ["Romance", "Red", "Shadow"],
+    "colors": ["#240909", "#3d1111", "#591a1a", "#752626", "#943333", "#b34242", "#d15454", "#f06c6c"]
+  },
+  {
+    "name": "Inception",
+    "category": "Cinema",
+    "tags": ["Sci-Fi", "Dream", "Steel"],
+    "colors": ["#1c2126", "#2b333b", "#3c4652", "#4e5b69", "#627180", "#778896", "#8da1ad", "#a5bbc4"]
+  },
+  {
+    "name": "Inglourious Basterds",
+    "category": "Cinema",
+    "tags": ["War", "Tarantino", "Green"],
+    "colors": ["#1f2416", "#303823", "#434d31", "#576340", "#6c7a52", "#829165", "#9aa87d", "#b3c296"]
+  },
+  {
+    "name": "Interstellar (Gargantua)",
+    "category": "Cinema",
+    "tags": ["Space", "Orange", "Light"],
+    "colors": ["#000000", "#1c140a", "#382914", "#543e1e", "#73562a", "#916d36", "#b08745", "#d1a354", "#f2c166"]
+  },
+  {
+    "name": "Into the Wild",
+    "category": "Cinema",
+    "tags": ["Adventure", "Nature", "Green"],
+    "colors": ["#1f2e18", "#334a27", "#496639", "#60824b", "#79a15f", "#93bf73", "#b0de8a", "#cfff9e"]
+  },
+  {
+    "name": "Isle of Dogs",
+    "category": "Cinema",
+    "tags": ["Wes Anderson", "Trash", "Grey-Red"],
+    "colors": ["#362e2b", "#524541", "#6e5c57", "#8c766f", "#ab9188", "#c9ada3", "#bf5a5a", "#e37676"]
+  },
+  {
+    "name": "Jaws",
+    "category": "Cinema",
+    "tags": ["Thriller", "Ocean", "Blue"],
+    "colors": ["#051c2e", "#0e2d45", "#1a405e", "#295678", "#3a6d91", "#4d85ad", "#639ec9", "#7bb8e6"]
+  },
+  {
+    "name": "John Wick",
+    "category": "Cinema",
+    "tags": ["Action", "Neon", "Blue-Purple"],
+    "colors": ["#0a0a1f", "#141433", "#20204d", "#2d2d66", "#3b3b80", "#54428f", "#754a9e", "#9954ad"]
+  },
+  {
+    "name": "Jojo Rabbit",
+    "category": "Cinema",
+    "tags": ["War", "Satire", "Vibrant"],
+    "colors": ["#2e2a14", "#4f4722", "#736732", "#968742", "#baba55", "#dede6a", "#e87b67", "#f2a091"]
+  },
+  {
+    "name": "Kill Bill",
+    "category": "Cinema",
+    "tags": ["Action", "Yellow", "Blood"],
+    "colors": ["#362a00", "#5c4800", "#826600", "#a88400", "#cfa300", "#f5c100", "#ffdb4d", "#cf1d1d"]
+  },
+  {
+    "name": "Lawrence of Arabia",
+    "category": "Cinema",
+    "tags": ["Epic", "Desert", "Sky"],
+    "colors": ["#6e4c30", "#8c6240", "#ab7a52", "#cc9466", "#edaf7e", "#99ccee", "#bfe3fa", "#e3f4ff"]
+  },
+  {
+    "name": "Life of Pi",
+    "category": "Cinema",
+    "tags": ["Fantasy", "Sunset", "Ocean"],
+    "colors": ["#001a33", "#003366", "#5e3e56", "#8f4448", "#bf4d3b", "#ed5b2f", "#ff8c42", "#ffc361"]
+  },
+  {
+    "name": "Little Miss Sunshine",
+    "category": "Cinema",
+    "tags": ["Comedy", "Yellow", "Road"],
+    "colors": ["#4d3e05", "#735c08", "#997b0a", "#bf9a0d", "#e6b910", "#ffd714", "#ffe45e", "#fff099"]
+  },
+  {
+    "name": "Lost in Translation",
+    "category": "Cinema",
+    "tags": ["Romance", "City", "Muted"],
+    "colors": ["#1c181f", "#2e2733", "#413847", "#554a5c", "#6b5d73", "#82718a", "#9a87a3", "#b39ebd"]
+  },
+  {
+    "name": "Mad Max: Fury Road",
+    "category": "Cinema",
+    "tags": ["Action", "Orange", "Teal"],
+    "colors": ["#1a0d00", "#401f05", "#66330a", "#8c480f", "#b35d49", "#d9761a", "#ff9124", "#006666"]
+  },
+  {
+    "name": "Melancholia",
+    "category": "Cinema",
+    "tags": ["Drama", "Green", "Doom"],
+    "colors": ["#141f17", "#223326", "#324a37", "#44614a", "#577a60", "#6d9478", "#85ad91", "#9fc7ac"]
+  },
+  {
+    "name": "Memento",
+    "category": "Cinema",
+    "tags": ["Thriller", "Polaroid", "Faded"],
+    "colors": ["#2e2b26", "#454039", "#5c554c", "#756c60", "#8f8475", "#a89b8b", "#c2b4a3", "#ded1bd"]
+  },
+  {
+    "name": "Metropolis",
+    "category": "Cinema",
+    "tags": ["Classic", "B&W", "Art Deco"],
+    "colors": ["#0f0f0f", "#242424", "#383838", "#4f4f4f", "#666666", "#808080", "#999999", "#b3b3b3"]
+  },
+  {
+    "name": "Midnight in Paris",
+    "category": "Cinema",
+    "tags": ["Romance", "Golden Hour", "Warm"],
+    "colors": ["#36210b", "#543311", "#754617", "#965b1e", "#b87025", "#db872c", "#fc9f35", "#ffb861"]
+  },
+  {
+    "name": "Midsommar",
+    "category": "Cinema",
+    "tags": ["Horror", "Bright", "Floral"],
+    "colors": ["#4a7026", "#688c3e", "#88aa59", "#a8c977", "#cbf097", "#f7f7f7", "#fff2cc", "#ffe0e0"]
+  },
+  {
+    "name": "Minari",
+    "category": "Cinema",
+    "tags": ["Drama", "Green", "Earth"],
+    "colors": ["#2b2112", "#45361e", "#614d2b", "#5e753a", "#7a944f", "#98b568", "#b9d685", "#dbf7a3"]
+  },
+  {
+    "name": "Moonlight",
+    "category": "Cinema",
+    "tags": ["Drama", "Blue", "Purple"],
+    "colors": ["#080a14", "#12172e", "#1e264a", "#2b3869", "#3a4c8a", "#4c63ad", "#657ed1", "#879ef2"]
+  },
+  {
+    "name": "Moulin Rouge",
+    "category": "Cinema",
+    "tags": ["Musical", "Red", "Blue"],
+    "colors": ["#1f0508", "#3d0a10", "#5c0f18", "#7d1621", "#9e1e2b", "#bf2836", "#e03444", "#304269"]
+  },
+  {
+    "name": "Mulholland Drive",
+    "category": "Cinema",
+    "tags": ["Lynch", "Noir", "Pink"],
+    "colors": ["#0d080d", "#1f131f", "#331f33", "#4a2d4a", "#613b61", "#7a4a7a", "#945b94", "#b06cb0"]
+  },
+  {
+    "name": "My Neighbor Totoro",
+    "category": "Cinema",
+    "tags": ["Ghibli", "Rural", "Green"],
+    "colors": ["#1f2e14", "#334a21", "#496631", "#618542", "#7ba356", "#97c26b", "#b5e082", "#8ab3cf"]
+  },
+  {
+    "name": "No Country for Old Men",
+    "category": "Cinema",
+    "tags": ["Western", "Dry", "Brown"],
+    "colors": ["#2e2418", "#473825", "#614d34", "#7d6343", "#997b54", "#b59466", "#d1af79", "#edca8e"]
+  },
+  {
+    "name": "Oldboy",
+    "category": "Cinema",
+    "tags": ["Thriller", "Green", "Grim"],
+    "colors": ["#121411", "#1f241d", "#2d362a", "#3c4738", "#4c5947", "#5d6e58", "#6f8269", "#82967b"]
+  },
+  {
+    "name": "Pan's Labyrinth",
+    "category": "Cinema",
+    "tags": ["Fantasy", "Blue", "Gold"],
+    "colors": ["#0a121f", "#15243b", "#213759", "#2e4c7a", "#3d629c", "#8f6e2b", "#b58c38", "#dbc24f"]
+  },
+  {
+    "name": "Parasite",
+    "category": "Cinema",
+    "tags": ["Thriller", "Green", "Subterranean"],
+    "colors": ["#171f18", "#243026", "#324234", "#415745", "#516b57", "#63806a", "#76967f", "#8cac96"]
+  },
+  {
+    "name": "Perfect Blue",
+    "category": "Cinema",
+    "tags": ["Anime", "Psychological", "Red"],
+    "colors": ["#2b0d0d", "#471515", "#661e1e", "#872828", "#a83333", "#cc4040", "#f04f4f", "#2b4080"]
+  },
+  {
+    "name": "Portrait of a Lady on Fire",
+    "category": "Cinema",
+    "tags": ["Romance", "Sea", "Natural"],
+    "colors": ["#24201b", "#3d362e", "#574e43", "#736759", "#8f8170", "#ab9c88", "#c9b9a1", "#e8d7be"]
+  },
+  {
+    "name": "Princess Mononoke",
+    "category": "Cinema",
+    "tags": ["Ghibli", "Forest", "Deep"],
+    "colors": ["#122114", "#203823", "#305234", "#426e46", "#568a5c", "#6ca873", "#85c78d", "#a1e6aa"]
+  },
+  {
+    "name": "Pulp Fiction",
+    "category": "Cinema",
+    "tags": ["Crime", "Noir", "Yellow"],
+    "colors": ["#0f0f0f", "#262626", "#404040", "#595959", "#f2c230", "#f5ce56", "#f7db7c", "#fae8a3"]
+  },
+  {
+    "name": "Rear Window",
+    "category": "Cinema",
+    "tags": ["Hitchcock", "Technicolor", "Warm"],
+    "colors": ["#361f18", "#543025", "#754334", "#965844", "#b86e56", "#db8569", "#fc9d7e", "#ffbfa8"]
+  },
+  {
+    "name": "Requiem for a Dream",
+    "category": "Cinema",
+    "tags": ["Drama", "Blue", "Despair"],
+    "colors": ["#080a12", "#121726", "#1e253d", "#2b3554", "#3a476e", "#4b5b8a", "#5e71a6", "#7289c4"]
+  },
+  {
+    "name": "Reservoir Dogs",
+    "category": "Cinema",
+    "tags": ["Crime", "Black", "White"],
+    "colors": ["#000000", "#1a1a1a", "#333333", "#4d4d4d", "#666666", "#808080", "#999999", "#b3b3b3"]
+  },
+  {
+    "name": "Roma",
+    "category": "Cinema",
+    "tags": ["Drama", "B&W", "Clean"],
+    "colors": ["#171717", "#2e2e2e", "#474747", "#616161", "#7d7d7d", "#999999", "#b5b5b5", "#d4d4d4"]
+  },
+  {
+    "name": "Schindler's List (Red Coat)",
+    "category": "Cinema",
+    "tags": ["History", "Greyscale", "Red"],
+    "colors": ["#0f0f0f", "#333333", "#595959", "#808080", "#a6a6a6", "#cc0000", "#e63939", "#ff7373"]
+  },
+  {
+    "name": "Scott Pilgrim",
+    "category": "Cinema",
+    "tags": ["Comedy", "Game", "Vibrant"],
+    "colors": ["#2b0d24", "#4d153e", "#731f5c", "#9c2a7c", "#c7389e", "#f24bc1", "#ff7ae6", "#5ceaff"]
+  },
+  {
+    "name": "Seven",
+    "category": "Cinema",
+    "tags": ["Thriller", "Fincher", "Yellow-Green"],
+    "colors": ["#1c1a11", "#2e2b1c", "#423d29", "#575137", "#6e6646", "#857c56", "#9e9367", "#b8ac7a"]
+  },
+  {
+    "name": "Shape of Water",
+    "category": "Cinema",
+    "tags": ["Fantasy", "Teal", "Water"],
+    "colors": ["#0b1f1e", "#163030", "#244242", "#345757", "#466e6e", "#5a8585", "#709e9e", "#8ab8b8"]
+  },
+  {
+    "name": "Sicario",
+    "category": "Cinema",
+    "tags": ["Thriller", "Dust", "Yellow"],
+    "colors": ["#2e2718", "#473d26", "#615335", "#7d6b46", "#998457", "#b59e6a", "#d4bb7e", "#f2d894"]
+  },
+  {
+    "name": "Silence of the Lambs",
+    "category": "Cinema",
+    "tags": ["Thriller", "Muted", "Skin"],
+    "colors": ["#2e221b", "#47352b", "#634b3d", "#806250", "#9e7b66", "#bd967c", "#deb395", "#ffd1b0"]
+  },
+  {
+    "name": "Sin City",
+    "category": "Cinema",
+    "tags": ["Noir", "Contrast", "Red"],
+    "colors": ["#000000", "#1a1a1a", "#4d4d4d", "#808080", "#b3b3b3", "#e6e6e6", "#ff0000", "#ffffff"]
+  },
+  {
+    "name": "Skyfall",
+    "category": "Cinema",
+    "tags": ["Action", "Scotland", "Cold"],
+    "colors": ["#1f1c18", "#363029", "#4f453b", "#695c4f", "#857463", "#a18d79", "#bda790", "#dac2a8"]
+  },
+  {
+    "name": "Spirited Away (Bathhouse)",
+    "category": "Cinema",
+    "tags": ["Ghibli", "Red", "Gold"],
+    "colors": ["#4a0e0e", "#701616", "#991f1f", "#c22929", "#eb3434", "#f27938", "#f7b53b", "#fce883"]
+  },
+  {
+    "name": "Star Wars: New Hope",
+    "category": "Cinema",
+    "tags": ["Sci-Fi", "Sand", "Space"],
+    "colors": ["#121010", "#2b2626", "#473e3e", "#635858", "#a68868", "#ccaa85", "#e6c39c", "#f2e4d5"]
+  },
+  {
+    "name": "Suspiria (1977)",
+    "category": "Cinema",
+    "tags": ["Horror", "Neon", "Red-Blue"],
+    "colors": ["#290000", "#5c0000", "#940000", "#cc0000", "#ff0000", "#ae00ff", "#3c00ff", "#001aff"]
+  },
+  {
+    "name": "Taxi Driver",
+    "category": "Cinema",
+    "tags": ["Noir", "Night", "Yellow"],
+    "colors": ["#171408", "#2b250f", "#423918", "#594e22", "#73642d", "#8f7c39", "#ab9546", "#c9b055"]
+  },
+  {
+    "name": "Tenet",
+    "category": "Cinema",
+    "tags": ["Sci-Fi", "Blue", "Red"],
+    "colors": ["#0a141f", "#152433", "#223547", "#30475c", "#3e5a73", "#5c4141", "#754646", "#914d4d"]
+  },
+  {
+    "name": "The Dark Knight",
+    "category": "Cinema",
+    "tags": ["Action", "Blue", "Grey"],
+    "colors": ["#080b12", "#121926", "#1e293d", "#2c3b54", "#3d506e", "#50678a", "#6680a6", "#7e9bc4"]
+  },
+  {
+    "name": "The Fall",
+    "category": "Cinema",
+    "tags": ["Fantasy", "Orange", "Teal"],
+    "colors": ["#6e2c00", "#8f3e00", "#b05300", "#d46b00", "#f78600", "#008f8f", "#00b3b3", "#00d9d9"]
+  },
+  {
+    "name": "The Fifth Element",
+    "category": "Cinema",
+    "tags": ["Sci-Fi", "Orange", "White"],
+    "colors": ["#e65c00", "#ff7a1f", "#ff9947", "#ffb56e", "#ffd196", "#f0f0f0", "#ffffff", "#e0f7fa"]
+  },
+  {
+    "name": "The Godfather",
+    "category": "Cinema",
+    "tags": ["Crime", "Shadow", "Warm"],
+    "colors": ["#120b05", "#24160a", "#382310", "#4d3117", "#63411f", "#7a5228", "#916533", "#a8783e"]
+  },
+  {
+    "name": "The Grand Budapest Hotel",
+    "category": "Cinema",
+    "tags": ["Wes Anderson", "Pink", "Purple"],
+    "colors": ["#5c3a4d", "#804b66", "#a65c82", "#cc6fa0", "#f285bf", "#fabee0", "#e0d3de", "#c7c1d1"]
+  },
+  {
+    "name": "The Green Knight",
+    "category": "Cinema",
+    "tags": ["Fantasy", "Dark", "Green"],
+    "colors": ["#0b1208", "#172411", "#25381b", "#354f27", "#466634", "#598042", "#6c9c51", "#82b861"]
+  },
+  {
+    "name": "The Lighthouse",
+    "category": "Cinema",
+    "tags": ["Horror", "B&W", "Storm"],
+    "colors": ["#080808", "#1c1c1c", "#303030", "#454545", "#5c5c5c", "#737373", "#8a8a8a", "#a3a3a3"]
+  },
+  {
+    "name": "The Lion King",
+    "category": "Cinema",
+    "tags": ["Animation", "Savanna", "Gold"],
+    "colors": ["#4f2c04", "#704108", "#94590d", "#b87314", "#db901c", "#fcae26", "#ffcc5c", "#ffeb99"]
+  },
+  {
+    "name": "The Martian",
+    "category": "Cinema",
+    "tags": ["Sci-Fi", "Mars", "Red-Orange"],
+    "colors": ["#361109", "#571d11", "#7a2b1a", "#9e3a24", "#c24a2f", "#e65c3b", "#ff7b5c", "#ff9e85"]
+  },
+  {
+    "name": "The Matrix",
+    "category": "Cinema",
+    "tags": ["Sci-Fi", "Digital", "Green"],
+    "colors": ["#050d05", "#0d1f0d", "#173317", "#234a23", "#316131", "#417a41", "#539453", "#69b069"]
+  },
+  {
+    "name": "The Revenant",
+    "category": "Cinema",
+    "tags": ["Western", "Snow", "Cold"],
+    "colors": ["#1a1f21", "#2e363b", "#444f57", "#5c6b75", "#768994", "#92a8b5", "#b0c9d6", "#d1e8f5"]
+  },
+  {
+    "name": "The Royal Tenenbaums",
+    "category": "Cinema",
+    "tags": ["Wes Anderson", "Brown", "Red"],
+    "colors": ["#4a2f26", "#6b4539", "#8f5d4e", "#b37766", "#d69480", "#c45a4a", "#e37464", "#f5dcd5"]
+  },
+  {
+    "name": "The Truman Show",
+    "category": "Cinema",
+    "tags": ["Drama", "Sky", "Perfect"],
+    "colors": ["#004d66", "#006b8f", "#008cb8", "#00b0e0", "#29d1ff", "#66e0ff", "#a3efff", "#e0fbff"]
+  },
+  {
+    "name": "The Witch",
+    "category": "Cinema",
+    "tags": ["Horror", "Grey", "Desaturated"],
+    "colors": ["#21201f", "#363331", "#4d4946", "#635f5c", "#7a7673", "#918e8b", "#a8a6a4", "#c2c0bf"]
+  },
+  {
+    "name": "There Will Be Blood",
+    "category": "Cinema",
+    "tags": ["Drama", "Oil", "Dark"],
+    "colors": ["#0a0805", "#1f180f", "#33291a", "#4a3c26", "#614f33", "#7a6542", "#947c52", "#ad9463"]
+  },
+  {
+    "name": "Top Gun: Maverick",
+    "category": "Cinema",
+    "tags": ["Action", "Sunset", "Orange"],
+    "colors": ["#3b200b", "#5e3413", "#824b1c", "#a66427", "#cc8033", "#f29e41", "#ffbd6b", "#ffe0a3"]
+  },
+  {
+    "name": "Toy Story",
+    "category": "Cinema",
+    "tags": ["Animation", "Blue", "Cloud"],
+    "colors": ["#1f4e7a", "#2e6da3", "#408ecf", "#56b0fc", "#8ac7ff", "#bde1ff", "#e6f4ff", "#ffffff"]
+  },
+  {
+    "name": "Trainspotting",
+    "category": "Cinema",
+    "tags": ["Drama", "Orange", "Grime"],
+    "colors": ["#2e1a05", "#4a2b0a", "#693d11", "#875119", "#a66623", "#c77e2e", "#e8983a", "#ffb459"]
+  },
+  {
+    "name": "Tron: Legacy",
+    "category": "Cinema",
+    "tags": ["Sci-Fi", "Neon", "Blue-Black"],
+    "colors": ["#030d0d", "#081f1f", "#0f3636", "#174f4f", "#206b6b", "#2a8a8a", "#35abab", "#42cfcf"]
+  },
+  {
+    "name": "Vertigo",
+    "category": "Cinema",
+    "tags": ["Hitchcock", "Green", "Red"],
+    "colors": ["#1c331f", "#2d4f32", "#3f6e46", "#548f5d", "#6bb377", "#bd3535", "#e35252", "#ff7a7a"]
+  },
+  {
+    "name": "Wall-E",
+    "category": "Cinema",
+    "tags": ["Animation", "Earth", "Space"],
+    "colors": ["#3b2a1a", "#5e442b", "#825f3d", "#a87c52", "#cf9b69", "#1a2b40", "#2c4563", "#41628a"]
+  },
+  {
+    "name": "Whiplash",
+    "category": "Cinema",
+    "tags": ["Drama", "Gold", "Sweat"],
+    "colors": ["#291f09", "#453410", "#634b18", "#826321", "#a37d2b", "#c49836", "#e6b543", "#ffd461"]
+  },
+  {
+    "name": "Wolf of Wall Street",
+    "category": "Cinema",
+    "tags": ["Comedy", "Money", "Teal-Gold"],
+    "colors": ["#00331f", "#005233", "#007347", "#00965e", "#b89642", "#dbb558", "#fcd672", "#ffeb99"]
+  }
 ]
