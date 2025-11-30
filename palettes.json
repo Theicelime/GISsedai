@@ -1,996 +1,1367 @@
 [
   {
-    "name": "Batlow",
-    "category": "Scientific",
-    "tags": ["Nature", "Rainbow-Alternative"],
+    "name": "Batlow (科学通用)",
+    "category": "科学标准",
     "colors": ["#001959", "#0B3363", "#164D6D", "#216872", "#2E8272", "#429B69", "#63B25D", "#8CCC4E", "#BDE23C", "#FDE333"]
   },
   {
-    "name": "Viridis",
-    "category": "Scientific",
-    "tags": ["Standard", "Perceptually Uniform"],
+    "name": "Viridis (翠绿)",
+    "category": "科学标准",
     "colors": ["#440154", "#482475", "#414487", "#355f8d", "#2a788e", "#21918c", "#22a884", "#44bf70", "#7ad151", "#bddf26", "#fde725"]
   },
   {
-    "name": "Magma",
-    "category": "Scientific",
-    "tags": ["Heatmap", "Dark"],
+    "name": "Magma (岩浆)",
+    "category": "科学标准",
     "colors": ["#000004", "#180f3d", "#440f76", "#721f81", "#9e2f7f", "#cd4071", "#f1605d", "#fd9668", "#fcfdbf"]
   },
   {
-    "name": "Qing Lu (千里江山)",
-    "category": "Oriental",
-    "tags": ["China", "Landscape"],
+    "name": "千里江山图",
+    "category": "东方美学",
     "colors": ["#2d4059", "#3e6e73", "#5c9291", "#8bbab3", "#c5cf99", "#d4bb83", "#a67c52"]
   },
   {
-    "name": "Dunhuang (敦煌)",
-    "category": "Oriental",
-    "tags": ["Mural", "History"],
+    "name": "敦煌飞天",
+    "category": "东方美学",
     "colors": ["#5e2a2a", "#8f3b28", "#b85c38", "#d68755", "#e6b380", "#8fbab3", "#4d8076", "#264d47"]
   },
   {
-    "name": "Forbidden City",
-    "category": "Oriental",
-    "tags": ["Red", "Gold"],
+    "name": "故宫红墙",
+    "category": "东方美学",
     "colors": ["#4a0e0e", "#851e1e", "#a82e2e", "#cf4040", "#e86b6b", "#ffd700", "#d4af37", "#a6892b"]
   },
   {
-    "name": "Porcelain (青花)",
-    "category": "Oriental",
-    "tags": ["Blue", "Ceramic"],
+    "name": "青花瓷",
+    "category": "东方美学",
     "colors": ["#081e42", "#123063", "#1e4685", "#3566b5", "#628dd1", "#9abaf0", "#d1e3ff", "#f5f7fa"]
   },
   {
-    "name": "Ink Wash (水墨)",
-    "category": "Oriental",
-    "tags": ["Monochrome"],
+    "name": "水墨山水",
+    "category": "东方美学",
     "colors": ["#000000", "#1c1c1c", "#363636", "#525252", "#737373", "#969696", "#bdbdbd", "#e0e0e0", "#f5f5f5"]
   },
   {
-    "name": "Spectral",
-    "category": "Geographic",
-    "tags": ["Diverging", "Elevation"],
+    "name": "光谱 (Spectral)",
+    "category": "地理制图",
     "colors": ["#9e0142", "#d53e4f", "#f46d43", "#fdae61", "#fee08b", "#ffffbf", "#e6f598", "#abdda4", "#66c2a5", "#3288bd", "#5e4fa2"]
   },
   {
-    "name": "RdYlBu",
-    "category": "Geographic",
-    "tags": ["Temperature", "Diverging"],
+    "name": "红黄蓝发散",
+    "category": "地理制图",
     "colors": ["#313695", "#4575b4", "#74add1", "#abd9e9", "#e0f3f8", "#ffffbf", "#fee090", "#fdae61", "#f46d43", "#d73027", "#a50026"]
   },
   {
-    "name": "Terrain",
-    "category": "Geographic",
-    "tags": ["DEM", "Physical"],
+    "name": "地形图标准色",
+    "category": "地理制图",
     "colors": ["#004c00", "#54b200", "#ffff00", "#e6bd00", "#b25500", "#7f0000"]
   },
   {
-    "name": "Ocean Depth",
-    "category": "Geographic",
-    "tags": ["Water", "Bathymetry"],
+    "name": "海洋深度",
+    "category": "地理制图",
     "colors": ["#020c1b", "#061a35", "#0b2c56", "#12437c", "#1c5fa6", "#3180bd", "#5faac9", "#94d2d4", "#d1eeea"]
   },
   {
-    "name": "Grand Budapest",
-    "category": "Movies",
-    "tags": ["Wes Anderson", "Pink"],
+    "name": "布达佩斯大饭店",
+    "category": "电影美学",
     "colors": ["#5d2e46", "#b55b5f", "#e68478", "#fcae91", "#fddbc7", "#d1c2d9", "#9484a1", "#524461"]
   },
   {
-    "name": "Moonrise Kingdom",
-    "category": "Movies",
-    "tags": ["Wes Anderson", "Yellow"],
+    "name": "月升王国",
+    "category": "电影美学",
     "colors": ["#4a4224", "#706433", "#b0a048", "#e6d35c", "#f2e694", "#d98f4e", "#b54e28", "#6e2516"]
   },
   {
-    "name": "Totoro",
-    "category": "Movies",
-    "tags": ["Ghibli", "Forest"],
+    "name": "龙猫 (森林)",
+    "category": "电影美学",
     "colors": ["#2d4030", "#456b45", "#6a9c6a", "#95c995", "#c4e6c4", "#8fb3d9", "#5b8cc2"]
   },
   {
-    "name": "Ponyo",
-    "category": "Movies",
-    "tags": ["Ghibli", "Sea"],
+    "name": "悬崖上的金希儿 (海洋)",
+    "category": "电影美学",
     "colors": ["#0f2c4d", "#1f4e7a", "#3c7bb0", "#69aed9", "#d94c4c", "#f08080", "#ffb3b3"]
   },
   {
-    "name": "Cyberpunk",
-    "category": "Movies",
-    "tags": ["Neon", "Sci-Fi"],
+    "name": "赛博朋克 (Cyberpunk)",
+    "category": "电影美学",
     "colors": ["#0b0c15", "#292147", "#5a1e5d", "#9a0e66", "#d90d56", "#fe2d48", "#00f0ff", "#fcee0a"]
   },
   {
-    "name": "Matrix",
-    "category": "Movies",
-    "tags": ["Digital", "Green"],
+    "name": "黑客帝国 (数字雨)",
+    "category": "电影美学",
     "colors": ["#000000", "#0d1a0d", "#1a331a", "#264d26", "#336633", "#408040", "#4da64d", "#66cc66"]
   },
   {
-    "name": "Blade Runner",
-    "category": "Movies",
-    "tags": ["Orange", "Teal"],
+    "name": "银翼杀手",
+    "category": "电影美学",
     "colors": ["#001721", "#00364d", "#005f7a", "#008da8", "#a85f32", "#cc7a3d", "#f09a4b"]
   },
   {
-    "name": "Starry Night",
-    "category": "Artistic",
-    "tags": ["Van Gogh", "Blue-Yellow"],
+    "name": "梵高·星空",
+    "category": "艺术名画",
     "colors": ["#1a3458", "#254876", "#3d6499", "#5b84c4", "#8fb3e6", "#d8d689", "#dbb835", "#d69811"]
   },
   {
-    "name": "Water Lilies",
-    "category": "Artistic",
-    "tags": ["Monet", "Pastel"],
+    "name": "莫奈·睡莲",
+    "category": "艺术名画",
     "colors": ["#5d7a8d", "#86a69d", "#b5c9c3", "#dbe6e1", "#f0eaf4", "#d5b4c4", "#a88fa2", "#7b697d"]
   },
   {
-    "name": "The Scream",
-    "category": "Artistic",
-    "tags": ["Munch", "Sunset"],
+    "name": "蒙克·呐喊",
+    "category": "艺术名画",
     "colors": ["#3b3a4a", "#2e3b55", "#4d5d75", "#c67b5c", "#e3934d", "#e36e35", "#c23826", "#8a1e16"]
   },
   {
-    "name": "Girl w Pearl",
-    "category": "Artistic",
-    "tags": ["Vermeer", "Blue-Gold"],
+    "name": "戴珍珠耳环的少女",
+    "category": "艺术名画",
     "colors": ["#0d1114", "#252d37", "#475c75", "#6b8ba4", "#dcb969", "#e8d39f", "#f4ecd6"]
   },
   {
-    "name": "Hockney Pool",
-    "category": "Artistic",
-    "tags": ["Pop Art", "Blue"],
+    "name": "霍克尼·泳池",
+    "category": "艺术名画",
     "colors": ["#0064b0", "#008bd2", "#38b6ff", "#7ed6ff", "#f09696", "#ffb4b4", "#ffe6e6"]
   },
   {
-    "name": "Morandi Earth",
-    "category": "Modern",
-    "tags": ["Muted", "Elegant"],
+    "name": "莫兰迪·大地色",
+    "category": "现代设计",
     "colors": ["#4a3b32", "#6e5c4f", "#917d6e", "#b5a08f", "#d9c4b3", "#f2e6d9"]
   },
   {
-    "name": "Nordic Winter",
-    "category": "Modern",
-    "tags": ["Cold", "Minimal"],
+    "name": "北欧暖冬",
+    "category": "现代设计",
     "colors": ["#2e3440", "#3b4252", "#4c566a", "#d8dee9", "#e5e9f0", "#eceff4", "#88c0d0"]
   },
   {
-    "name": "Sunset Vibes",
-    "category": "Modern",
-    "tags": ["Instagram", "Gradient"],
+    "name": "落日渐变 (Instagram)",
+    "category": "现代设计",
     "colors": ["#405de6", "#5851db", "#833ab4", "#c13584", "#e1306c", "#fd1d1d", "#f56040", "#f77737", "#fcaf45", "#ffdc80"]
   },
   {
-    "name": "Plasma",
-    "category": "Scientific",
-    "tags": ["Vibrant", "Purple"],
+    "name": "Plasma (等离子)",
+    "category": "科学标准",
     "colors": ["#0d0887", "#46039f", "#7201a8", "#9c179e", "#bd3786", "#d8576b", "#ed7953", "#fb9f3a", "#f0f921"]
   },
   {
-    "name": "Inferno",
-    "category": "Scientific",
-    "tags": ["Fire", "Dark"],
+    "name": "Inferno (烈焰)",
+    "category": "科学标准",
     "colors": ["#000004", "#160b39", "#420a68", "#6a176e", "#932667", "#bc3754", "#dd513a", "#f37819", "#fca50a", "#f6d746", "#fcffa4"]
   },
   {
-    "name": "Cividis",
-    "category": "Scientific",
-    "tags": ["Colorblind Safe", "Blue-Yellow"],
+    "name": "Cividis (色盲友好)",
+    "category": "科学标准",
     "colors": ["#00204d", "#002d6c", "#3d4b6b", "#63676b", "#7f7c6b", "#9f9363", "#c1ab56", "#e5c43d", "#ffea46"]
   },
   {
-    "name": "Turbo",
-    "category": "Scientific",
-    "tags": ["Rainbow", "Google"],
+    "name": "Turbo (彩虹增强)",
+    "category": "科学标准",
     "colors": ["#23171b", "#4a2d8a", "#466be3", "#2da0f5", "#20d0e6", "#35f1b8", "#74fb7c", "#c1f334", "#fada24", "#f58f08", "#d23e03", "#900c00"]
   },
   {
-    "name": "Twilight",
-    "category": "Scientific",
-    "tags": ["Cyclic", "Shifted"],
+    "name": "Twilight (暮光)",
+    "category": "科学标准",
     "colors": ["#e2d9e2", "#9d91c5", "#5e5898", "#332c66", "#2d234a", "#563857", "#8e5c6a", "#c28981", "#e6c3a6"]
   },
   {
-    "name": "PuOr",
-    "category": "Geographic",
-    "tags": ["Diverging", "Orange-Purple"],
+    "name": "紫橙发散 (PuOr)",
+    "category": "地理制图",
     "colors": ["#7f3b08", "#b35806", "#e08214", "#fdb863", "#fee0b6", "#f7f7f7", "#d8daeb", "#b2abd2", "#8073ac", "#542788", "#2d004b"]
   },
   {
-    "name": "BrBG",
-    "category": "Geographic",
-    "tags": ["Diverging", "Brown-Green"],
+    "name": "棕绿发散 (BrBG)",
+    "category": "地理制图",
     "colors": ["#543005", "#8c510a", "#bf812d", "#dfc27d", "#f6e8c3", "#f5f5f5", "#c7eae5", "#80cdc1", "#35978f", "#01665e", "#003c30"]
   },
   {
-    "name": "PiYG",
-    "category": "Geographic",
-    "tags": ["Diverging", "Pink-Green"],
+    "name": "粉绿发散 (PiYG)",
+    "category": "地理制图",
     "colors": ["#8e0152", "#c51b7d", "#de77ae", "#f1b6da", "#fde0ef", "#f7f7f7", "#e6f5d0", "#b8e186", "#7fbc41", "#4d9221", "#276419"]
   },
   {
-    "name": "YlGnBu",
-    "category": "Geographic",
-    "tags": ["Sequential", "Multi-hue"],
+    "name": "黄绿蓝渐变 (YlGnBu)",
+    "category": "地理制图",
     "colors": ["#ffffd9", "#edf8b1", "#c7e9b4", "#7fcdbb", "#41b6c4", "#1d91c0", "#225ea8", "#253494", "#081d58"]
   },
   {
-    "name": "Blues",
-    "category": "Geographic",
-    "tags": ["Sequential", "Single-hue"],
+    "name": "蓝色系 (Blues)",
+    "category": "地理制图",
     "colors": ["#f7fbff", "#deebf7", "#c6dbef", "#9ecae1", "#6baed6", "#4292c6", "#2171b5", "#08519c", "#08306b"]
   },
   {
-    "name": "Reds",
-    "category": "Geographic",
-    "tags": ["Sequential", "Single-hue"],
+    "name": "红色系 (Reds)",
+    "category": "地理制图",
     "colors": ["#fff5f0", "#fee0d2", "#fcbba1", "#fc9272", "#fb6a4a", "#ef3b2c", "#cb181d", "#a50f15", "#67000d"]
   },
   {
-    "name": "Greens",
-    "category": "Geographic",
-    "tags": ["Sequential", "Single-hue"],
+    "name": "绿色系 (Greens)",
+    "category": "地理制图",
     "colors": ["#f7fcf5", "#e5f5e0", "#c7e9c0", "#a1d99b", "#74c476", "#41ab5d", "#238b45", "#005a32", "#00441b"]
   },
   {
-    "name": "Greys",
-    "category": "Geographic",
-    "tags": ["Sequential", "Grayscale"],
+    "name": "灰色系 (Greys)",
+    "category": "地理制图",
     "colors": ["#ffffff", "#f0f0f0", "#d9d9d9", "#bdbdbd", "#969696", "#737373", "#525252", "#252525", "#000000"]
   },
   {
-    "name": "Pastel1",
-    "category": "Artistic",
-    "tags": ["Qualitative", "Soft"],
+    "name": "柔和粉彩 (Pastel1)",
+    "category": "艺术名画",
     "colors": ["#fbb4ae", "#b3cde3", "#ccebc5", "#decbe4", "#fed9a6", "#ffffcc", "#e5d8bd", "#fddaec", "#f2f2f2"]
   },
   {
-    "name": "Dark2",
-    "category": "Artistic",
-    "tags": ["Qualitative", "Dark"],
+    "name": "深色定性 (Dark2)",
+    "category": "艺术名画",
     "colors": ["#1b9e77", "#d95f02", "#7570b3", "#e7298a", "#66a61e", "#e6ab02", "#a6761d", "#666666"]
   },
   {
-    "name": "Set3",
-    "category": "Artistic",
-    "tags": ["Qualitative", "Medium"],
+    "name": "中性定性 (Set3)",
+    "category": "艺术名画",
     "colors": ["#8dd3c7", "#ffffb3", "#bebada", "#fb8072", "#80b1d3", "#fdb462", "#b3de69", "#fccde5", "#d9d9d9", "#bc80bd", "#ccebc5", "#ffed6f"]
   },
   {
-    "name": "Paired",
-    "category": "Artistic",
-    "tags": ["Qualitative", "Pairs"],
+    "name": "配对定性 (Paired)",
+    "category": "艺术名画",
     "colors": ["#a6cee3", "#1f78b4", "#b2df8a", "#33a02c", "#fb9a99", "#e31a1c", "#fdbf6f", "#ff7f00", "#cab2d6", "#6a3d9a", "#ffff99", "#b15928"]
   },
   {
-    "name": "Tab10",
-    "category": "Scientific",
-    "tags": ["Tableau", "Standard"],
+    "name": "Tableau标准色 (Tab10)",
+    "category": "科学标准",
     "colors": ["#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd", "#8c564b", "#e377c2", "#7f7f7f", "#bcbd22", "#17becf"]
   },
   {
-    "name": "Accent",
-    "category": "Artistic",
-    "tags": ["Qualitative", "Highlight"],
+    "name": "强调色 (Accent)",
+    "category": "艺术名画",
     "colors": ["#7fc97f", "#beaed4", "#fdc086", "#ffff99", "#386cb0", "#f0027f", "#bf5b17", "#666666"]
   },
   {
-    "name": "Ghibli Spirited",
-    "category": "Movies",
-    "tags": ["Ghibli", "Bathhouse"],
+    "name": "千与千寻 (汤屋)",
+    "category": "电影美学",
     "colors": ["#c44e52", "#d95f02", "#e6ab02", "#a6761d", "#666666", "#1b9e77", "#7570b3"]
   },
   {
-    "name": "Kiki Delivery",
-    "category": "Movies",
-    "tags": ["Ghibli", "Town"],
+    "name": "魔女宅急便",
+    "category": "电影美学",
     "colors": ["#e41a1c", "#377eb8", "#4daf4a", "#984ea3", "#ff7f00", "#ffff33", "#a65628", "#f781bf"]
   },
   {
-    "name": "Howls Castle",
-    "category": "Movies",
-    "tags": ["Ghibli", "Magic"],
+    "name": "哈尔的移动城堡",
+    "category": "电影美学",
     "colors": ["#fbb4ae", "#b3cde3", "#ccebc5", "#decbe4", "#fed9a6", "#ffffcc", "#e5d8bd", "#fddaec"]
   },
   {
-    "name": "Amelie",
-    "category": "Movies",
-    "tags": ["French", "Green-Red"],
+    "name": "天使爱美丽",
+    "category": "电影美学",
     "colors": ["#4d9221", "#c51b7d", "#e6f5d0", "#fde0ef", "#f1b6da", "#b8e186", "#7fbc41", "#276419"]
   },
   {
-    "name": "cmocean Thermal",
-    "category": "Scientific",
-    "tags": ["Ocean", "Temperature", "Diverging"],
+    "name": "海洋学-热能",
+    "category": "科学标准",
     "colors": ["#04103b", "#3a3a99", "#6b6ecf", "#9696d7", "#c4c4e4", "#ebebff", "#ffebbe", "#ffd27f", "#e69046", "#a64927", "#521612"]
   },
   {
-    "name": "cmocean Haline",
-    "category": "Scientific",
-    "tags": ["Salinity", "Ocean", "Blue-Green"],
+    "name": "海洋学-盐度",
+    "category": "科学标准",
     "colors": ["#2A2B5E", "#2E4779", "#346191", "#3B7BA6", "#4494B7", "#52ABC4", "#66C0CC", "#80D2D0", "#9EE1D1", "#C0EDD0", "#E4F6D2"]
   },
   {
-    "name": "cmocean Solar",
-    "category": "Scientific",
-    "tags": ["Sun", "Radiation", "Warm"],
+    "name": "海洋学-辐射",
+    "category": "科学标准",
     "colors": ["#421603", "#6A2207", "#8F320C", "#B04712", "#CD6019", "#E47D23", "#F59D33", "#FDBE4C", "#FFDE70", "#FFF8A2", "#FFFFE5"]
   },
   {
-    "name": "cmocean Ice",
-    "category": "Scientific",
-    "tags": ["Cryosphere", "Cold", "Dark-Light"],
+    "name": "海洋学-冰冻圈",
+    "category": "科学标准",
     "colors": ["#000000", "#0D111E", "#162039", "#1D3054", "#26426F", "#325688", "#426BA1", "#5782B8", "#7299CC", "#94B2DE", "#BDCCED"]
   },
   {
-    "name": "cmocean Algae",
-    "category": "Scientific",
-    "tags": ["Chlorophyll", "Biology", "Green"],
+    "name": "海洋学-叶绿素",
+    "category": "科学标准",
     "colors": ["#02290B", "#053E17", "#0C5424", "#156B33", "#228243", "#349953", "#4BB062", "#68C56F", "#8AD87D", "#B0E88B", "#D9F59A"]
   },
   {
-    "name": "cmocean Matter",
-    "category": "Scientific",
-    "tags": ["Turbidity", "Sediment", "Purple-Orange"],
+    "name": "海洋学-浊度",
+    "category": "科学标准",
     "colors": ["#251B3E", "#382550", "#4D3060", "#633D6D", "#794B77", "#8F5A7E", "#A46B82", "#B87E84", "#CA9284", "#D9A983", "#E3C287"]
   },
   {
-    "name": "cmocean Speed",
-    "category": "Scientific",
-    "tags": ["Velocity", "Currents", "Yellow-Green"],
+    "name": "海洋学-流速",
+    "category": "科学标准",
     "colors": ["#FBFEC9", "#EAF69D", "#D2EB7B", "#B4DE64", "#92CF54", "#70BD48", "#50AB3E", "#339735", "#1B822C", "#076C23", "#00571B"]
   },
   {
-    "name": "cmocean Amp",
-    "category": "Scientific",
-    "tags": ["Wave Height", "Red", "Warning"],
+    "name": "海洋学-波高",
+    "category": "科学标准",
     "colors": ["#280B0D", "#481014", "#69171C", "#8B2025", "#AC2B2E", "#CA3938", "#E34D44", "#F36955", "#FB8A6D", "#FEAF8B", "#FFD5B2"]
   },
   {
-    "name": "ColorCET Rainbow",
-    "category": "Scientific",
-    "tags": ["Perceptual", "Rainbow", "Alternative"],
+    "name": "感知均匀-彩虹",
+    "category": "科学标准",
     "colors": ["#1A1A1A", "#1C3678", "#235BA8", "#2580C7", "#1FA2D3", "#2BBFCD", "#55D6B6", "#8BED9A", "#C6F883", "#FBF58D", "#FCE07C"]
   },
   {
-    "name": "ColorCET Fire",
-    "category": "Scientific",
-    "tags": ["Heat", "Intensity", "Light"],
+    "name": "感知均匀-火焰",
+    "category": "科学标准",
     "colors": ["#000000", "#1D0907", "#3B100E", "#5B1814", "#7D211A", "#A02B1F", "#C43823", "#E44E26", "#F67129", "#FF9936", "#FFC355"]
   },
   {
-    "name": "ColorCET Coolwarm",
-    "category": "Scientific",
-    "tags": ["Diverging", "Blue-Red", "Isoluminant"],
+    "name": "感知均匀-冷暖",
+    "category": "科学标准",
     "colors": ["#364B9A", "#4A7BB7", "#6EA6CD", "#98CAE1", "#C2E4EF", "#EAECCC", "#FEDA8B", "#FDB366", "#F67E4B", "#DD3D2D", "#A50026"]
   },
   {
-    "name": "NASA NDVI",
-    "category": "Cartography",
-    "tags": ["Vegetation", "Remote Sensing"],
+    "name": "NASA NDVI (植被)",
+    "category": "地理制图",
     "colors": ["#000000", "#a50026", "#d73027", "#f46d43", "#fdae61", "#fee08b", "#ffffbf", "#d9ef8b", "#a6d96a", "#66bd63", "#1a9850", "#006837"]
   },
   {
-    "name": "Precipitation 1",
-    "category": "Cartography",
-    "tags": ["Rain", "Weather", "Blue"],
+    "name": "降水 (蓝调)",
+    "category": "地理制图",
     "colors": ["#ffffff", "#e0f3f8", "#abd9e9", "#74add1", "#4575b4", "#313695", "#08306b"]
   },
   {
-    "name": "Precipitation 2",
-    "category": "Cartography",
-    "tags": ["Rain", "Extreme", "Multi-hue"],
+    "name": "降水 (多色)",
+    "category": "地理制图",
     "colors": ["#ffffff", "#b2df8a", "#33a02c", "#a6cee3", "#1f78b4", "#fb9a99", "#e31a1c", "#fdbf6f", "#ff7f00", "#cab2d6", "#6a3d9a"]
   },
   {
-    "name": "DEM Earth",
-    "category": "Cartography",
-    "tags": ["Topography", "Elevation", "Physical"],
+    "name": "全球DEM",
+    "category": "地理制图",
     "colors": ["#3d6a48", "#6a8d56", "#9db278", "#d1d79d", "#f0e7c1", "#d8c39e", "#bda07b", "#a17e59", "#855d38", "#684020", "#7a7a7a", "#a3a3a3", "#cfcfcf", "#ffffff"]
   },
   {
-    "name": "Night Lights",
-    "category": "Cartography",
-    "tags": ["Urban", "Black Background", "Yellow"],
+    "name": "城市灯光",
+    "category": "地理制图",
     "colors": ["#000000", "#181404", "#312809", "#4b3e0e", "#665413", "#826b18", "#9f831e", "#bc9c24", "#dab62a", "#f9d030", "#ffeda0", "#ffffeb"]
   },
   {
-    "name": "Population Density",
-    "category": "Cartography",
-    "tags": ["Census", "Red-Purple", "White"],
+    "name": "人口密度",
+    "category": "地理制图",
     "colors": ["#fcfbfd", "#efedf5", "#dadaeb", "#bcbddc", "#9e9ac8", "#807dba", "#6a51a3", "#54278f", "#3f007d"]
   },
   {
-    "name": "Land Cover",
-    "category": "Cartography",
-    "tags": ["Categorical", "Map"],
+    "name": "土地利用覆盖",
+    "category": "地理制图",
     "colors": ["#e41a1c", "#377eb8", "#4daf4a", "#984ea3", "#ff7f00", "#ffff33", "#a65628", "#f781bf", "#999999"]
   },
   {
-    "name": "Dune (Arrakis)",
-    "category": "Movies",
-    "tags": ["Sci-Fi", "Sand", "Orange"],
+    "name": "沙丘 (厄拉科斯)",
+    "category": "电影美学",
     "colors": ["#1a0f0a", "#362013", "#543318", "#754921", "#8c5e2a", "#a8753a", "#c48d4a", "#d69c5e", "#e8b87d", "#f2cf94"]
   },
   {
-    "name": "Dune (Harkonnen)",
-    "category": "Movies",
-    "tags": ["Sci-Fi", "Dark", "Monochrome"],
+    "name": "沙丘 (哈克南)",
+    "category": "电影美学",
     "colors": ["#050505", "#141414", "#262626", "#3d3d3d", "#5c5c5c", "#7a7a7a", "#9e9e9e", "#c7c7c7", "#f0f0f0"]
   },
   {
-    "name": "Joker",
-    "category": "Movies",
-    "tags": ["Villian", "Green-Red", "Contrast"],
+    "name": "小丑",
+    "category": "电影美学",
     "colors": ["#113b28", "#1c5c3e", "#298555", "#b34e29", "#d63e26", "#8f1d18", "#d9863d", "#f0a860"]
   },
   {
-    "name": "La La Land",
-    "category": "Movies",
-    "tags": ["Romance", "Purple-Yellow", "Twilight"],
+    "name": "爱乐之城",
+    "category": "电影美学",
     "colors": ["#1f143d", "#38205f", "#552f7d", "#7a468c", "#a36496", "#c98696", "#eba98f", "#ffcd85", "#ffe494"]
   },
   {
-    "name": "Her",
-    "category": "Movies",
-    "tags": ["Warm", "Red", "Emotional"],
+    "name": "她 (Her)",
+    "category": "电影美学",
     "colors": ["#420f0f", "#6b1c1c", "#942e2e", "#bd4646", "#d66565", "#e88e8e", "#f2b6b6", "#fae1e1"]
   },
   {
-    "name": "Interstellar",
-    "category": "Movies",
-    "tags": ["Space", "Black Hole", "Cornfield"],
+    "name": "星际穿越",
+    "category": "电影美学",
     "colors": ["#000000", "#080b12", "#131926", "#232d40", "#455263", "#747f8c", "#a8aeb5", "#d4d1ba", "#e6d793", "#f2d966"]
   },
   {
-    "name": "Barbie",
-    "category": "Movies",
-    "tags": ["Pink", "Pop", "Cyan"],
+    "name": "芭比",
+    "category": "电影美学",
     "colors": ["#E0218A", "#E856A3", "#F289BD", "#F9BBD6", "#FEE4F1", "#94E1F2", "#5AD2EA", "#00B8DE"]
   },
   {
-    "name": "Oppenheimer",
-    "category": "Movies",
-    "tags": ["Fire", "Explosion", "Dark"],
+    "name": "奥本海默",
+    "category": "电影美学",
     "colors": ["#050202", "#2e0905", "#591007", "#871f0a", "#b5360b", "#e05809", "#fc880f", "#ffb947", "#ffe8a3"]
   },
   {
-    "name": "Arrival",
-    "category": "Movies",
-    "tags": ["Sci-Fi", "Muted", "Fog"],
+    "name": "降临 (Arrival)",
+    "category": "电影美学",
     "colors": ["#1c1f21", "#2e3336", "#454d52", "#5f6970", "#7d8a91", "#9daab3", "#c2ccd1", "#e0e6e8"]
   },
   {
-    "name": "The Shining",
-    "category": "Movies",
-    "tags": ["Horror", "Pattern", "Red-Orange"],
+    "name": "闪灵",
+    "category": "电影美学",
     "colors": ["#6e1411", "#8f231b", "#b03526", "#d14b34", "#e36c44", "#f09159", "#fab675", "#ffdcb5"]
   },
   {
-    "name": "Ghibli Ponyo Sea",
-    "category": "Movies",
-    "tags": ["Anime", "Blue", "Deep"],
-    "colors": ["#00213d", "#003d66", "#005c8f", "#007eb8", "#339ed1", "#66bce6", "#99d9f7", "#ccefff"]
-  },
-  {
-    "name": "Ghibli Mononoke",
-    "category": "Movies",
-    "tags": ["Anime", "Forest", "Spirit"],
+    "name": "幽灵公主 (森林)",
+    "category": "电影美学",
     "colors": ["#26331a", "#3d5229", "#57733b", "#759450", "#96b568", "#badd85", "#d9f0ab", "#f5fae6"]
   },
   {
-    "name": "Great Wave (Hokusai)",
-    "category": "Artistic",
-    "tags": ["Ukiyo-e", "Indigo", "Japan"],
+    "name": "神奈川冲浪里",
+    "category": "艺术名画",
     "colors": ["#17223b", "#263859", "#3e5c8a", "#6b8caf", "#a4c5e0", "#d4e6f1", "#f0f6fa", "#e8dec8"]
   },
   {
-    "name": "Wheat Field (Van Gogh)",
-    "category": "Artistic",
-    "tags": ["Impressionism", "Yellow", "Cypress"],
+    "name": "梵高·麦田",
+    "category": "艺术名画",
     "colors": ["#314028", "#4f6642", "#6e8c5d", "#9fb879", "#d4d678", "#ebd552", "#f5c32c", "#faa816"]
   },
   {
-    "name": "Impression Sunrise",
-    "category": "Artistic",
-    "tags": ["Monet", "Fog", "Orange-Blue"],
+    "name": "印象·日出",
+    "category": "艺术名画",
     "colors": ["#3b4952", "#52636e", "#6e828f", "#8ca3b0", "#abc2cf", "#c9dbe3", "#ffb38f", "#ff8c61", "#f56242"]
   },
   {
-    "name": "Kandinsky Composition",
-    "category": "Artistic",
-    "tags": ["Abstract", "Geometric", "Vivid"],
+    "name": "康定斯基·构图",
+    "category": "艺术名画",
     "colors": ["#D92B2B", "#F28B30", "#F2CB05", "#407F3E", "#2D5E8C", "#482C73", "#0D0D0D"]
   },
   {
-    "name": "Matisse Dance",
-    "category": "Artistic",
-    "tags": ["Fauvism", "Blue", "Orange"],
+    "name": "马蒂斯·舞蹈",
+    "category": "艺术名画",
     "colors": ["#164a78", "#2368a3", "#3d8ecf", "#6bb5e8", "#a3d6f5", "#d68b67", "#cc6237", "#a63d1e"]
   },
   {
-    "name": "Rothko Orange",
-    "category": "Artistic",
-    "tags": ["Abstract", "Color Field", "Warm"],
+    "name": "罗斯科·橙色",
+    "category": "艺术名画",
     "colors": ["#6e1e04", "#942b08", "#ba3c0e", "#e05216", "#f57c2a", "#fab041", "#fce67e"]
   },
   {
-    "name": "Georgia O'Keeffe",
-    "category": "Artistic",
-    "tags": ["Modernism", "Flower", "Soft"],
+    "name": "欧姬芙·花卉",
+    "category": "艺术名画",
     "colors": ["#4a2f3a", "#734657", "#9c6076", "#c7839b", "#e6acc1", "#fad4e1", "#fff0f5"]
   },
   {
-    "name": "Hopper Nighthawks",
-    "category": "Artistic",
-    "tags": ["Realism", "Night", "Green"],
+    "name": "霍珀·夜游者",
+    "category": "艺术名画",
     "colors": ["#14211a", "#1f3328", "#334f40", "#4d6e5c", "#70917f", "#a6b5ad", "#dcd9c6", "#e8e19e"]
   },
   {
-    "name": "Frida Kahlo",
-    "category": "Artistic",
-    "tags": ["Mexico", "Vibrant", "Green-Red"],
+    "name": "弗里达·卡罗",
+    "category": "艺术名画",
     "colors": ["#2e4d26", "#4a7a3b", "#7ab066", "#c93f3f", "#e66e6e", "#f2a2a2", "#3b6978", "#629aa6"]
   },
   {
-    "name": "Warhol Marilyn",
-    "category": "Artistic",
-    "tags": ["Pop Art", "Neon", "Contrast"],
+    "name": "安迪沃霍尔·玛丽莲",
+    "category": "艺术名画",
     "colors": ["#FFEA00", "#FF007C", "#00AEEF", "#8DC63F", "#662D91", "#ED1C24"]
   },
   {
-    "name": "CN Yanzhi (Rouge)",
-    "category": "Oriental",
-    "tags": ["China", "Red", "Makeup"],
+    "name": "中国色·胭脂",
+    "category": "东方美学",
     "colors": ["#450810", "#6b131e", "#94202e", "#bd2f41", "#e3465a", "#fa6e81", "#ff9eaf"]
   },
   {
-    "name": "CN Landinyin (Indigo)",
-    "category": "Oriental",
-    "tags": ["China", "Blue", "Fabric"],
+    "name": "中国色·蓝靛印",
+    "category": "东方美学",
     "colors": ["#0f1423", "#1a253a", "#293c57", "#3d5775", "#567596", "#7596b8", "#9abada", "#c4dcf5"]
   },
   {
-    "name": "CN Zhulv (Bamboo)",
-    "category": "Oriental",
-    "tags": ["China", "Green", "Nature"],
+    "name": "中国色·竹绿",
+    "category": "东方美学",
     "colors": ["#1a2e12", "#2e4a21", "#466935", "#638a4d", "#83ad68", "#a6cf88", "#cceed2"]
   },
   {
-    "name": "CN TengHuang (Vine)",
-    "category": "Oriental",
-    "tags": ["China", "Yellow", "Royal"],
+    "name": "中国色·藤黄",
+    "category": "东方美学",
     "colors": ["#cc8800", "#e6a300", "#ffbf00", "#ffd54f", "#ffe68f", "#fff5c2"]
   },
   {
-    "name": "CN DianQing (Mineral)",
-    "category": "Oriental",
-    "tags": ["China", "Blue", "Painting"],
+    "name": "中国色·靛青",
+    "category": "东方美学",
     "colors": ["#142e42", "#20425c", "#2f5c7a", "#427899", "#5996b8", "#74b5d6", "#96d2f0"]
   },
   {
-    "name": "Aurora Borealis",
-    "category": "Nature",
-    "tags": ["Night", "Green-Purple", "Space"],
+    "name": "北极光",
+    "category": "自然景观",
     "colors": ["#0b1026", "#1c2242", "#283b5e", "#2c5e5c", "#388a64", "#5ccf68", "#9aff7a"]
   },
   {
-    "name": "Coral Reef",
-    "category": "Nature",
-    "tags": ["Ocean", "Vibrant", "Pink-Cyan"],
+    "name": "珊瑚礁",
+    "category": "自然景观",
     "colors": ["#007a87", "#00a3b0", "#5cc9d1", "#9ae0e6", "#f2c4d6", "#f08bb2", "#eb4d86", "#c71f59"]
   },
   {
-    "name": "Sahara Desert",
-    "category": "Nature",
-    "tags": ["Sand", "Heat", "Orange"],
+    "name": "撒哈拉沙漠",
+    "category": "自然景观",
     "colors": ["#5c2e08", "#7a4111", "#9c581c", "#bd712a", "#de8c3c", "#faa952", "#ffc675", "#ffe3a3"]
   },
   {
-    "name": "Autumn Leaves",
-    "category": "Nature",
-    "tags": ["Season", "Red-Yellow", "Forest"],
+    "name": "秋叶",
+    "category": "自然景观",
     "colors": ["#4a1812", "#6e251b", "#943525", "#ba4b31", "#de653f", "#fa8452", "#ffaa6b", "#ffd18a"]
   },
   {
-    "name": "Deep Jungle",
-    "category": "Nature",
-    "tags": ["Green", "Dense", "Tropical"],
+    "name": "深邃丛林",
+    "category": "自然景观",
     "colors": ["#051c0d", "#0d2e16", "#194223", "#285932", "#3b7044", "#518a59", "#6ba371", "#8abf8e"]
   },
   {
-    "name": "Volcanic Ash",
-    "category": "Nature",
-    "tags": ["Geology", "Grey-Red", "Disaster"],
+    "name": "火山灰",
+    "category": "自然景观",
     "colors": ["#2b2b2b", "#474747", "#666666", "#878787", "#a8a8a8", "#c9c9c9", "#e3b3a8", "#ed8a79", "#f25c49"]
   },
   {
-    "name": "Cherry Blossom",
-    "category": "Nature",
-    "tags": ["Spring", "Pink", "Japan"],
+    "name": "樱花",
+    "category": "自然景观",
     "colors": ["#4f2c30", "#753e45", "#9c525d", "#c46a78", "#e88597", "#ffa6b6", "#ffc9d6", "#ffebf0"]
   },
   {
-    "name": "Glacier Blue",
-    "category": "Nature",
-    "tags": ["Ice", "Cold", "Cyan"],
+    "name": "冰川蓝",
+    "category": "自然景观",
     "colors": ["#1f3642", "#2d4d5c", "#3e6678", "#538194", "#6b9eb3", "#87bcd1", "#a6dbf0", "#ccf0ff"]
   },
   {
-    "name": "Grand Canyon",
-    "category": "Nature",
-    "tags": ["Geology", "Red-Rock", "USA"],
+    "name": "大峡谷",
+    "category": "自然景观",
     "colors": ["#4a2118", "#6b3225", "#8f4636", "#b35d49", "#d6765e", "#f59376", "#ffb499", "#ffd6c2"]
   },
   {
-    "name": "Tropical Ocean",
-    "category": "Nature",
-    "tags": ["Water", "Turquoise", "Vacation"],
+    "name": "热带海洋",
+    "category": "自然景观",
     "colors": ["#004f6e", "#006e8a", "#008fa6", "#00b0c2", "#2ed1db", "#6bf0f5", "#a8fdff", "#e0ffff"]
   },
   {
-    "name": "Vaporwave",
-    "category": "Modern",
-    "tags": ["Aesthetic", "Pink-Cyan", "Retro"],
+    "name": "蒸汽波 (Vaporwave)",
+    "category": "现代设计",
     "colors": ["#2e003e", "#56086e", "#851ba1", "#b832d4", "#ff5cfc", "#5ceaff", "#00c4ff", "#008cff"]
   },
   {
-    "name": "Synthwave",
-    "category": "Modern",
-    "tags": ["Neon", "Night", "Grid"],
+    "name": "合成波 (Synthwave)",
+    "category": "现代设计",
     "colors": ["#0d0221", "#260b45", "#46146e", "#6b1c9c", "#9621cf", "#c82afc", "#ff3d8e", "#ff8a5c", "#ffca85"]
   },
   {
-    "name": "Pastel Goth",
-    "category": "Modern",
-    "tags": ["Black", "Pink", "Edgy"],
+    "name": "暗黑粉彩",
+    "category": "现代设计",
     "colors": ["#000000", "#1a1a1a", "#333333", "#4d4d4d", "#b58da3", "#d9a7c2", "#ffc2e0", "#ffe6f2"]
   },
   {
-    "name": "Material Indigo",
-    "category": "Modern",
-    "tags": ["Google", "UI", "Blue"],
+    "name": "Material Design 靛蓝",
+    "category": "现代设计",
     "colors": ["#1a237e", "#283593", "#303f9f", "#3949ab", "#3f51b5", "#5c6bc0", "#7986cb", "#9fa8da", "#c5cae9", "#e8eaf6"]
   },
   {
-    "name": "Material Teal",
-    "category": "Modern",
-    "tags": ["Google", "UI", "Green"],
+    "name": "Material Design 青色",
+    "category": "现代设计",
     "colors": ["#004d40", "#00695c", "#00796b", "#00897b", "#009688", "#26a69a", "#4db6ac", "#80cbc4", "#b2dfdb", "#e0f2f1"]
   },
   {
-    "name": "Gruvbox Dark",
-    "category": "Modern",
-    "tags": ["Code", "Retro", "Warm"],
+    "name": "Gruvbox 暗色",
+    "category": "现代设计",
     "colors": ["#282828", "#cc241d", "#98971a", "#d79921", "#458588", "#b16286", "#689d6a", "#a89984"]
   },
   {
-    "name": "Dracula",
-    "category": "Modern",
-    "tags": ["Code", "Dark", "Contrast"],
+    "name": "Dracula 主题",
+    "category": "现代设计",
     "colors": ["#282a36", "#44475a", "#6272a4", "#8be9fd", "#50fa7b", "#ffb86c", "#ff79c6", "#bd93f9", "#ff5555", "#f1fa8c"]
   },
   {
-    "name": "Solarized Light",
-    "category": "Modern",
-    "tags": ["Code", "Low Contrast", "Beige"],
+    "name": "Solarized 亮色",
+    "category": "现代设计",
     "colors": ["#fdf6e3", "#eee8d5", "#93a1a1", "#839496", "#657b83", "#586e75", "#073642", "#002b36"]
   },
   {
-    "name": "Monokai",
-    "category": "Modern",
-    "tags": ["Code", "Vivid", "Dark"],
+    "name": "Monokai 主题",
+    "category": "现代设计",
     "colors": ["#272822", "#f92672", "#a6e22e", "#f4bf75", "#66d9ef", "#ae81ff", "#f8f8f2"]
   },
   {
-    "name": "Coffee Roasts",
-    "category": "Nature",
-    "tags": ["Brown", "Food", "Gradient"],
+    "name": "咖啡烘焙",
+    "category": "自然景观",
     "colors": ["#2e1e12", "#4a3321", "#694931", "#8a6143", "#ad7b57", "#d1986d", "#f5b785"]
   },
   {
-    "name": "Berry Smoothie",
-    "category": "Nature",
-    "tags": ["Purple", "Food", "Pink"],
+    "name": "浆果冰沙",
+    "category": "自然景观",
     "colors": ["#361225", "#541e3a", "#752c51", "#963d6b", "#b85287", "#db6aa6", "#fc88c7"]
   },
   {
-    "name": "Citrus Burst",
-    "category": "Nature",
-    "tags": ["Fruit", "Orange", "Yellow"],
+    "name": "柑橘爆裂",
+    "category": "自然景观",
     "colors": ["#d9560b", "#ed700c", "#fc8d12", "#ffac1f", "#ffcc33", "#ffea4f", "#ffff75"]
   },
   {
-    "name": "Wine Tasting",
-    "category": "Nature",
-    "tags": ["Red", "Deep", "Elegant"],
+    "name": "红酒品鉴",
+    "category": "自然景观",
     "colors": ["#2e0a0e", "#4a1217", "#691b22", "#8a262e", "#ac333b", "#cf424a", "#f2555c"]
   },
   {
-    "name": "Arctic Aurora",
-    "category": "Nature",
-    "tags": ["Blue", "Green", "Cold"],
+    "name": "北极极光",
+    "category": "自然景观",
     "colors": ["#002033", "#003b4d", "#005966", "#007a78", "#009c85", "#00bf8e", "#00e393", "#4fffa6"]
   },
   {
-    "name": "Magma (Inverse)",
-    "category": "Scientific",
-    "tags": ["Heatmap", "Reverse"],
+    "name": "Magma (反转)",
+    "category": "科学标准",
     "colors": ["#fcfdbf", "#fd9668", "#f1605d", "#cd4071", "#9e2f7f", "#721f81", "#440f76", "#180f3d", "#000004"]
   },
   {
-    "name": "Viridis (Inverse)",
-    "category": "Scientific",
-    "tags": ["Standard", "Reverse"],
+    "name": "Viridis (反转)",
+    "category": "科学标准",
     "colors": ["#fde725", "#bddf26", "#7ad151", "#44bf70", "#22a884", "#21918c", "#2a788e", "#355f8d", "#414487", "#482475", "#440154"]
   },
   {
-    "name": "Spectral (Inverse)",
-    "category": "Geographic",
-    "tags": ["Diverging", "Reverse"],
+    "name": "Spectral (反转)",
+    "category": "地理制图",
     "colors": ["#5e4fa2", "#3288bd", "#66c2a5", "#abdda4", "#e6f598", "#ffffbf", "#fee08b", "#fdae61", "#f46d43", "#d53e4f", "#9e0142"]
   },
   {
-    "name": "RdBu (Inverse)",
-    "category": "Geographic",
-    "tags": ["Diverging", "Reverse"],
+    "name": "红黄蓝发散 (反转)",
+    "category": "地理制图",
     "colors": ["#a50026", "#d73027", "#f46d43", "#fdae61", "#fee090", "#ffffbf", "#e0f3f8", "#abd9e9", "#74add1", "#4575b4", "#313695"]
   },
   {
-    "name": "Greys (Inverse)",
-    "category": "Geographic",
-    "tags": ["Grayscale", "Reverse"],
+    "name": "灰色系 (反转)",
+    "category": "地理制图",
     "colors": ["#000000", "#252525", "#525252", "#737373", "#969696", "#bdbdbd", "#d9d9d9", "#f0f0f0", "#ffffff"]
   },
   {
-    "name": "Parula (MATLAB)",
-    "category": "Scientific",
-    "tags": ["Engineering", "Standard"],
+    "name": "Parula (MATLAB标准)",
+    "category": "科学标准",
     "colors": ["#352a87", "#0363e1", "#1485d4", "#06a7c6", "#38b99e", "#92bf73", "#d9ba56", "#fcce2e", "#f9fb0e"]
   },
   {
-    "name": "Jet (Rainbow)",
-    "category": "Scientific",
-    "tags": ["Classic", "High Contrast"],
+    "name": "Jet (传统彩虹)",
+    "category": "科学标准",
     "colors": ["#000080", "#0000ff", "#0080ff", "#00ffff", "#80ff80", "#ffff00", "#ff8000", "#ff0000", "#800000"]
   },
   {
-    "name": "HSV Rainbow",
-    "category": "Scientific",
-    "tags": ["Cyclic", "Spectrum"],
+    "name": "HSV彩虹环",
+    "category": "科学标准",
     "colors": ["#ff0000", "#ffff00", "#00ff00", "#00ffff", "#0000ff", "#ff00ff", "#ff0000"]
   },
   {
-    "name": "Cool",
-    "category": "Scientific",
-    "tags": ["Cyan-Magenta", "Gradient"],
+    "name": "冷色调渐变",
+    "category": "科学标准",
     "colors": ["#00ffff", "#2ad5ff", "#55aaff", "#8080ff", "#aa55ff", "#d42aff", "#ff00ff"]
   },
   {
-    "name": "Wistia",
-    "category": "Scientific",
-    "tags": ["Yellow-Orange", "Warm"],
+    "name": "Wistia (暖黄)",
+    "category": "科学标准",
     "colors": ["#e4ff7a", "#fce84c", "#ffcc29", "#ffa600", "#ff7c00", "#ff4b00"]
   },
   {
-    "name": "Spring",
-    "category": "Scientific",
-    "tags": ["Magenta-Yellow", "Fresh"],
+    "name": "春季 (紫黄)",
+    "category": "科学标准",
     "colors": ["#ff00ff", "#ff2bff", "#ff55ff", "#ff80ff", "#ffaaff", "#ffd4ff", "#ffffff", "#ffffd4", "#ffffaa", "#ffff80", "#ffff55", "#ffff2b", "#ffff00"]
   },
   {
-    "name": "Summer",
-    "category": "Scientific",
-    "tags": ["Green-Yellow", "Hot"],
+    "name": "夏季 (绿黄)",
+    "category": "科学标准",
     "colors": ["#008066", "#1a9466", "#33a866", "#4dbd66", "#66d166", "#80e666", "#99fa66", "#b3ff66", "#ccff66", "#e6ff66", "#ffff66"]
   },
   {
-    "name": "Autumn",
-    "category": "Scientific",
-    "tags": ["Red-Yellow", "Fall"],
+    "name": "秋季 (红黄)",
+    "category": "科学标准",
     "colors": ["#ff0000", "#ff1a00", "#ff3300", "#ff4d00", "#ff6600", "#ff8000", "#ff9900", "#ffb300", "#ffcc00", "#ffe600", "#ffff00"]
   },
   {
-    "name": "Winter",
-    "category": "Scientific",
-    "tags": ["Blue-Green", "Cold"],
+    "name": "冬季 (蓝青)",
+    "category": "科学标准",
     "colors": ["#0000ff", "#001aff", "#0033ff", "#004dff", "#0066ff", "#0080ff", "#0099ff", "#00b3ff", "#00ccff", "#00e6ff", "#00ffff"]
   },
   {
-    "name": "Bone",
-    "category": "Scientific",
-    "tags": ["Medical", "X-Ray", "Greyscale-Blue"],
+    "name": "骨骼 (医学X光)",
+    "category": "科学标准",
     "colors": ["#000000", "#16161a", "#2c2c34", "#42424e", "#595969", "#6f6f83", "#85859d", "#9b9bb7", "#b1b1d1", "#c8c8eb", "#dedeff"]
   },
   {
-    "name": "Copper",
-    "category": "Scientific",
-    "tags": ["Metal", "Brown", "Metallic"],
+    "name": "铜色金属",
+    "category": "科学标准",
     "colors": ["#000000", "#1d120d", "#3a251a", "#573726", "#744a33", "#915d40", "#ae6f4d", "#cb825a", "#e89467", "#ffa774"]
   },
   {
-    "name": "Pink",
-    "category": "Scientific",
-    "tags": ["Sepia", "Soft"],
+    "name": "柔和粉调",
+    "category": "科学标准",
     "colors": ["#1e0000", "#3d1e1e", "#5c3d3d", "#7b5c5c", "#9a7b7b", "#b99a9a", "#d8b9b9", "#f7d8d8"]
   },
   {
-    "name": "Cyber Yellow",
-    "category": "Modern",
-    "tags": ["Neon", "Black-Yellow"],
+    "name": "赛博黄",
+    "category": "现代设计",
     "colors": ["#1a1a1a", "#333300", "#4d4d00", "#666600", "#808000", "#999900", "#b3b300", "#cccc00", "#e6e600", "#ffff00"]
   },
   {
-    "name": "Laser Green",
-    "category": "Modern",
-    "tags": ["Neon", "Black-Green"],
+    "name": "激光绿",
+    "category": "现代设计",
     "colors": ["#000000", "#001a00", "#003300", "#004d00", "#006600", "#008000", "#009900", "#00b300", "#00cc00", "#00e600", "#00ff00"]
   },
   {
-    "name": "Electric Blue",
-    "category": "Modern",
-    "tags": ["Neon", "Black-Blue"],
+    "name": "电光蓝",
+    "category": "现代设计",
     "colors": ["#000000", "#00001a", "#000033", "#00004d", "#000066", "#000080", "#000099", "#0000b3", "#0000cc", "#0000e6", "#0000ff"]
   },
   {
-    "name": "Hot Pink",
-    "category": "Modern",
-    "tags": ["Neon", "Black-Pink"],
+    "name": "热粉色",
+    "category": "现代设计",
     "colors": ["#000000", "#1a0011", "#330022", "#4d0033", "#660044", "#800055", "#990066", "#b30077", "#cc0088", "#e60099", "#ff00aa"]
   },
   {
-    "name": "Tokyo Night",
-    "category": "Modern",
-    "tags": ["Purple", "City", "Dark"],
+    "name": "东京夜景",
+    "category": "现代设计",
     "colors": ["#0c0e24", "#181a38", "#25284d", "#323561", "#3f4376", "#4c508a", "#595e9f", "#666bb3", "#7379c8", "#8086dc"]
   },
   {
-    "name": "Zen Garden",
-    "category": "Oriental",
-    "tags": ["Stone", "Moss", "Calm"],
+    "name": "禅意花园",
+    "category": "东方美学",
     "colors": ["#2e2e2e", "#454545", "#5c5c5c", "#737373", "#8a8a8a", "#8f9e8a", "#7a946e", "#658a52", "#4f8036"]
   },
   {
-    "name": "Kyoto Autumn",
-    "category": "Oriental",
-    "tags": ["Red", "Temple", "Japan"],
+    "name": "京都之秋",
+    "category": "东方美学",
     "colors": ["#2b0a0a", "#4a1212", "#691a1a", "#882222", "#a72a2a", "#c63232", "#e53a3a", "#e87a56", "#ebb972"]
   },
   {
-    "name": "Silk Road",
-    "category": "Oriental",
-    "tags": ["Sand", "Spice", "Trade"],
+    "name": "丝绸之路",
+    "category": "东方美学",
     "colors": ["#4a332a", "#6b4a3d", "#8c6150", "#ad7863", "#ce8f76", "#eebca9", "#d4a76a", "#ba922b", "#a17d00"]
   },
-  { "name": "2001 Space Odyssey", "category": "Movies", "tags": ["Sci-Fi", "Red", "White"], "colors": ["#e8e8e8", "#d6d6d6", "#a3a3a3", "#cf4848", "#b82525", "#8f0000", "#520000"] },
-  { "name": "Alien", "category": "Movies", "tags": ["Sci-Fi", "Dark", "Green"], "colors": ["#050805", "#0d1a0f", "#1a331f", "#2b4d32", "#406949", "#7aa382", "#b0ccb6"] },
-  { "name": "Amadeus", "category": "Movies", "tags": ["Period", "Gold", "Opulent"], "colors": ["#2e1e0f", "#52361b", "#7a542e", "#a37643", "#cc9b5e", "#f0c680", "#ffebbd"] },
-  { "name": "American Beauty", "category": "Movies", "tags": ["Drama", "Red", "Rose"], "colors": ["#2b0a0d", "#4a1216", "#6e1b21", "#94262d", "#ba323b", "#e0414b", "#ff6b75"] },
-  { "name": "American Psycho", "category": "Movies", "tags": ["Thriller", "Cold", "Steel"], "colors": ["#1a1f24", "#2e363d", "#465059", "#616d78", "#7e8c99", "#9daebd", "#c2d1de", "#eef4fa"] },
-  { "name": "Annihilation", "category": "Movies", "tags": ["Sci-Fi", "Shimmer", "Pastel"], "colors": ["#2e1c3b", "#4a2f5e", "#6b4782", "#8f63a8", "#b582cf", "#dab6eb", "#f2d9ff", "#e0f7fa"] },
-  { "name": "Apocalypse Now", "category": "Movies", "tags": ["War", "Sunset", "Haze"], "colors": ["#240e05", "#421c0a", "#662e11", "#8f441b", "#bd5e28", "#eb7d38", "#ff9f57", "#ffc485"] },
-  { "name": "Arrival", "category": "Movies", "tags": ["Sci-Fi", "Fog", "Muted"], "colors": ["#0f1214", "#1f2426", "#333b3d", "#4a5457", "#646e73", "#808b91", "#a3adb3", "#c9d1d6"] },
-  { "name": "Asteroid City", "category": "Movies", "tags": ["Wes Anderson", "Teal", "Desert"], "colors": ["#d99a6c", "#e8b482", "#f7dcb0", "#ccebe8", "#8fd4cf", "#5bbdb6", "#2d8f8a"] },
-  { "name": "Avatar Way of Water", "category": "Movies", "tags": ["Sci-Fi", "Ocean", "Blue"], "colors": ["#031026", "#092242", "#133a66", "#1e548c", "#2b70b5", "#4091e0", "#6bc2ff", "#a3e4ff"] },
-  { "name": "Barry Lyndon", "category": "Movies", "tags": ["Period", "Candlelight", "Painting"], "colors": ["#1f140a", "#3d2814", "#5e3e21", "#805832", "#a37546", "#c7965e", "#ebba7a", "#ffdb9e"] },
-  { "name": "Batman 1989", "category": "Movies", "tags": ["Action", "Gothic", "Purple"], "colors": ["#08050a", "#160d1f", "#261636", "#39224f", "#4f316b", "#69428a", "#8558a8", "#a37ac2"] },
-  { "name": "Big Fish", "category": "Movies", "tags": ["Fantasy", "Bloom", "Yellow"], "colors": ["#2e290e", "#4f4618", "#736724", "#968832", "#baba43", "#dede56", "#ffff6b"] },
-  { "name": "Blade Runner 2049", "category": "Movies", "tags": ["Sci-Fi", "Orange", "Dust"], "colors": ["#361400", "#5c2402", "#823706", "#a84c0c", "#cf6315", "#f57c20", "#ff9b47", "#ffbd7a"] },
-  { "name": "Blue Velvet", "category": "Movies", "tags": ["Lynch", "Noir", "Blue"], "colors": ["#030312", "#0a0a24", "#121238", "#1c1c52", "#29296e", "#38388c", "#4d4dab", "#6666cc"] },
-  { "name": "Call Me by Your Name", "category": "Movies", "tags": ["Romance", "Summer", "Peach"], "colors": ["#334a52", "#4d6b6e", "#6b8f87", "#8eb5a1", "#b8d9bd", "#f2e6d0", "#ffdcb5", "#ffbfa3"] },
-  { "name": "Carol", "category": "Movies", "tags": ["Romance", "Vintage", "Green"], "colors": ["#2e3626", "#455239", "#5e704f", "#798f68", "#97ab85", "#cf8e8e", "#b85c5c", "#8f3232"] },
-  { "name": "Casablanca", "category": "Movies", "tags": ["Classic", "B&W", "Sepia"], "colors": ["#1a1715", "#332e2b", "#4f4742", "#6b615b", "#8a7d75", "#a89a91", "#c7b9af", "#e6dace"] },
-  { "name": "Children of Men", "category": "Movies", "tags": ["Dystopia", "Desaturated", "Green"], "colors": ["#1c1f1c", "#2e332e", "#424742", "#575e57", "#6d756d", "#858f85", "#9ea89e", "#b8c2b8"] },
-  { "name": "Chungking Express", "category": "Movies", "tags": ["Wong Kar-wai", "Blur", "Green"], "colors": ["#1a2614", "#2b3d21", "#3e5730", "#547342", "#6c9157", "#86b06e", "#a3d188", "#c2f0a3"] },
-  { "name": "City of God", "category": "Movies", "tags": ["Drama", "Heat", "Gold"], "colors": ["#4a2e0a", "#6e4511", "#945e1a", "#ba7925", "#e09734", "#ffb847", "#ffd670"] },
-  { "name": "Clockwork Orange", "category": "Movies", "tags": ["Kubrick", "White", "Orange"], "colors": ["#f0f0f0", "#e0e0e0", "#d1d1d1", "#c2c2c2", "#e08e24", "#f5a638", "#ffbd54"] },
-  { "name": "Coco", "category": "Movies", "tags": ["Animation", "Marigold", "Orange"], "colors": ["#4a1c03", "#752d06", "#a1400a", "#cc550e", "#f76e14", "#ff8f33", "#ffb05c", "#ffd18a"] },
-  { "name": "Coraline", "category": "Movies", "tags": ["Animation", "Purple", "Night"], "colors": ["#160b24", "#25143b", "#361e52", "#4a2a6b", "#603885", "#7949a1", "#945cbf", "#b073de"] },
-  { "name": "Crimson Peak", "category": "Movies", "tags": ["Horror", "Gothic", "Red"], "colors": ["#290808", "#450e0e", "#631616", "#851e1e", "#a82828", "#cc3535", "#f04646", "#ff7373"] },
-  { "name": "Crouching Tiger", "category": "Movies", "tags": ["Wuxia", "Bamboo", "Green"], "colors": ["#122114", "#203823", "#315234", "#446e48", "#598c5e", "#70ab76", "#8acc92", "#a8e8b1"] },
-  { "name": "Drive", "category": "Movies", "tags": ["Noir", "Neon", "Pink"], "colors": ["#12081f", "#211036", "#331952", "#472470", "#662f8a", "#9e3ca3", "#d64abd", "#ff63d6"] },
-  { "name": "Dunkirk", "category": "Movies", "tags": ["War", "Sea", "Cold"], "colors": ["#202e36", "#334550", "#485d69", "#5f7682", "#77909c", "#91abb8", "#abc8d4", "#c8e4f0"] },
-  { "name": "Edward Scissorhands", "category": "Movies", "tags": ["Fantasy", "Pastel", "Soft"], "colors": ["#362a32", "#6b6e8a", "#8cb0d1", "#a6d6d4", "#bde8c5", "#f5f5c4", "#fae1e1"] },
-  { "name": "Enter the Void", "category": "Movies", "tags": ["Neon", "Psychedelic", "Vivid"], "colors": ["#1a0529", "#41084f", "#6e0c60", "#9c1159", "#cc183f", "#f2411f", "#ff8000", "#ffcc00"] },
-  { "name": "Eternal Sunshine", "category": "Movies", "tags": ["Romance", "Winter", "Faded"], "colors": ["#2b3036", "#3f474d", "#555f66", "#6c7980", "#849399", "#9daeb3", "#b9c9cd", "#d6e3e6"] },
-  { "name": "Ex Machina", "category": "Movies", "tags": ["Sci-Fi", "Sterile", "Glass"], "colors": ["#141716", "#232926", "#343d39", "#47524c", "#5c6962", "#738078", "#8c9990", "#a8b3ac"] },
-  { "name": "Fargo", "category": "Movies", "tags": ["Thriller", "Snow", "White"], "colors": ["#5c6369", "#737a80", "#8b9296", "#a4aaad", "#bdc2c4", "#d7dbdc", "#f0f2f2", "#ffffff"] },
-  { "name": "Fight Club", "category": "Movies", "tags": ["Thriller", "Grime", "Green"], "colors": ["#171c14", "#262e21", "#36402f", "#47543e", "#5a694e", "#6e7d60", "#849474", "#9caeb8"] },
-  { "name": "Finding Nemo", "category": "Movies", "tags": ["Animation", "Ocean", "Blue"], "colors": ["#001e4d", "#00366e", "#005291", "#0071b5", "#0093d9", "#2bb6fc", "#ffb733", "#ff8c00"] },
-  { "name": "Gattaca", "category": "Movies", "tags": ["Sci-Fi", "Sepia", "Gold"], "colors": ["#292111", "#42351c", "#5e4b29", "#7a6338", "#997d49", "#b8985c", "#d9b671", "#fad689"] },
-  { "name": "Ghost in the Shell", "category": "Movies", "tags": ["Anime", "Cyberpunk", "Green"], "colors": ["#081214", "#112629", "#1d3d40", "#2b5457", "#3c6e70", "#4f8a8a", "#65a6a6", "#7dc4c4"] },
-  { "name": "Gladiator", "category": "Movies", "tags": ["Epic", "Wheat", "Earth"], "colors": ["#2e2215", "#4a3824", "#695034", "#8a6a47", "#ab865b", "#cca470", "#edc48a", "#fae1b4"] },
-  { "name": "Gone Girl", "category": "Movies", "tags": ["Thriller", "Fincher", "Cold"], "colors": ["#121617", "#1f2629", "#2e383b", "#3e4a4d", "#505e61", "#637375", "#788a8c", "#8fa3a3"] },
-  { "name": "Goodfellas", "category": "Movies", "tags": ["Crime", "Red", "Dark"], "colors": ["#1c0808", "#330e0e", "#4d1515", "#691d1d", "#872727", "#a63333", "#c74242", "#e85656"] },
-  { "name": "Gravity", "category": "Movies", "tags": ["Space", "Earth", "Blue"], "colors": ["#000000", "#08101a", "#122033", "#1e334d", "#2c4866", "#3d5e80", "#527799", "#6b91b3"] },
-  { "name": "Hanna", "category": "Movies", "tags": ["Action", "Ice", "Grey"], "colors": ["#2e3336", "#424a4d", "#586166", "#6f7a80", "#889499", "#a2aeb3", "#bdc9cc", "#dbe6e8"] },
-  { "name": "Harry Potter Slytherin", "category": "Movies", "tags": ["Fantasy", "Green", "Silver"], "colors": ["#0d1f0d", "#1a331a", "#294d29", "#3b663b", "#4f804f", "#669966", "#8ab38a", "#b0ccb0"] },
-  { "name": "Harry Potter Gryffindor", "category": "Movies", "tags": ["Fantasy", "Red", "Gold"], "colors": ["#2e0a0a", "#4d1010", "#6e1616", "#8f1e1e", "#b02828", "#d13434", "#d4af37", "#f2c84b"] },
-  { "name": "Heat", "category": "Movies", "tags": ["Crime", "LA", "Blue"], "colors": ["#0d121c", "#1a2333", "#29364d", "#3a4b66", "#4d6180", "#627999", "#7a91b3", "#94acce"] },
-  { "name": "Hero Yimou", "category": "Movies", "tags": ["Wuxia", "Red", "Monochrome"], "colors": ["#360505", "#5c0808", "#820b0b", "#a80e0e", "#cf1111", "#f51616", "#ff4747", "#ff7a7a"] },
-  { "name": "In the Mood for Love", "category": "Movies", "tags": ["Romance", "Red", "Shadow"], "colors": ["#240909", "#3d1111", "#591a1a", "#752626", "#943333", "#b34242", "#d15454", "#f06c6c"] },
-  { "name": "Inception", "category": "Movies", "tags": ["Sci-Fi", "Dream", "Steel"], "colors": ["#1c2126", "#2b333b", "#3c4652", "#4e5b69", "#627180", "#778896", "#8da1ad", "#a5bbc4"] },
-  { "name": "Inglourious Basterds", "category": "Movies", "tags": ["War", "Tarantino", "Green"], "colors": ["#1f2416", "#303823", "#434d31", "#576340", "#6c7a52", "#829165", "#9aa87d", "#b3c296"] },
-  { "name": "Interstellar Gargantua", "category": "Movies", "tags": ["Space", "Orange", "Light"], "colors": ["#000000", "#1c140a", "#382914", "#543e1e", "#73562a", "#916d36", "#b08745", "#d1a354", "#f2c166"] },
-  { "name": "Into the Wild", "category": "Movies", "tags": ["Adventure", "Nature", "Green"], "colors": ["#1f2e18", "#334a27", "#496639", "#60824b", "#79a15f", "#93bf73", "#b0de8a", "#cfff9e"] },
-  { "name": "Isle of Dogs", "category": "Movies", "tags": ["Wes Anderson", "Trash", "Grey"], "colors": ["#362e2b", "#524541", "#6e5c57", "#8c766f", "#ab9188", "#c9ada3", "#bf5a5a", "#e37676"] },
-  { "name": "Jaws", "category": "Movies", "tags": ["Thriller", "Ocean", "Blue"], "colors": ["#051c2e", "#0e2d45", "#1a405e", "#295678", "#3a6d91", "#4d85ad", "#639ec9", "#7bb8e6"] },
-  { "name": "John Wick", "category": "Movies", "tags": ["Action", "Neon", "Purple"], "colors": ["#0a0a1f", "#141433", "#20204d", "#2d2d66", "#3b3b80", "#54428f", "#754a9e", "#9954ad"] },
-  { "name": "Jojo Rabbit", "category": "Movies", "tags": ["War", "Satire", "Vibrant"], "colors": ["#2e2a14", "#4f4722", "#736732", "#968742", "#baba55", "#dede6a", "#e87b67", "#f2a091"] },
-  { "name": "Kill Bill", "category": "Movies", "tags": ["Action", "Yellow", "Blood"], "colors": ["#362a00", "#5c4800", "#826600", "#a88400", "#cfa300", "#f5c100", "#ffdb4d", "#cf1d1d"] },
-  { "name": "Lawrence of Arabia", "category": "Movies", "tags": ["Epic", "Desert", "Sky"], "colors": ["#6e4c30", "#8c6240", "#ab7a52", "#cc9466", "#edaf7e", "#99ccee", "#bfe3fa", "#e3f4ff"] },
-  { "name": "Life of Pi", "category": "Movies", "tags": ["Fantasy", "Sunset", "Ocean"], "colors": ["#001a33", "#003366", "#5e3e56", "#8f4448", "#bf4d3b", "#ed5b2f", "#ff8c42", "#ffc361"] },
-  { "name": "Little Miss Sunshine", "category": "Movies", "tags": ["Comedy", "Yellow", "Road"], "colors": ["#4d3e05", "#735c08", "#997b0a", "#bf9a0d", "#e6b910", "#ffd714", "#ffe45e", "#fff099"] },
-  { "name": "Lost in Translation", "category": "Movies", "tags": ["Romance", "City", "Muted"], "colors": ["#1c181f", "#2e2733", "#413847", "#554a5c", "#6b5d73", "#82718a", "#9a87a3", "#b39ebd"] },
-  { "name": "Mad Max Fury Road", "category": "Movies", "tags": ["Action", "Orange", "Teal"], "colors": ["#1a0d00", "#401f05", "#66330a", "#8c480f", "#b35d49", "#d9761a", "#ff9124", "#006666"] },
-  { "name": "Melancholia", "category": "Movies", "tags": ["Drama", "Green", "Doom"], "colors": ["#141f17", "#223326", "#324a37", "#44614a", "#577a60", "#6d9478", "#85ad91", "#9fc7ac"] },
-  { "name": "Memento", "category": "Movies", "tags": ["Thriller", "Polaroid", "Faded"], "colors": ["#2e2b26", "#454039", "#5c554c", "#756c60", "#8f8475", "#a89b8b", "#c2b4a3", "#ded1bd"] },
-  { "name": "Metropolis", "category": "Movies", "tags": ["Classic", "B&W", "Art Deco"], "colors": ["#0f0f0f", "#242424", "#383838", "#4f4f4f", "#666666", "#808080", "#999999", "#b3b3b3"] },
-  { "name": "Midnight in Paris", "category": "Movies", "tags": ["Romance", "Golden Hour", "Warm"], "colors": ["#36210b", "#543311", "#754617", "#965b1e", "#b87025", "#db872c", "#fc9f35", "#ffb861"] },
-  { "name": "Midsommar", "category": "Movies", "tags": ["Horror", "Bright", "Floral"], "colors": ["#4a7026", "#688c3e", "#88aa59", "#a8c977", "#cbf097", "#f7f7f7", "#fff2cc", "#ffe0e0"] },
-  { "name": "Minari", "category": "Movies", "tags": ["Drama", "Green", "Earth"], "colors": ["#2b2112", "#45361e", "#614d2b", "#5e753a", "#7a944f", "#98b568", "#b9d685", "#dbf7a3"] },
-  { "name": "Moonlight", "category": "Movies", "tags": ["Drama", "Blue", "Purple"], "colors": ["#080a14", "#12172e", "#1e264a", "#2b3869", "#3a4c8a", "#4c63ad", "#657ed1", "#879ef2"] },
-  { "name": "Moulin Rouge", "category": "Movies", "tags": ["Musical", "Red", "Blue"], "colors": ["#1f0508", "#3d0a10", "#5c0f18", "#7d1621", "#9e1e2b", "#bf2836", "#e03444", "#304269"] },
-  { "name": "Mulholland Drive", "category": "Movies", "tags": ["Lynch", "Noir", "Pink"], "colors": ["#0d080d", "#1f131f", "#331f33", "#4a2d4a", "#613b61", "#7a4a7a", "#945b94", "#b06cb0"] },
-  { "name": "My Neighbor Totoro", "category": "Movies", "tags": ["Ghibli", "Rural", "Green"], "colors": ["#1f2e14", "#334a21", "#496631", "#618542", "#7ba356", "#97c26b", "#b5e082", "#8ab3cf"] },
-  { "name": "No Country for Old Men", "category": "Movies", "tags": ["Western", "Dry", "Brown"], "colors": ["#2e2418", "#473825", "#614d34", "#7d6343", "#997b54", "#b59466", "#d1af79", "#edca8e"] },
-  { "name": "Oldboy", "category": "Movies", "tags": ["Thriller", "Green", "Grim"], "colors": ["#121411", "#1f241d", "#2d362a", "#3c4738", "#4c5947", "#5d6e58", "#6f8269", "#82967b"] },
-  { "name": "Pans Labyrinth", "category": "Movies", "tags": ["Fantasy", "Blue", "Gold"], "colors": ["#0a121f", "#15243b", "#213759", "#2e4c7a", "#3d629c", "#8f6e2b", "#b58c38", "#dbc24f"] },
-  { "name": "Parasite", "category": "Movies", "tags": ["Thriller", "Green", "Subterranean"], "colors": ["#171f18", "#243026", "#324234", "#415745", "#516b57", "#63806a", "#76967f", "#8cac96"] },
-  { "name": "Perfect Blue", "category": "Movies", "tags": ["Anime", "Psychological", "Red"], "colors": ["#2b0d0d", "#471515", "#661e1e", "#872828", "#a83333", "#cc4040", "#f04f4f", "#2b4080"] },
-  { "name": "Portrait Lady on Fire", "category": "Movies", "tags": ["Romance", "Sea", "Natural"], "colors": ["#24201b", "#3d362e", "#574e43", "#736759", "#8f8170", "#ab9c88", "#c9b9a1", "#e8d7be"] },
-  { "name": "Princess Mononoke", "category": "Movies", "tags": ["Ghibli", "Forest", "Deep"], "colors": ["#122114", "#203823", "#305234", "#426e46", "#568a5c", "#6ca873", "#85c78d", "#a1e6aa"] },
-  { "name": "Pulp Fiction", "category": "Movies", "tags": ["Crime", "Noir", "Yellow"], "colors": ["#0f0f0f", "#262626", "#404040", "#595959", "#f2c230", "#f5ce56", "#f7db7c", "#fae8a3"] },
-  { "name": "Rear Window", "category": "Movies", "tags": ["Hitchcock", "Technicolor", "Warm"], "colors": ["#361f18", "#543025", "#754334", "#965844", "#b86e56", "#db8569", "#fc9d7e", "#ffbfa8"] },
-  { "name": "Requiem for a Dream", "category": "Movies", "tags": ["Drama", "Blue", "Despair"], "colors": ["#080a12", "#121726", "#1e253d", "#2b3554", "#3a476e", "#4b5b8a", "#5e71a6", "#7289c4"] },
-  { "name": "Reservoir Dogs", "category": "Movies", "tags": ["Crime", "Black", "White"], "colors": ["#000000", "#1a1a1a", "#333333", "#4d4d4d", "#666666", "#808080", "#999999", "#b3b3b3"] },
-  { "name": "Roma", "category": "Movies", "tags": ["Drama", "B&W", "Clean"], "colors": ["#171717", "#2e2e2e", "#474747", "#616161", "#7d7d7d", "#999999", "#b5b5b5", "#d4d4d4"] },
-  { "name": "Schindlers List", "category": "Movies", "tags": ["History", "Greyscale", "Red"], "colors": ["#0f0f0f", "#333333", "#595959", "#808080", "#a6a6a6", "#cc0000", "#e63939", "#ff7373"] },
-  { "name": "Scott Pilgrim", "category": "Movies", "tags": ["Comedy", "Game", "Vibrant"], "colors": ["#2b0d24", "#4d153e", "#731f5c", "#9c2a7c", "#c7389e", "#f24bc1", "#ff7ae6", "#5ceaff"] },
-  { "name": "Seven", "category": "Movies", "tags": ["Thriller", "Fincher", "Yellow"], "colors": ["#1c1a11", "#2e2b1c", "#423d29", "#575137", "#6e6646", "#857c56", "#9e9367", "#b8ac7a"] },
-  { "name": "Shape of Water", "category": "Movies", "tags": ["Fantasy", "Teal", "Water"], "colors": ["#0b1f1e", "#163030", "#244242", "#345757", "#466e6e", "#5a8585", "#709e9e", "#8ab8b8"] },
-  { "name": "Sicario", "category": "Movies", "tags": ["Thriller", "Dust", "Yellow"], "colors": ["#2e2718", "#473d26", "#615335", "#7d6b46", "#998457", "#b59e6a", "#d4bb7e", "#f2d894"] },
-  { "name": "Silence of the Lambs", "category": "Movies", "tags": ["Thriller", "Muted", "Skin"], "colors": ["#2e221b", "#47352b", "#634b3d", "#806250", "#9e7b66", "#bd967c", "#deb395", "#ffd1b0"] },
-  { "name": "Sin City", "category": "Movies", "tags": ["Noir", "Contrast", "Red"], "colors": ["#000000", "#1a1a1a", "#4d4d4d", "#808080", "#b3b3b3", "#e6e6e6", "#ff0000", "#ffffff"] },
-  { "name": "Skyfall", "category": "Movies", "tags": ["Action", "Scotland", "Cold"], "colors": ["#1f1c18", "#363029", "#4f453b", "#695c4f", "#857463", "#a18d79", "#bda790", "#dac2a8"] },
-  { "name": "Spirited Away", "category": "Movies", "tags": ["Ghibli", "Red", "Gold"], "colors": ["#4a0e0e", "#701616", "#991f1f", "#c22929", "#eb3434", "#f27938", "#f7b53b", "#fce883"] },
-  { "name": "Star Wars New Hope", "category": "Movies", "tags": ["Sci-Fi", "Sand", "Space"], "colors": ["#121010", "#2b2626", "#473e3e", "#635858", "#a68868", "#ccaa85", "#e6c39c", "#f2e4d5"] },
-  { "name": "Suspiria 1977", "category": "Movies", "tags": ["Horror", "Neon", "Red"], "colors": ["#290000", "#5c0000", "#940000", "#cc0000", "#ff0000", "#ae00ff", "#3c00ff", "#001aff"] },
-  { "name": "Taxi Driver", "category": "Movies", "tags": ["Noir", "Night", "Yellow"], "colors": ["#171408", "#2b250f", "#423918", "#594e22", "#73642d", "#8f7c39", "#ab9546", "#c9b055"] },
-  { "name": "Tenet", "category": "Movies", "tags": ["Sci-Fi", "Blue", "Red"], "colors": ["#0a141f", "#152433", "#223547", "#30475c", "#3e5a73", "#5c4141", "#754646", "#914d4d"] },
-  { "name": "The Dark Knight", "category": "Movies", "tags": ["Action", "Blue", "Grey"], "colors": ["#080b12", "#121926", "#1e293d", "#2c3b54", "#3d506e", "#50678a", "#6680a6", "#7e9bc4"] },
-  { "name": "The Fall", "category": "Movies", "tags": ["Fantasy", "Orange", "Teal"], "colors": ["#6e2c00", "#8f3e00", "#b05300", "#d46b00", "#f78600", "#008f8f", "#00b3b3", "#00d9d9"] },
-  { "name": "The Fifth Element", "category": "Movies", "tags": ["Sci-Fi", "Orange", "White"], "colors": ["#e65c00", "#ff7a1f", "#ff9947", "#ffb56e", "#ffd196", "#f0f0f0", "#ffffff", "#e0f7fa"] },
-  { "name": "The Godfather", "category": "Movies", "tags": ["Crime", "Shadow", "Warm"], "colors": ["#120b05", "#24160a", "#382310", "#4d3117", "#63411f", "#7a5228", "#916533", "#a8783e"] },
-  { "name": "The Grand Budapest Hotel", "category": "Movies", "tags": ["Wes Anderson", "Pink", "Purple"], "colors": ["#5c3a4d", "#804b66", "#a65c82", "#cc6fa0", "#f285bf", "#fabee0", "#e0d3de", "#c7c1d1"] },
-  { "name": "The Green Knight", "category": "Movies", "tags": ["Fantasy", "Dark", "Green"], "colors": ["#0b1208", "#172411", "#25381b", "#354f27", "#466634", "#598042", "#6c9c51", "#82b861"] },
-  { "name": "The Lighthouse", "category": "Movies", "tags": ["Horror", "B&W", "Storm"], "colors": ["#080808", "#1c1c1c", "#303030", "#454545", "#5c5c5c", "#737373", "#8a8a8a", "#a3a3a3"] },
-  { "name": "The Lion King", "category": "Movies", "tags": ["Animation", "Savanna", "Gold"], "colors": ["#4f2c04", "#704108", "#94590d", "#b87314", "#db901c", "#fcae26", "#ffcc5c", "#ffeb99"] },
-  { "name": "The Martian", "category": "Movies", "tags": ["Sci-Fi", "Mars", "Red"], "colors": ["#361109", "#571d11", "#7a2b1a", "#9e3a24", "#c24a2f", "#e65c3b", "#ff7b5c", "#ff9e85"] },
-  { "name": "The Matrix", "category": "Movies", "tags": ["Sci-Fi", "Digital", "Green"], "colors": ["#050d05", "#0d1f0d", "#173317", "#234a23", "#316131", "#417a41", "#539453", "#69b069"] },
-  { "name": "The Revenant", "category": "Movies", "tags": ["Western", "Snow", "Cold"], "colors": ["#1a1f21", "#2e363b", "#444f57", "#5c6b75", "#768994", "#92a8b5", "#b0c9d6", "#d1e8f5"] },
-  { "name": "The Royal Tenenbaums", "category": "Movies", "tags": ["Wes Anderson", "Brown", "Red"], "colors": ["#4a2f26", "#6b4539", "#8f5d4e", "#b37766", "#d69480", "#c45a4a", "#e37464", "#f5dcd5"] },
-  { "name": "The Truman Show", "category": "Movies", "tags": ["Drama", "Sky", "Perfect"], "colors": ["#004d66", "#006b8f", "#008cb8", "#00b0e0", "#29d1ff", "#66e0ff", "#a3efff", "#e0fbff"] },
-  { "name": "The Witch", "category": "Movies", "tags": ["Horror", "Grey", "Desaturated"], "colors": ["#21201f", "#363331", "#4d4946", "#635f5c", "#7a7673", "#918e8b", "#a8a6a4", "#c2c0bf"] },
-  { "name": "There Will Be Blood", "category": "Movies", "tags": ["Drama", "Oil", "Dark"], "colors": ["#0a0805", "#1f180f", "#33291a", "#4a3c26", "#614f33", "#7a6542", "#947c52", "#ad9463"] },
-  { "name": "Top Gun Maverick", "category": "Movies", "tags": ["Action", "Sunset", "Orange"], "colors": ["#3b200b", "#5e3413", "#824b1c", "#a66427", "#cc8033", "#f29e41", "#ffbd6b", "#ffe0a3"] },
-  { "name": "Toy Story", "category": "Movies", "tags": ["Animation", "Blue", "Cloud"], "colors": ["#1f4e7a", "#2e6da3", "#408ecf", "#56b0fc", "#8ac7ff", "#bde1ff", "#e6f4ff", "#ffffff"] },
-  { "name": "Trainspotting", "category": "Movies", "tags": ["Drama", "Orange", "Grime"], "colors": ["#2e1a05", "#4a2b0a", "#693d11", "#875119", "#a66623", "#c77e2e", "#e8983a", "#ffb459"] },
-  { "name": "Tron Legacy", "category": "Movies", "tags": ["Sci-Fi", "Neon", "Blue"], "colors": ["#030d0d", "#081f1f", "#0f3636", "#174f4f", "#206b6b", "#2a8a8a", "#35abab", "#42cfcf"] },
-  { "name": "Vertigo", "category": "Movies", "tags": ["Hitchcock", "Green", "Red"], "colors": ["#1c331f", "#2d4f32", "#3f6e46", "#548f5d", "#6bb377", "#bd3535", "#e35252", "#ff7a7a"] },
-  { "name": "Wall E", "category": "Movies", "tags": ["Animation", "Earth", "Space"], "colors": ["#3b2a1a", "#5e442b", "#825f3d", "#a87c52", "#cf9b69", "#1a2b40", "#2c4563", "#41628a"] },
-  { "name": "Whiplash", "category": "Movies", "tags": ["Drama", "Gold", "Sweat"], "colors": ["#291f09", "#453410", "#634b18", "#826321", "#a37d2b", "#c49836", "#e6b543", "#ffd461"] },
-  { "name": "Wolf of Wall Street", "category": "Movies", "tags": ["Comedy", "Money", "Teal"], "colors": ["#00331f", "#005233", "#007347", "#00965e", "#b89642", "#dbb558", "#fcd672", "#ffeb99"] },
-  { "name": "瓶装火箭 (Bottle Rocket)", "category": "韦斯·安德森", "tags": ["早期", "黄色", "复古"], "colors": ["#F2D680", "#F2B807", "#A67F03", "#402311", "#A64B29", "#F2F2F2"] },
-  { "name": "青春年少 (Rushmore)", "category": "韦斯·安德森", "tags": ["校园", "深蓝", "红色"], "colors": ["#021859", "#0433BF", "#0D0D0D", "#A62103", "#D93D04", "#F2F2F2"] },
-  { "name": "天才一族 (Royal Tenenbaums)", "category": "韦斯·安德森", "tags": ["家庭", "粉色", "驼色"], "colors": ["#F29F8D", "#F28705", "#A66203", "#401801", "#0D0D0D", "#A62F03"] },
-  { "name": "水中生活 (Life Aquatic)", "category": "韦斯·安德森", "tags": ["海洋", "天蓝", "红色帽"], "colors": ["#5496A6", "#F2C53D", "#F25C05", "#D92B04", "#A61B03", "#041B26"] },
-  { "name": "穿越大吉岭 (Darjeeling Limited)", "category": "韦斯·安德森", "tags": ["印度", "橙色", "青色"], "colors": ["#F2A007", "#F25C05", "#590202", "#012340", "#4A8C92", "#B8D9D0"] },
-  { "name": "了不起的狐狸爸爸 (Mr. Fox)", "category": "韦斯·安德森", "tags": ["秋天", "橙黄", "定格"], "colors": ["#F2C84B", "#F28705", "#D96704", "#A64B03", "#592E02", "#F2E8C4"] },
-  { "name": "月升王国 (Moonrise Kingdom)", "category": "韦斯·安德森", "tags": ["童子军", "卡其", "绿色"], "colors": ["#D9B657", "#BF9C47", "#8C783C", "#5D7338", "#455928", "#D9695F"] },
-  { "name": "布达佩斯大饭店 (Grand Budapest)", "category": "韦斯·安德森", "tags": ["粉色", "紫色", "奢华"], "colors": ["#5D2E46", "#B55B5F", "#E68478", "#FCAE91", "#FDDBC7", "#D1C2D9", "#9484A1", "#524461"] },
-  { "name": "犬之岛 (Isle of Dogs)", "category": "韦斯·安德森", "tags": ["垃圾岛", "灰白", "红色"], "colors": ["#D9D9D9", "#BFBFBF", "#737373", "#A60303", "#D92B2B", "#0D0D0D"] },
-  { "name": "法兰西特派 (French Dispatch)", "category": "韦斯·安德森", "tags": ["报纸", "黑黄", "复古"], "colors": ["#F2D16D", "#D9A84E", "#593E25", "#262626", "#505C5E", "#A4B5BF"] },
-  { "name": "小行星城 (Asteroid City)", "category": "韦斯·安德森", "tags": ["沙漠", "青绿", "高亮"], "colors": ["#68C6D9", "#F2D8A7", "#F29D52", "#F25E3D", "#A62F03", "#123F53"] }
+  {
+    "name": "2001太空漫游",
+    "category": "电影美学",
+    "colors": ["#e8e8e8", "#d6d6d6", "#a3a3a3", "#cf4848", "#b82525", "#8f0000", "#520000"]
+  },
+  {
+    "name": "异形",
+    "category": "电影美学",
+    "colors": ["#050805", "#0d1a0f", "#1a331f", "#2b4d32", "#406949", "#7aa382", "#b0ccb6"]
+  },
+  {
+    "name": "莫扎特传",
+    "category": "电影美学",
+    "colors": ["#2e1e0f", "#52361b", "#7a542e", "#a37643", "#cc9b5e", "#f0c680", "#ffebbd"]
+  },
+  {
+    "name": "美国丽人",
+    "category": "电影美学",
+    "colors": ["#2b0a0d", "#4a1216", "#6e1b21", "#94262d", "#ba323b", "#e0414b", "#ff6b75"]
+  },
+  {
+    "name": "美国精神病人",
+    "category": "电影美学",
+    "colors": ["#1a1f24", "#2e363d", "#465059", "#616d78", "#7e8c99", "#9daebd", "#c2d1de", "#eef4fa"]
+  },
+  {
+    "name": "湮灭",
+    "category": "电影美学",
+    "colors": ["#2e1c3b", "#4a2f5e", "#6b4782", "#8f63a8", "#b582cf", "#dab6eb", "#f2d9ff", "#e0f7fa"]
+  },
+  {
+    "name": "现代启示录",
+    "category": "电影美学",
+    "colors": ["#240e05", "#421c0a", "#662e11", "#8f441b", "#bd5e28", "#eb7d38", "#ff9f57", "#ffc485"]
+  },
+  {
+    "name": "降临 (Heptapod)",
+    "category": "电影美学",
+    "colors": ["#0f1214", "#1f2426", "#333b3d", "#4a5457", "#646e73", "#808b91", "#a3adb3", "#c9d1d6"]
+  },
+  {
+    "name": "小行星城",
+    "category": "电影美学",
+    "colors": ["#d99a6c", "#e8b482", "#f7dcb0", "#ccebe8", "#8fd4cf", "#5bbdb6", "#2d8f8a"]
+  },
+  {
+    "name": "阿凡达：水之道",
+    "category": "电影美学",
+    "colors": ["#031026", "#092242", "#133a66", "#1e548c", "#2b70b5", "#4091e0", "#6bc2ff", "#a3e4ff"]
+  },
+  {
+    "name": "巴里·林登",
+    "category": "电影美学",
+    "colors": ["#1f140a", "#3d2814", "#5e3e21", "#805832", "#a37546", "#c7965e", "#ebba7a", "#ffdb9e"]
+  },
+  {
+    "name": "蝙蝠侠 (1989)",
+    "category": "电影美学",
+    "colors": ["#08050a", "#160d1f", "#261636", "#39224f", "#4f316b", "#69428a", "#8558a8", "#a37ac2"]
+  },
+  {
+    "name": "大鱼",
+    "category": "电影美学",
+    "colors": ["#2e290e", "#4f4618", "#736724", "#968832", "#baba43", "#dede56", "#ffff6b"]
+  },
+  {
+    "name": "银翼杀手2049",
+    "category": "电影美学",
+    "colors": ["#361400", "#5c2402", "#823706", "#a84c0c", "#cf6315", "#f57c20", "#ff9b47", "#ffbd7a"]
+  },
+  {
+    "name": "蓝天鹅绒",
+    "category": "电影美学",
+    "colors": ["#030312", "#0a0a24", "#121238", "#1c1c52", "#29296e", "#38388c", "#4d4dab", "#6666cc"]
+  },
+  {
+    "name": "请以你的名字呼唤我",
+    "category": "电影美学",
+    "colors": ["#334a52", "#4d6b6e", "#6b8f87", "#8eb5a1", "#b8d9bd", "#f2e6d0", "#ffdcb5", "#ffbfa3"]
+  },
+  {
+    "name": "卡罗尔",
+    "category": "电影美学",
+    "colors": ["#2e3626", "#455239", "#5e704f", "#798f68", "#97ab85", "#cf8e8e", "#b85c5c", "#8f3232"]
+  },
+  {
+    "name": "卡萨布兰卡",
+    "category": "电影美学",
+    "colors": ["#1a1715", "#332e2b", "#4f4742", "#6b615b", "#8a7d75", "#a89a91", "#c7b9af", "#e6dace"]
+  },
+  {
+    "name": "人类之子",
+    "category": "电影美学",
+    "colors": ["#1c1f1c", "#2e332e", "#424742", "#575e57", "#6d756d", "#858f85", "#9ea89e", "#b8c2b8"]
+  },
+  {
+    "name": "重庆森林",
+    "category": "电影美学",
+    "colors": ["#1a2614", "#2b3d21", "#3e5730", "#547342", "#6c9157", "#86b06e", "#a3d188", "#c2f0a3"]
+  },
+  {
+    "name": "上帝之城",
+    "category": "电影美学",
+    "colors": ["#4a2e0a", "#6e4511", "#945e1a", "#ba7925", "#e09734", "#ffb847", "#ffd670"]
+  },
+  {
+    "name": "发条橙",
+    "category": "电影美学",
+    "colors": ["#f0f0f0", "#e0e0e0", "#d1d1d1", "#c2c2c2", "#e08e24", "#f5a638", "#ffbd54"]
+  },
+  {
+    "name": "寻梦环游记",
+    "category": "电影美学",
+    "colors": ["#4a1c03", "#752d06", "#a1400a", "#cc550e", "#f76e14", "#ff8f33", "#ffb05c", "#ffd18a"]
+  },
+  {
+    "name": "鬼妈妈",
+    "category": "电影美学",
+    "colors": ["#160b24", "#25143b", "#361e52", "#4a2a6b", "#603885", "#7949a1", "#945cbf", "#b073de"]
+  },
+  {
+    "name": "猩红山峰",
+    "category": "电影美学",
+    "colors": ["#290808", "#450e0e", "#631616", "#851e1e", "#a82828", "#cc3535", "#f04646", "#ff7373"]
+  },
+  {
+    "name": "卧虎藏龙",
+    "category": "电影美学",
+    "colors": ["#122114", "#203823", "#315234", "#446e48", "#598c5e", "#70ab76", "#8acc92", "#a8e8b1"]
+  },
+  {
+    "name": "亡命驾驶",
+    "category": "电影美学",
+    "colors": ["#12081f", "#211036", "#331952", "#472470", "#662f8a", "#9e3ca3", "#d64abd", "#ff63d6"]
+  },
+  {
+    "name": "敦刻尔克",
+    "category": "电影美学",
+    "colors": ["#202e36", "#334550", "#485d69", "#5f7682", "#77909c", "#91abb8", "#abc8d4", "#c8e4f0"]
+  },
+  {
+    "name": "剪刀手爱德华",
+    "category": "电影美学",
+    "colors": ["#362a32", "#6b6e8a", "#8cb0d1", "#a6d6d4", "#bde8c5", "#f5f5c4", "#fae1e1"]
+  },
+  {
+    "name": "遁入虚无",
+    "category": "电影美学",
+    "colors": ["#1a0529", "#41084f", "#6e0c60", "#9c1159", "#cc183f", "#f2411f", "#ff8000", "#ffcc00"]
+  },
+  {
+    "name": "暖暖内含光",
+    "category": "电影美学",
+    "colors": ["#2b3036", "#3f474d", "#555f66", "#6c7980", "#849399", "#9daeb3", "#b9c9cd", "#d6e3e6"]
+  },
+  {
+    "name": "机械姬",
+    "category": "电影美学",
+    "colors": ["#141716", "#232926", "#343d39", "#47524c", "#5c6962", "#738078", "#8c9990", "#a8b3ac"]
+  },
+  {
+    "name": "冰血暴",
+    "category": "电影美学",
+    "colors": ["#5c6369", "#737a80", "#8b9296", "#a4aaad", "#bdc2c4", "#d7dbdc", "#f0f2f2", "#ffffff"]
+  },
+  {
+    "name": "搏击俱乐部",
+    "category": "电影美学",
+    "colors": ["#171c14", "#262e21", "#36402f", "#47543e", "#5a694e", "#6e7d60", "#849474", "#9caeb8"]
+  },
+  {
+    "name": "海底总动员",
+    "category": "电影美学",
+    "colors": ["#001e4d", "#00366e", "#005291", "#0071b5", "#0093d9", "#2bb6fc", "#ffb733", "#ff8c00"]
+  },
+  {
+    "name": "千钧一发",
+    "category": "电影美学",
+    "colors": ["#292111", "#42351c", "#5e4b29", "#7a6338", "#997d49", "#b8985c", "#d9b671", "#fad689"]
+  },
+  {
+    "name": "攻壳机动队",
+    "category": "电影美学",
+    "colors": ["#081214", "#112629", "#1d3d40", "#2b5457", "#3c6e70", "#4f8a8a", "#65a6a6", "#7dc4c4"]
+  },
+  {
+    "name": "角斗士",
+    "category": "电影美学",
+    "colors": ["#2e2215", "#4a3824", "#695034", "#8a6a47", "#ab865b", "#cca470", "#edc48a", "#fae1b4"]
+  },
+  {
+    "name": "消失的爱人",
+    "category": "电影美学",
+    "colors": ["#121617", "#1f2629", "#2e383b", "#3e4a4d", "#505e61", "#637375", "#788a8c", "#8fa3a3"]
+  },
+  {
+    "name": "好家伙",
+    "category": "电影美学",
+    "colors": ["#1c0808", "#330e0e", "#4d1515", "#691d1d", "#872727", "#a63333", "#c74242", "#e85656"]
+  },
+  {
+    "name": "地心引力",
+    "category": "电影美学",
+    "colors": ["#000000", "#08101a", "#122033", "#1e334d", "#2c4866", "#3d5e80", "#527799", "#6b91b3"]
+  },
+  {
+    "name": "汉娜",
+    "category": "电影美学",
+    "colors": ["#2e3336", "#424a4d", "#586166", "#6f7a80", "#889499", "#a2aeb3", "#bdc9cc", "#dbe6e8"]
+  },
+  {
+    "name": "哈利波特 (斯莱特林)",
+    "category": "电影美学",
+    "colors": ["#0d1f0d", "#1a331a", "#294d29", "#3b663b", "#4f804f", "#669966", "#8ab38a", "#b0ccb0"]
+  },
+  {
+    "name": "哈利波特 (格兰芬多)",
+    "category": "电影美学",
+    "colors": ["#2e0a0a", "#4d1010", "#6e1616", "#8f1e1e", "#b02828", "#d13434", "#d4af37", "#f2c84b"]
+  },
+  {
+    "name": "盗火线",
+    "category": "电影美学",
+    "colors": ["#0d121c", "#1a2333", "#29364d", "#3a4b66", "#4d6180", "#627999", "#7a91b3", "#94acce"]
+  },
+  {
+    "name": "英雄 (张艺谋)",
+    "category": "电影美学",
+    "colors": ["#360505", "#5c0808", "#820b0b", "#a80e0e", "#cf1111", "#f51616", "#ff4747", "#ff7a7a"]
+  },
+  {
+    "name": "花样年华",
+    "category": "电影美学",
+    "colors": ["#240909", "#3d1111", "#591a1a", "#752626", "#943333", "#b34242", "#d15454", "#f06c6c"]
+  },
+  {
+    "name": "盗梦空间",
+    "category": "电影美学",
+    "colors": ["#1c2126", "#2b333b", "#3c4652", "#4e5b69", "#627180", "#778896", "#8da1ad", "#a5bbc4"]
+  },
+  {
+    "name": "无耻混蛋",
+    "category": "电影美学",
+    "colors": ["#1f2416", "#303823", "#434d31", "#576340", "#6c7a52", "#829165", "#9aa87d", "#b3c296"]
+  },
+  {
+    "name": "星际穿越 (黑洞)",
+    "category": "电影美学",
+    "colors": ["#000000", "#1c140a", "#382914", "#543e1e", "#73562a", "#916d36", "#b08745", "#d1a354", "#f2c166"]
+  },
+  {
+    "name": "荒野生存",
+    "category": "电影美学",
+    "colors": ["#1f2e18", "#334a27", "#496639", "#60824b", "#79a15f", "#93bf73", "#b0de8a", "#cfff9e"]
+  },
+  {
+    "name": "犬之岛",
+    "category": "电影美学",
+    "colors": ["#362e2b", "#524541", "#6e5c57", "#8c766f", "#ab9188", "#c9ada3", "#bf5a5a", "#e37676"]
+  },
+  {
+    "name": "大白鲨",
+    "category": "电影美学",
+    "colors": ["#051c2e", "#0e2d45", "#1a405e", "#295678", "#3a6d91", "#4d85ad", "#639ec9", "#7bb8e6"]
+  },
+  {
+    "name": "疾速追杀",
+    "category": "电影美学",
+    "colors": ["#0a0a1f", "#141433", "#20204d", "#2d2d66", "#3b3b80", "#54428f", "#754a9e", "#9954ad"]
+  },
+  {
+    "name": "乔乔的异想世界",
+    "category": "电影美学",
+    "colors": ["#2e2a14", "#4f4722", "#736732", "#968742", "#baba55", "#dede6a", "#e87b67", "#f2a091"]
+  },
+  {
+    "name": "杀死比尔",
+    "category": "电影美学",
+    "colors": ["#362a00", "#5c4800", "#826600", "#a88400", "#cfa300", "#f5c100", "#ffdb4d", "#cf1d1d"]
+  },
+  {
+    "name": "阿拉伯的劳伦斯",
+    "category": "电影美学",
+    "colors": ["#6e4c30", "#8c6240", "#ab7a52", "#cc9466", "#edaf7e", "#99ccee", "#bfe3fa", "#e3f4ff"]
+  },
+  {
+    "name": "少年派的奇幻漂流",
+    "category": "电影美学",
+    "colors": ["#001a33", "#003366", "#5e3e56", "#8f4448", "#bf4d3b", "#ed5b2f", "#ff8c42", "#ffc361"]
+  },
+  {
+    "name": "阳光小美女",
+    "category": "电影美学",
+    "colors": ["#4d3e05", "#735c08", "#997b0a", "#bf9a0d", "#e6b910", "#ffd714", "#ffe45e", "#fff099"]
+  },
+  {
+    "name": "迷失东京",
+    "category": "电影美学",
+    "colors": ["#1c181f", "#2e2733", "#413847", "#554a5c", "#6b5d73", "#82718a", "#9a87a3", "#b39ebd"]
+  },
+  {
+    "name": "疯狂的麦克斯：狂暴之路",
+    "category": "电影美学",
+    "colors": ["#1a0d00", "#401f05", "#66330a", "#8c480f", "#b35d49", "#d9761a", "#ff9124", "#006666"]
+  },
+  {
+    "name": "忧郁症",
+    "category": "电影美学",
+    "colors": ["#141f17", "#223326", "#324a37", "#44614a", "#577a60", "#6d9478", "#85ad91", "#9fc7ac"]
+  },
+  {
+    "name": "记忆碎片",
+    "category": "电影美学",
+    "colors": ["#2e2b26", "#454039", "#5c554c", "#756c60", "#8f8475", "#a89b8b", "#c2b4a3", "#ded1bd"]
+  },
+  {
+    "name": "大都市",
+    "category": "电影美学",
+    "colors": ["#0f0f0f", "#242424", "#383838", "#4f4f4f", "#666666", "#808080", "#999999", "#b3b3b3"]
+  },
+  {
+    "name": "午夜巴黎",
+    "category": "电影美学",
+    "colors": ["#36210b", "#543311", "#754617", "#965b1e", "#b87025", "#db872c", "#fc9f35", "#ffb861"]
+  },
+  {
+    "name": "仲夏夜惊魂",
+    "category": "电影美学",
+    "colors": ["#4a7026", "#688c3e", "#88aa59", "#a8c977", "#cbf097", "#f7f7f7", "#fff2cc", "#ffe0e0"]
+  },
+  {
+    "name": "米纳里",
+    "category": "电影美学",
+    "colors": ["#2b2112", "#45361e", "#614d2b", "#5e753a", "#7a944f", "#98b568", "#b9d685", "#dbf7a3"]
+  },
+  {
+    "name": "月光男孩",
+    "category": "电影美学",
+    "colors": ["#080a14", "#12172e", "#1e264a", "#2b3869", "#3a4c8a", "#4c63ad", "#657ed1", "#879ef2"]
+  },
+  {
+    "name": "红磨坊",
+    "category": "电影美学",
+    "colors": ["#1f0508", "#3d0a10", "#5c0f18", "#7d1621", "#9e1e2b", "#bf2836", "#e03444", "#304269"]
+  },
+  {
+    "name": "穆赫兰道",
+    "category": "电影美学",
+    "colors": ["#0d080d", "#1f131f", "#331f33", "#4a2d4a", "#613b61", "#7a4a7a", "#945b94", "#b06cb0"]
+  },
+  {
+    "name": "龙猫 (乡村)",
+    "category": "电影美学",
+    "colors": ["#1f2e14", "#334a21", "#496631", "#618542", "#7ba356", "#97c26b", "#b5e082", "#8ab3cf"]
+  },
+  {
+    "name": "老无所依",
+    "category": "电影美学",
+    "colors": ["#2e2418", "#473825", "#614d34", "#7d6343", "#997b54", "#b59466", "#d1af79", "#edca8e"]
+  },
+  {
+    "name": "老男孩",
+    "category": "电影美学",
+    "colors": ["#121411", "#1f241d", "#2d362a", "#3c4738", "#4c5947", "#5d6e58", "#6f8269", "#82967b"]
+  },
+  {
+    "name": "潘神的迷宫",
+    "category": "电影美学",
+    "colors": ["#0a121f", "#15243b", "#213759", "#2e4c7a", "#3d629c", "#8f6e2b", "#b58c38", "#dbc24f"]
+  },
+  {
+    "name": "寄生虫",
+    "category": "电影美学",
+    "colors": ["#171f18", "#243026", "#324234", "#415745", "#516b57", "#63806a", "#76967f", "#8cac96"]
+  },
+  {
+    "name": "未麻的部屋",
+    "category": "电影美学",
+    "colors": ["#2b0d0d", "#471515", "#661e1e", "#872828", "#a83333", "#cc4040", "#f04f4f", "#2b4080"]
+  },
+  {
+    "name": "燃烧女子的肖像",
+    "category": "电影美学",
+    "colors": ["#24201b", "#3d362e", "#574e43", "#736759", "#8f8170", "#ab9c88", "#c9b9a1", "#e8d7be"]
+  },
+  {
+    "name": "幽灵公主",
+    "category": "电影美学",
+    "colors": ["#122114", "#203823", "#305234", "#426e46", "#568a5c", "#6ca873", "#85c78d", "#a1e6aa"]
+  },
+  {
+    "name": "低俗小说",
+    "category": "电影美学",
+    "colors": ["#0f0f0f", "#262626", "#404040", "#595959", "#f2c230", "#f5ce56", "#f7db7c", "#fae8a3"]
+  },
+  {
+    "name": "后窗",
+    "category": "电影美学",
+    "colors": ["#361f18", "#543025", "#754334", "#965844", "#b86e56", "#db8569", "#fc9d7e", "#ffbfa8"]
+  },
+  {
+    "name": "梦之安魂曲",
+    "category": "电影美学",
+    "colors": ["#080a12", "#121726", "#1e253d", "#2b3554", "#3a476e", "#4b5b8a", "#5e71a6", "#7289c4"]
+  },
+  {
+    "name": "落水狗",
+    "category": "电影美学",
+    "colors": ["#000000", "#1a1a1a", "#333333", "#4d4d4d", "#666666", "#808080", "#999999", "#b3b3b3"]
+  },
+  {
+    "name": "罗马 (Roma)",
+    "category": "电影美学",
+    "colors": ["#171717", "#2e2e2e", "#474747", "#616161", "#7d7d7d", "#999999", "#b5b5b5", "#d4d4d4"]
+  },
+  {
+    "name": "辛德勒的名单 (红衣女孩)",
+    "category": "电影美学",
+    "colors": ["#0f0f0f", "#333333", "#595959", "#808080", "#a6a6a6", "#cc0000", "#e63939", "#ff7373"]
+  },
+  {
+    "name": "歪小子斯科特",
+    "category": "电影美学",
+    "colors": ["#2b0d24", "#4d153e", "#731f5c", "#9c2a7c", "#c7389e", "#f24bc1", "#ff7ae6", "#5ceaff"]
+  },
+  {
+    "name": "七宗罪",
+    "category": "电影美学",
+    "colors": ["#1c1a11", "#2e2b1c", "#423d29", "#575137", "#6e6646", "#857c56", "#9e9367", "#b8ac7a"]
+  },
+  {
+    "name": "水形物语",
+    "category": "电影美学",
+    "colors": ["#0b1f1e", "#163030", "#244242", "#345757", "#466e6e", "#5a8585", "#709e9e", "#8ab8b8"]
+  },
+  {
+    "name": "边境杀手",
+    "category": "电影美学",
+    "colors": ["#2e2718", "#473d26", "#615335", "#7d6b46", "#998457", "#b59e6a", "#d4bb7e", "#f2d894"]
+  },
+  {
+    "name": "沉默的羔羊",
+    "category": "电影美学",
+    "colors": ["#2e221b", "#47352b", "#634b3d", "#806250", "#9e7b66", "#bd967c", "#deb395", "#ffd1b0"]
+  },
+  {
+    "name": "罪恶之城",
+    "category": "电影美学",
+    "colors": ["#000000", "#1a1a1a", "#4d4d4d", "#808080", "#b3b3b3", "#e6e6e6", "#ff0000", "#ffffff"]
+  },
+  {
+    "name": "007：大破天幕杀机",
+    "category": "电影美学",
+    "colors": ["#1f1c18", "#363029", "#4f453b", "#695c4f", "#857463", "#a18d79", "#bda790", "#dac2a8"]
+  },
+  {
+    "name": "千与千寻",
+    "category": "电影美学",
+    "colors": ["#4a0e0e", "#701616", "#991f1f", "#c22929", "#eb3434", "#f27938", "#f7b53b", "#fce883"]
+  },
+  {
+    "name": "星球大战：新希望",
+    "category": "电影美学",
+    "colors": ["#121010", "#2b2626", "#473e3e", "#635858", "#a68868", "#ccaa85", "#e6c39c", "#f2e4d5"]
+  },
+  {
+    "name": "阴风阵阵 (1977)",
+    "category": "电影美学",
+    "colors": ["#290000", "#5c0000", "#940000", "#cc0000", "#ff0000", "#ae00ff", "#3c00ff", "#001aff"]
+  },
+  {
+    "name": "出租车司机",
+    "category": "电影美学",
+    "colors": ["#171408", "#2b250f", "#423918", "#594e22", "#73642d", "#8f7c39", "#ab9546", "#c9b055"]
+  },
+  {
+    "name": "信条",
+    "category": "电影美学",
+    "colors": ["#0a141f", "#15243b", "#223547", "#30475c", "#3e5a73", "#5c4141", "#754646", "#914d4d"]
+  },
+  {
+    "name": "黑暗骑士",
+    "category": "电影美学",
+    "colors": ["#080b12", "#121926", "#1e293d", "#2c3b54", "#3d506e", "#50678a", "#6680a6", "#7e9bc4"]
+  },
+  {
+    "name": "坠入",
+    "category": "电影美学",
+    "colors": ["#6e2c00", "#8f3e00", "#b05300", "#d46b00", "#f78600", "#008f8f", "#00b3b3", "#00d9d9"]
+  },
+  {
+    "name": "第五元素",
+    "category": "电影美学",
+    "colors": ["#e65c00", "#ff7a1f", "#ff9947", "#ffb56e", "#ffd196", "#f0f0f0", "#ffffff", "#e0f7fa"]
+  },
+  {
+    "name": "教父",
+    "category": "电影美学",
+    "colors": ["#120b05", "#24160a", "#382310", "#4d3117", "#63411f", "#7a5228", "#916533", "#a8783e"]
+  },
+  {
+    "name": "布达佩斯大饭店 (经典)",
+    "category": "电影美学",
+    "colors": ["#5c3a4d", "#804b66", "#a65c82", "#cc6fa0", "#f285bf", "#fabee0", "#e0d3de", "#c7c1d1"]
+  },
+  {
+    "name": "绿衣骑士",
+    "category": "电影美学",
+    "colors": ["#0b1208", "#172411", "#25381b", "#354f27", "#466634", "#598042", "#6c9c51", "#82b861"]
+  },
+  {
+    "name": "灯塔",
+    "category": "电影美学",
+    "colors": ["#080808", "#1c1c1c", "#303030", "#454545", "#5c5c5c", "#737373", "#8a8a8a", "#a3a3a3"]
+  },
+  {
+    "name": "狮子王",
+    "category": "电影美学",
+    "colors": ["#4f2c04", "#704108", "#94590d", "#b87314", "#db901c", "#fcae26", "#ffcc5c", "#ffeb99"]
+  },
+  {
+    "name": "火星救援",
+    "category": "电影美学",
+    "colors": ["#361109", "#571d11", "#7a2b1a", "#9e3a24", "#c24a2f", "#e65c3b", "#ff7b5c", "#ff9e85"]
+  },
+  {
+    "name": "黑客帝国",
+    "category": "电影美学",
+    "colors": ["#050d05", "#0d1f0d", "#173317", "#234a23", "#316131", "#417a41", "#539453", "#69b069"]
+  },
+  {
+    "name": "荒野猎人",
+    "category": "电影美学",
+    "colors": ["#1a1f21", "#2e363b", "#444f57", "#5c6b75", "#768994", "#92a8b5", "#b0c9d6", "#d1e8f5"]
+  },
+  {
+    "name": "天才一族",
+    "category": "电影美学",
+    "colors": ["#4a2f26", "#6b4539", "#8f5d4e", "#b37766", "#d69480", "#c45a4a", "#e37464", "#f5dcd5"]
+  },
+  {
+    "name": "楚门的世界",
+    "category": "电影美学",
+    "colors": ["#004d66", "#006b8f", "#008cb8", "#00b0e0", "#29d1ff", "#66e0ff", "#a3efff", "#e0fbff"]
+  },
+  {
+    "name": "女巫",
+    "category": "电影美学",
+    "colors": ["#21201f", "#363331", "#4d4946", "#635f5c", "#7a7673", "#918e8b", "#a8a6a4", "#c2c0bf"]
+  },
+  {
+    "name": "血色将至",
+    "category": "电影美学",
+    "colors": ["#0a0805", "#1f180f", "#33291a", "#4a3c26", "#614f33", "#7a6542", "#947c52", "#ad9463"]
+  },
+  {
+    "name": "壮志凌云：独行侠",
+    "category": "电影美学",
+    "colors": ["#3b200b", "#5e3413", "#824b1c", "#a66427", "#cc8033", "#f29e41", "#ffbd6b", "#ffe0a3"]
+  },
+  {
+    "name": "玩具总动员",
+    "category": "电影美学",
+    "colors": ["#1f4e7a", "#2e6da3", "#408ecf", "#56b0fc", "#8ac7ff", "#bde1ff", "#e6f4ff", "#ffffff"]
+  },
+  {
+    "name": "猜火车",
+    "category": "电影美学",
+    "colors": ["#2e1a05", "#4a2b0a", "#693d11", "#875119", "#a66623", "#c77e2e", "#e8983a", "#ffb459"]
+  },
+  {
+    "name": "创：战纪",
+    "category": "电影美学",
+    "colors": ["#030d0d", "#081f1f", "#0f3636", "#174f4f", "#206b6b", "#2a8a8a", "#35abab", "#42cfcf"]
+  },
+  {
+    "name": "迷魂记",
+    "category": "电影美学",
+    "colors": ["#1c331f", "#2d4f32", "#3f6e46", "#548f5d", "#6bb377", "#bd3535", "#e35252", "#ff7a7a"]
+  },
+  {
+    "name": "机器人总动员",
+    "category": "电影美学",
+    "colors": ["#3b2a1a", "#5e442b", "#825f3d", "#a87c52", "#cf9b69", "#1a2b40", "#2c4563", "#41628a"]
+  },
+  {
+    "name": "爆裂鼓手",
+    "category": "电影美学",
+    "colors": ["#291f09", "#453410", "#634b18", "#826321", "#a37d2b", "#c49836", "#e6b543", "#ffd461"]
+  },
+  {
+    "name": "华尔街之狼",
+    "category": "电影美学",
+    "colors": ["#00331f", "#005233", "#007347", "#00965e", "#b89642", "#dbb558", "#fcd672", "#ffeb99"]
+  },
+  {
+    "name": "瓶装火箭",
+    "category": "韦斯·安德森",
+    "colors": ["#F2D680", "#F2B807", "#A67F03", "#402311", "#A64B29", "#F2F2F2"]
+  },
+  {
+    "name": "青春年少",
+    "category": "韦斯·安德森",
+    "colors": ["#021859", "#0433BF", "#0D0D0D", "#A62103", "#D93D04", "#F2F2F2"]
+  },
+  {
+    "name": "天才一族 (WA版)",
+    "category": "韦斯·安德森",
+    "colors": ["#F29F8D", "#F28705", "#A66203", "#401801", "#0D0D0D", "#A62F03"]
+  },
+  {
+    "name": "水中生活",
+    "category": "韦斯·安德森",
+    "colors": ["#5496A6", "#F2C53D", "#F25C05", "#D92B04", "#A61B03", "#041B26"]
+  },
+  {
+    "name": "穿越大吉岭",
+    "category": "韦斯·安德森",
+    "colors": ["#F2A007", "#F25C05", "#590202", "#012340", "#4A8C92", "#B8D9D0"]
+  },
+  {
+    "name": "了不起的狐狸爸爸",
+    "category": "韦斯·安德森",
+    "colors": ["#F2C84B", "#F28705", "#D96704", "#A64B03", "#592E02", "#F2E8C4"]
+  },
+  {
+    "name": "月升王国 (WA版)",
+    "category": "韦斯·安德森",
+    "colors": ["#D9B657", "#BF9C47", "#8C783C", "#5D7338", "#455928", "#D9695F"]
+  },
+  {
+    "name": "布达佩斯大饭店 (WA版)",
+    "category": "韦斯·安德森",
+    "colors": ["#5D2E46", "#B55B5F", "#E68478", "#FCAE91", "#FDDBC7", "#D1C2D9", "#9484A1", "#524461"]
+  },
+  {
+    "name": "犬之岛 (WA版)",
+    "category": "韦斯·安德森",
+    "colors": ["#D9D9D9", "#BFBFBF", "#737373", "#A60303", "#D92B2B", "#0D0D0D"]
+  },
+  {
+    "name": "法兰西特派",
+    "category": "韦斯·安德森",
+    "colors": ["#F2D16D", "#D9A84E", "#593E25", "#262626", "#505C5E", "#A4B5BF"]
+  },
+  {
+    "name": "小行星城 (WA版)",
+    "category": "韦斯·安德森",
+    "colors": ["#68C6D9", "#F2D8A7", "#F29D52", "#F25E3D", "#A62F03", "#123F53"]
+  }
 ]
