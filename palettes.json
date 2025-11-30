@@ -992,7 +992,7 @@
   { "name": "布达佩斯大饭店 (Grand Budapest)", "category": "韦斯·安德森", "tags": ["粉色", "紫色", "奢华"], "colors": ["#5D2E46", "#B55B5F", "#E68478", "#FCAE91", "#FDDBC7", "#D1C2D9", "#9484A1", "#524461"] },
   { "name": "犬之岛 (Isle of Dogs)", "category": "韦斯·安德森", "tags": ["垃圾岛", "灰白", "红色"], "colors": ["#D9D9D9", "#BFBFBF", "#737373", "#A60303", "#D92B2B", "#0D0D0D"] },
   { "name": "法兰西特派 (French Dispatch)", "category": "韦斯·安德森", "tags": ["报纸", "黑黄", "复古"], "colors": ["#F2D16D", "#D9A84E", "#593E25", "#262626", "#505C5E", "#A4B5BF"] },
-  { "name": "小行星城 (Asteroid City)", "category": "韦斯·安德森", "tags": ["沙漠", "青绿", "高亮"], "colors": ["#68C6D9", "#F2D8A7", "#F29D52", "#F25E3D", "#A62F03", "#123F53"] }
+  { "name": "小行星城 (Asteroid City)", "category": "韦斯·安德森", "tags": ["沙漠", "青绿", "高亮"], "colors": ["#68C6D9", "#F2D8A7", "#F29D52", "#F25E3D", "#A62F03", "#123F53"] },
   { 
     "name": "腓尼基计划 (Phoenician Scheme)", 
     "category": "韦斯·安德森", 
