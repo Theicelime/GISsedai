@@ -3,7 +3,7 @@ import json
 import os
 
 # ==========================================
-# 1. 页面配置 & 核心 CSS 注入 (Apple Style)
+# 1. 页面配置 & Apple 极简风格 CSS
 # ==========================================
 st.set_page_config(
     page_title="GIS Color Studio",
@@ -12,124 +12,112 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-# 注入 Apple 风格 CSS
 st.markdown("""
 <style>
-    /* 1. 字体与全局背景 - 使用系统字体栈模拟 Apple 渲染 */
+    /* 全局重置：Apple 系统字体栈 */
     body {
-        font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-        background-color: #F5F5F7; /* Apple 浅灰背景 */
+        font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        background-color: #F5F5F7; /* Apple 浅灰底色 */
         color: #1D1D1F;
     }
     
-    /* 2. 侧边栏优化 - 模拟 iPad 侧边栏 */
+    /* 侧边栏：毛玻璃质感 */
     section[data-testid="stSidebar"] {
-        background-color: rgba(255, 255, 255, 0.8);
-        backdrop-filter: blur(20px); /* 毛玻璃效果 */
+        background-color: rgba(255, 255, 255, 0.7);
+        backdrop-filter: blur(20px);
         border-right: 1px solid rgba(0,0,0,0.05);
     }
-    
-    /* 3. 卡片样式 - 核心设计元素 */
+
+    /* --- 核心组件：极简卡片 --- */
     .apple-card {
         background: #FFFFFF;
-        border-radius: 18px; /* 大圆角 */
-        padding: 16px;
-        margin-bottom: 16px;
-        border: 1px solid rgba(0,0,0,0.04);
-        box-shadow: 0 4px 12px rgba(0,0,0,0.02); /* 极轻微的阴影 */
-        transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-        position: relative;
-        overflow: hidden;
+        border-radius: 16px; /* 更加圆润 */
+        padding: 10px;       /* 减少内边距，更紧凑 */
+        margin-bottom: 8px;
+        border: 1px solid rgba(0,0,0,0.02);
+        box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+        transition: transform 0.2s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.2s;
     }
     
     .apple-card:hover {
-        transform: translateY(-4px) scale(1.005);
-        box-shadow: 0 12px 24px rgba(0,0,0,0.06); /* 悬浮加深阴影 */
+        transform: translateY(-3px);
+        box-shadow: 0 8px 16px rgba(0,0,0,0.08);
+        border-color: rgba(0,0,0,0.05);
     }
 
-    /* 4. 颜色条 - 圆润且平滑 */
+    /* 色带条：作为视觉主体 */
     .gradient-bar {
-        height: 50px;
+        height: 60px; /* 增加高度，让颜色成为主角 */
         width: 100%;
         border-radius: 10px;
-        margin-bottom: 14px;
-        /* 内部阴影增加质感 */
-        box-shadow: inset 0 0 0 1px rgba(0,0,0,0.05);
+        margin-bottom: 10px;
+        box-shadow: inset 0 0 0 1px rgba(0,0,0,0.03); /* 内描边增加精致感 */
     }
 
-    /* 5. 文字排版 */
+    /* 名称：居中、精简 */
     .card-title {
-        font-size: 15px;
-        font-weight: 600;
-        color: #1D1D1F;
-        letter-spacing: -0.01em;
-        margin-bottom: 4px;
+        font-size: 13px;
+        font-weight: 500;
+        color: #333;
+        text-align: center; /* 居中对齐，类似 App 图标名 */
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
-    }
-    
-    .card-subtitle {
-        font-size: 11px;
-        color: #86868B; /* Apple 经典的次级文本灰 */
-        font-weight: 500;
-        margin-bottom: 12px;
-        display: flex;
-        justify-content: space-between;
+        letter-spacing: -0.01em;
+        margin-bottom: 2px;
     }
 
-    /* 6. 按钮重塑 - 模拟 iOS 按钮 */
-    /* 覆盖 Streamlit 默认按钮样式 */
+    /* --- 按钮美化：iOS 风格 --- */
+    /* 覆盖 Streamlit 按钮，使其更小、更精致 */
     div.stButton > button {
-        border-radius: 980px !important; /* 胶囊形状 */
-        border: none !important;
-        background-color: #F5F5F7 !important;
+        border-radius: 20px !important;
+        border: 1px solid rgba(0,0,0,0.05) !important;
+        background-color: #FBFBFD !important;
         color: #0071E3 !important; /* Apple Blue */
+        font-size: 12px !important;
         font-weight: 500 !important;
-        font-size: 13px !important;
-        padding: 4px 12px !important;
-        transition: all 0.2s ease !important;
+        padding: 2px 10px !important;
+        height: auto !important;
+        min-height: 28px !important;
         box-shadow: none !important;
+        transition: all 0.2s !important;
     }
-    
+
     div.stButton > button:hover {
         background-color: #0071E3 !important;
-        color: white !important;
-    }
-    
-    div.stButton > button:active {
-        transform: scale(0.96);
+        color: #fff !important;
+        border-color: #0071E3 !important;
     }
 
-    /* 特定状态按钮：已选中的样式 */
+    /* 已选状态按钮 */
     div[data-testid="column"] button[kind="secondary"] {
         background-color: #E8F2FF !important;
         color: #0071E3 !important;
+        border: 1px solid transparent !important;
     }
 
-    /* 顶部 Hero 区域文字 */
+    /* 顶部 Hero 文字 */
     .hero-title {
-        font-size: 48px;
+        font-size: 32px;
         font-weight: 700;
-        letter-spacing: -0.02em;
+        letter-spacing: -0.03em;
         color: #1D1D1F;
+        margin-bottom: 4px;
     }
     .hero-sub {
-        font-size: 24px;
+        font-size: 16px;
         color: #86868B;
         font-weight: 400;
-        margin-bottom: 40px;
+        margin-bottom: 24px;
     }
     
-    /* 隐藏 Streamlit 默认头部 */
-    header[data-testid="stHeader"] {
-        background: transparent;
-    }
+    /* 隐藏默认 Header */
+    header[data-testid="stHeader"] {background: transparent;}
 </style>
 """, unsafe_allow_html=True)
 
 # ==========================================
-# 2. 逻辑层 (保持不变，确保稳定性)
+# 2. 逻辑处理
 # ==========================================
 def init_session():
     if 'selected_ramps' not in st.session_state:
@@ -147,19 +135,22 @@ def sync_multiselect():
 @st.cache_data
 def load_data():
     all_data = []
+    # 尝试加载数据
     if os.path.exists('palettes.json'):
         try:
             with open('palettes.json', 'r', encoding='utf-8') as f:
                 all_data.extend(json.load(f))
         except: pass
     
-    # 去重
+    # 数据清洗与去重
     seen = set()
     unique_data = []
     for item in all_data:
-        if item['name'] not in seen:
-            unique_data.append(item)
-            seen.add(item['name'])
+        # 确保基本字段存在
+        if 'name' in item and 'colors' in item:
+            if item['name'] not in seen:
+                unique_data.append(item)
+                seen.add(item['name'])
     return unique_data
 
 def hex_to_rgb(hex_code):
@@ -177,120 +168,119 @@ def get_gradient_css(colors):
     return f"linear-gradient(to right, {', '.join(colors)})"
 
 # ==========================================
-# 3. 页面渲染 (Apple Layout)
+# 3. 页面渲染
 # ==========================================
 init_session()
 all_ramps = load_data()
 all_names = [r['name'] for r in all_ramps]
 
-# --- 侧边栏 (极简风格) ---
+# --- 侧边栏：动态分类修复 ---
 with st.sidebar:
-    st.markdown("###  GIS Color Studio")
-    st.write("") # Spacer
+    st.markdown("###  Color Studio")
     
-    # 分类筛选
-    cats = ["全部"] + sorted(list(set(r.get('category', '未分类') for r in all_ramps)))
-    # 强制让 "韦斯·安德森" 排在前面方便查找
-    if "韦斯·安德森" in cats:
-        cats.remove("韦斯·安德森")
-        cats.insert(1, "韦斯·安德森")
+    # 核心修复：动态提取 JSON 中的所有分类，不依赖硬编码
+    # 使用 set 推导式提取所有 category，如果字段不存在则归为 'Other'
+    unique_categories = set(r.get('category', 'Other') for r in all_ramps)
+    
+    # 排序：将 'Other' 放最后，其余字母排序，也可以特定置顶
+    sorted_cats = sorted(list(unique_categories))
+    
+    # 如果你想让韦斯安德森置顶（可选，如果不想硬编码可删除这两行）
+    if "韦斯·安德森" in sorted_cats:
+        sorted_cats.remove("韦斯·安德森")
+        sorted_cats.insert(0, "韦斯·安德森")
         
-    sel_cat = st.selectbox("浏览分类", cats)
+    cats_display = ["全部"] + sorted_cats
+    
+    sel_cat = st.selectbox("分类", cats_display)
     search = st.text_input("搜索", placeholder="Search...")
     
     st.divider()
     
-    # 导出区域 (Sidebar 底部)
-    st.markdown("#### 导出管理")
+    # 导出模块
     if st.session_state.selected_ramps:
-        st.caption(f"已选择 {len(st.session_state.selected_ramps)} 个色带")
+        st.caption(f"已选 {len(st.session_state.selected_ramps)} 项")
         export_data = [r for r in all_ramps if r['name'] in st.session_state.selected_ramps]
         st.download_button(
-            "下载 JSON 配置包",
+            "导出 JSON",
             data=json.dumps(export_data, indent=2, ensure_ascii=False),
             file_name="gis_colors.json",
             mime="application/json",
-            type="primary", # 会显示为主色调
+            type="primary",
             use_container_width=True
         )
     else:
-        st.caption("暂未选择任何色带")
-        st.button("下载 (空)", disabled=True, use_container_width=True)
+        st.button("导出 (空)", disabled=True, use_container_width=True)
 
-# --- 主内容区 (Hero Header) ---
-st.markdown('<div class="hero-title">GIS Color Studio.</div>', unsafe_allow_html=True)
-st.markdown('<div class="hero-sub">Pro-grade cinematic palettes for ArcGIS & QGIS.</div>', unsafe_allow_html=True)
+# --- 主界面 ---
 
-# 确保状态同步
+# 状态同步修复
 valid_selections = [n for n in st.session_state.selected_ramps if n in all_names]
 st.session_state.selected_ramps = valid_selections
 
-# 快速选择栏 (顶部悬浮感)
-with st.container():
-    st.multiselect(
-        "Add to Library:",
-        options=all_names,
-        default=st.session_state.selected_ramps,
-        key="ms_widget",
-        on_change=sync_multiselect,
-        placeholder="Search for movies, styles..."
-    )
+# Hero 区域
+st.markdown('<div class="hero-title">Library.</div>', unsafe_allow_html=True)
+st.markdown('<div class="hero-sub">Cinematic color palettes for cartography.</div>', unsafe_allow_html=True)
 
+# 顶部搜索栏 (集成购物车)
+st.multiselect(
+    "Quick Add:",
+    options=all_names,
+    default=st.session_state.selected_ramps,
+    key="ms_widget",
+    on_change=sync_multiselect,
+    placeholder="Search and add to export list...",
+    label_visibility="collapsed" # 隐藏标签，更极简
+)
 st.write("") # Spacer
 
 # --- 筛选逻辑 ---
 filtered = all_ramps
 if sel_cat != "全部":
-    filtered = [r for r in filtered if r.get('category') == sel_cat]
+    filtered = [r for r in filtered if r.get('category', 'Other') == sel_cat]
 if search:
     s = search.lower()
     filtered = [r for r in filtered if s in r['name'].lower() or any(s in t.lower() for t in r.get('tags', []))]
 
 # --- 网格展示 (Grid) ---
 if not filtered:
-    st.warning("No palettes found.")
+    st.info("No palettes found.")
 else:
-    # 4 列布局，更加开阔
+    # 4列布局 (Apple Photos 风格)
     cols = st.columns(4)
     
     for idx, ramp in enumerate(filtered):
         with cols[idx % 4]:
             
-            # 卡片主体 (HTML)
+            # 1. 极简卡片 (只含色带 + 名称)
             st.markdown(f"""
             <div class="apple-card">
                 <div class="gradient-bar" style="background: {get_gradient_css(ramp['colors'])}"></div>
                 <div class="card-title" title="{ramp['name']}">{ramp['name']}</div>
-                <div class="card-subtitle">
-                    <span>{ramp.get('category')}</span>
-                    <span>{len(ramp['colors'])} Colors</span>
-                </div>
             </div>
             """, unsafe_allow_html=True)
             
-            # 按钮组 (独立于 Card div，利用 Streamlit 的布局)
-            # 使用 container 模拟卡片底部的操作区
-            c_btn1, c_btn2 = st.columns([1, 1])
+            # 2. 隐形操作栏 (布局在卡片下方)
+            # 使用 Streamlit 原生 columns 进行布局控制
+            c1, c2 = st.columns([1, 1])
             
             name = ramp['name']
-            is_in = name in st.session_state.selected_ramps
+            is_selected = name in st.session_state.selected_ramps
             
-            with c_btn1:
-                # 根据状态改变按钮文字和样式
-                if is_in:
-                    st.button("Remove", key=f"rem_{idx}", on_click=toggle_ramp, args=(name,), use_container_width=True, type="secondary")
+            with c1:
+                if is_selected:
+                    st.button("Remove", key=f"btn_r_{idx}", on_click=toggle_ramp, args=(name,), type="secondary", use_container_width=True)
                 else:
-                    st.button("Add", key=f"add_{idx}", on_click=toggle_ramp, args=(name,), use_container_width=True)
+                    st.button("Add", key=f"btn_a_{idx}", on_click=toggle_ramp, args=(name,), use_container_width=True)
             
-            with c_btn2:
+            with c2:
                 st.download_button(
-                    "CLR",
-                    data=generate_clr(ramp['colors']),
-                    file_name=f"{name.replace(' ', '_')}.clr",
-                    key=f"dl_{idx}",
+                    "CLR", 
+                    data=generate_clr(ramp['colors']), 
+                    file_name=f"{name}.clr", 
+                    key=f"btn_d_{idx}", 
                     use_container_width=True
                 )
             
-            # 增加底部间距
-            st.write("") 
+            # 底部留白
             st.write("")
