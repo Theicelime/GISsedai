@@ -981,5 +981,22 @@
   { "name": "Vertigo", "category": "Movies", "tags": ["Hitchcock", "Green", "Red"], "colors": ["#1c331f", "#2d4f32", "#3f6e46", "#548f5d", "#6bb377", "#bd3535", "#e35252", "#ff7a7a"] },
   { "name": "Wall E", "category": "Movies", "tags": ["Animation", "Earth", "Space"], "colors": ["#3b2a1a", "#5e442b", "#825f3d", "#a87c52", "#cf9b69", "#1a2b40", "#2c4563", "#41628a"] },
   { "name": "Whiplash", "category": "Movies", "tags": ["Drama", "Gold", "Sweat"], "colors": ["#291f09", "#453410", "#634b18", "#826321", "#a37d2b", "#c49836", "#e6b543", "#ffd461"] },
-  { "name": "Wolf of Wall Street", "category": "Movies", "tags": ["Comedy", "Money", "Teal"], "colors": ["#00331f", "#005233", "#007347", "#00965e", "#b89642", "#dbb558", "#fcd672", "#ffeb99"] }
+  { "name": "Wolf of Wall Street", "category": "Movies", "tags": ["Comedy", "Money", "Teal"], "colors": ["#00331f", "#005233", "#007347", "#00965e", "#b89642", "#dbb558", "#fcd672", "#ffeb99"] },
+  { "name": "瓶装火箭 (Bottle Rocket)", "category": "韦斯·安德森", "tags": ["早期", "黄色", "复古"], "colors": ["#F2D680", "#F2B807", "#A67F03", "#402311", "#A64B29", "#F2F2F2"] },
+  { "name": "青春年少 (Rushmore)", "category": "韦斯·安德森", "tags": ["校园", "深蓝", "红色"], "colors": ["#021859", "#0433BF", "#0D0D0D", "#A62103", "#D93D04", "#F2F2F2"] },
+  { "name": "天才一族 (Royal Tenenbaums)", "category": "韦斯·安德森", "tags": ["家庭", "粉色", "驼色"], "colors": ["#F29F8D", "#F28705", "#A66203", "#401801", "#0D0D0D", "#A62F03"] },
+  { "name": "水中生活 (Life Aquatic)", "category": "韦斯·安德森", "tags": ["海洋", "天蓝", "红色帽"], "colors": ["#5496A6", "#F2C53D", "#F25C05", "#D92B04", "#A61B03", "#041B26"] },
+  { "name": "穿越大吉岭 (Darjeeling Limited)", "category": "韦斯·安德森", "tags": ["印度", "橙色", "青色"], "colors": ["#F2A007", "#F25C05", "#590202", "#012340", "#4A8C92", "#B8D9D0"] },
+  { "name": "了不起的狐狸爸爸 (Mr. Fox)", "category": "韦斯·安德森", "tags": ["秋天", "橙黄", "定格"], "colors": ["#F2C84B", "#F28705", "#D96704", "#A64B03", "#592E02", "#F2E8C4"] },
+  { "name": "月升王国 (Moonrise Kingdom)", "category": "韦斯·安德森", "tags": ["童子军", "卡其", "绿色"], "colors": ["#D9B657", "#BF9C47", "#8C783C", "#5D7338", "#455928", "#D9695F"] },
+  { "name": "布达佩斯大饭店 (Grand Budapest)", "category": "韦斯·安德森", "tags": ["粉色", "紫色", "奢华"], "colors": ["#5D2E46", "#B55B5F", "#E68478", "#FCAE91", "#FDDBC7", "#D1C2D9", "#9484A1", "#524461"] },
+  { "name": "犬之岛 (Isle of Dogs)", "category": "韦斯·安德森", "tags": ["垃圾岛", "灰白", "红色"], "colors": ["#D9D9D9", "#BFBFBF", "#737373", "#A60303", "#D92B2B", "#0D0D0D"] },
+  { "name": "法兰西特派 (French Dispatch)", "category": "韦斯·安德森", "tags": ["报纸", "黑黄", "复古"], "colors": ["#F2D16D", "#D9A84E", "#593E25", "#262626", "#505C5E", "#A4B5BF"] },
+  { "name": "小行星城 (Asteroid City)", "category": "韦斯·安德森", "tags": ["沙漠", "青绿", "高亮"], "colors": ["#68C6D9", "#F2D8A7", "#F29D52", "#F25E3D", "#A62F03", "#123F53"] }
+  { 
+    "name": "腓尼基计划 (Phoenician Scheme)", 
+    "category": "韦斯·安德森", 
+    "tags": ["2025新作", "间谍", "沙漠土黄"], 
+    "colors": ["#E6DCC3", "#C4B295", "#8C6E52", "#5A6E5A", "#8F3D3D", "#2B3A42", "#1A1A1A"] 
+  }
 ]
