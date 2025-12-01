@@ -1,6 +1,12 @@
 import streamlit as st
 import json
 import os
+import numpy as np
+
+# 新增库
+import rasterio
+import matplotlib.pyplot as plt
+from matplotlib.colors import LinearSegmentedColormap
 
 # ==========================================
 # 1. 核心配置 & Apple 风格 CSS
@@ -50,7 +56,7 @@ st.markdown("""
         width: 100%;
         border-radius: 10px;
         margin-bottom: 10px;
-        box-shadow: inset 0 0 0 1px rgba(0,0,0,0.03); /* 内描边，增加质感 */
+        box-shadow: inset 0 0 0 1px rgba(0,0,0,0.03); 
     }
 
     /* 标题样式 */
@@ -70,7 +76,7 @@ st.markdown("""
         border-radius: 20px !important;
         border: 1px solid rgba(0,0,0,0.05) !important;
         background-color: #FBFBFD !important;
-        color: #0071E3 !important; /* Apple Blue */
+        color: #0071E3 !important; 
         font-size: 12px !important;
         font-weight: 500 !important;
         padding: 4px 12px !important;
@@ -82,13 +88,6 @@ st.markdown("""
     div.stButton > button:hover {
         background-color: #0071E3 !important;
         color: #fff !important;
-    }
-    
-    /* 选中状态按钮 */
-    div[data-testid="column"] button[kind="secondary"] {
-        background-color: #E8F2FF !important;
-        color: #0071E3 !important;
-        border-color: transparent !important;
     }
 
     /* 顶部大标题 */
@@ -106,7 +105,16 @@ st.markdown("""
         margin-bottom: 30px;
     }
     
-    /* 隐藏 Streamlit 默认头部 */
+    /* 可视化预览区样式 */
+    .viz-container {
+        background: white;
+        padding: 20px;
+        border-radius: 20px;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+        margin-bottom: 30px;
+        text-align: center;
+    }
+    
     header[data-testid="stHeader"] {background: transparent;}
 </style>
 """, unsafe_allow_html=True)
@@ -117,12 +125,22 @@ st.markdown("""
 def init_session():
     if 'selected_ramps' not in st.session_state:
         st.session_state.selected_ramps = []
+    # 新增：用于存储当前预览的色带
+    if 'preview_colors' not in st.session_state:
+        st.session_state.preview_colors = None
+    if 'preview_name' not in st.session_state:
+        st.session_state.preview_name = None
 
 def toggle_ramp(name):
     if name in st.session_state.selected_ramps:
         st.session_state.selected_ramps.remove(name)
     else:
         st.session_state.selected_ramps.append(name)
+
+# 新增：点击“渲染”按钮的回调
+def set_preview(name, colors):
+    st.session_state.preview_name = name
+    st.session_state.preview_colors = colors
 
 def sync_multiselect():
     st.session_state.selected_ramps = st.session_state.ms_widget
@@ -144,17 +162,49 @@ def generate_clr(colors):
 def get_gradient_css(colors):
     return f"linear-gradient(to right, {', '.join(colors)})"
 
+# 新增：DEM 绘图核心函数
+def plot_dem(dem_file, colors):
+    """
+    读取 DEM 并应用颜色。
+    为了网页性能，会自动降采样(Thumbnail)。
+    """
+    with rasterio.open(dem_file) as src:
+        # 计算缩放比例，限制最大宽度为 800px，防止大文件卡死
+        max_dim = 800
+        scale = min(1.0, max_dim / max(src.width, src.height))
+        
+        if scale < 1.0:
+            new_height = int(src.height * scale)
+            new_width = int(src.width * scale)
+            data = src.read(1, out_shape=(new_height, new_width), resampling=rasterio.enums.Resampling.bilinear)
+        else:
+            data = src.read(1)
+            
+        # 处理 NoData 值 (通常转为 NaN)
+        data = data.astype('float32')
+        if src.nodata is not None:
+            data[data == src.nodata] = np.nan
+            
+    # 创建 Matplotlib 色带
+    cmap = LinearSegmentedColormap.from_list("custom_ramp", colors)
+    
+    # 绘图
+    fig, ax = plt.subplots(figsize=(10, 6))
+    # 隐藏坐标轴
+    ax.axis('off')
+    # 绘制图像，使用 aspect='auto' 或 'equal'
+    im = ax.imshow(data, cmap=cmap, interpolation='nearest')
+    plt.tight_layout(pad=0)
+    return fig
+
 @st.cache_data
 def load_data():
-    """带错误诊断的数据加载"""
     file_path = 'palettes.json'
     if not os.path.exists(file_path):
         return [], None
-
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
             data = json.load(f)
-            # 兼容性处理：如果是嵌套列表 [[...]]，则展平
             if isinstance(data, list) and len(data) > 0 and isinstance(data[0], list):
                 flat_data = []
                 for sublist in data:
@@ -162,22 +212,9 @@ def load_data():
                 data = flat_data
             return data, None
     except json.JSONDecodeError as e:
-        # 捕获具体错误行内容
-        with open(file_path, 'r', encoding='utf-8') as f:
-            lines = f.readlines()
-        error_context = "无法读取上下文"
-        if 0 <= e.lineno - 1 < len(lines):
-            error_context = lines[e.lineno - 1].strip()
-        
-        error_msg = {
-            "msg": e.msg,
-            "line": e.lineno,
-            "col": e.colno,
-            "context": error_context
-        }
-        return [], error_msg
+        return [], {"msg": e.msg, "line": e.lineno}
     except Exception as e:
-        return [], {"msg": str(e), "line": 0, "col": 0, "context": "未知错误"}
+        return [], {"msg": str(e), "line": 0}
 
 # ==========================================
 # 3. 页面渲染
@@ -185,26 +222,28 @@ def load_data():
 init_session()
 all_ramps, error_info = load_data()
 
-# --- 错误处理 UI ---
 if error_info:
-    st.error("❌ 数据文件 (palettes.json) 格式有误，请检查！")
-    with st.expander("点击查看错误详情 (诊断模式)", expanded=True):
-        st.markdown(f"**错误原因**: `{error_info['msg']}`")
-        st.markdown(f"**出错位置**: 第 `{error_info['line']}` 行")
-        st.markdown("**问题代码片段**:")
-        st.code(error_info['context'], language="json")
-        st.info("💡 提示：如果是 'Expecting ',' delimiter'，通常意味着这一行的上一行末尾少了一个逗号 `,`，或者这一行缺少逗号。")
-    st.stop() # 停止渲染其余部分
+    st.error("❌ 数据文件错误")
+    st.stop()
 
-# --- 正常渲染 ---
 all_names = [r['name'] for r in all_ramps]
-valid_selections = [n for n in st.session_state.selected_ramps if n in all_names]
-st.session_state.selected_ramps = valid_selections
+st.session_state.selected_ramps = [n for n in st.session_state.selected_ramps if n in all_names]
 
-# 侧边栏
+# --- 侧边栏 ---
 with st.sidebar:
     st.markdown("###  Color Studio")
     
+    # DEM 上传区域 (新增)
+    st.markdown("#### 🏔️ 地理可视化")
+    uploaded_dem = st.file_uploader("上传 DEM (TIF格式)", type=['tif', 'tiff'])
+    if uploaded_dem:
+        st.caption("✅ DEM 已加载，点击右侧卡片上的 '👁️' 按钮即可渲染。")
+    else:
+        st.caption("上传高程数据，实时预览色带效果。")
+
+    st.divider()
+
+    # 原有筛选逻辑
     unique_categories = set(r.get('category', '其他') for r in all_ramps)
     sorted_cats = sorted(list(unique_categories))
     if "韦斯·安德森" in sorted_cats:
@@ -218,37 +257,37 @@ with st.sidebar:
     st.divider()
     
     if st.session_state.selected_ramps:
-        st.caption(f"已选 {len(st.session_state.selected_ramps)} 项")
         export_data = [r for r in all_ramps if r['name'] in st.session_state.selected_ramps]
         st.download_button(
-            "导出 JSON 配置包",
+            "导出配置包 (JSON)",
             data=json.dumps(export_data, indent=2, ensure_ascii=False),
             file_name="gis_colors.json",
             mime="application/json",
             type="primary",
             use_container_width=True
         )
-    else:
-        st.button("导出 (空)", disabled=True, use_container_width=True)
 
-# 主界面 Hero
+# --- 主界面 ---
 st.markdown('<div class="hero-title">Color Library.</div>', unsafe_allow_html=True)
 st.markdown('<div class="hero-sub">Cinematic & Scientific palettes for ArcGIS Pro.</div>', unsafe_allow_html=True)
 
-# 快速添加栏
-if all_names:
-    st.multiselect(
-        "Quick Add:",
-        options=all_names,
-        default=st.session_state.selected_ramps,
-        key="ms_widget",
-        on_change=sync_multiselect,
-        placeholder="搜索并添加到导出列表...",
-        label_visibility="collapsed"
-    )
-st.write("")
+# === 🌟 可视化预览区 (核心新增功能) ===
+if st.session_state.preview_colors:
+    if uploaded_dem:
+        st.markdown(f"#### 👁️ Preview: {st.session_state.preview_name}")
+        with st.container():
+            # 使用 spinner 防止绘图时界面卡顿
+            with st.spinner(f"正在渲染 {st.session_state.preview_name} ..."):
+                fig = plot_dem(uploaded_dem, st.session_state.preview_colors)
+                st.pyplot(fig, use_container_width=True)
+                plt.close(fig) # 释放内存
+    else:
+        # 如果点了渲染但没传文件，给个提示
+        st.warning("☝️ 请先在左侧侧边栏上传 DEM (TIF) 文件，才能进行地理可视化。")
 
-# 筛选
+st.divider()
+
+# --- 筛选与列表 ---
 filtered = all_ramps
 if sel_cat != "全部":
     filtered = [r for r in filtered if r.get('category', '其他') == sel_cat]
@@ -256,7 +295,6 @@ if search:
     s = search.lower()
     filtered = [r for r in filtered if s in r['name'].lower()]
 
-# 网格展示
 if not filtered:
     st.info("未找到相关色带。")
 else:
@@ -270,15 +308,34 @@ else:
             </div>
             """, unsafe_allow_html=True)
             
-            c1, c2 = st.columns([1, 1])
-            name = ramp['name']
-            is_sel = name in st.session_state.selected_ramps
+            # 按钮布局：增加了一个可视化按钮
+            c1, c2, c3 = st.columns([1, 1, 1], gap="small")
             
+            name = ramp['name']
+            
+            # 1. 渲染按钮 (可视化)
             with c1:
-                if is_sel:
-                    st.button("Remove", key=f"r_{idx}", on_click=toggle_ramp, args=(name,), type="secondary", use_container_width=True)
-                else:
-                    st.button("Add", key=f"a_{idx}", on_click=toggle_ramp, args=(name,), use_container_width=True)
+                # 使用回调函数更新 session_state
+                st.button("👁️", key=f"v_{idx}", help="在地图上预览", 
+                          on_click=set_preview, args=(name, ramp['colors']), 
+                          use_container_width=True)
+            
+            # 2. 加入/移除按钮
             with c2:
-                st.download_button("CLR", data=generate_clr(ramp['colors']), file_name=f"{name}.clr", key=f"d_{idx}", use_container_width=True)
+                is_sel = name in st.session_state.selected_ramps
+                if is_sel:
+                    st.button("✓", key=f"r_{idx}", help="从导出列表移除", 
+                              on_click=toggle_ramp, args=(name,), 
+                              type="secondary", use_container_width=True)
+                else:
+                    st.button("＋", key=f"a_{idx}", help="加入导出列表", 
+                              on_click=toggle_ramp, args=(name,), 
+                              use_container_width=True)
+            
+            # 3. 下载按钮
+            with c3:
+                st.download_button("⬇", data=generate_clr(ramp['colors']), 
+                                   file_name=f"{name}.clr", key=f"d_{idx}", 
+                                   help="下载 .clr", use_container_width=True)
+            
             st.write("")
