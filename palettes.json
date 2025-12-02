@@ -1403,5 +1403,67 @@
     "name": "虢国夫人游春图 (Lady Guoguo's Spring Outing)",
     "category": "东方美学",
     "colors": ["#F5F0E6", "#E8D5D1", "#D1ABA6", "#A8C2A8", "#7A997A", "#5E4637"]
+  },
+  [
+  {
+    "name": "千里江山图 (A Thousand Li of Rivers and Mountains)",
+    "category": "东方美学",
+    "colors": ["#F2EBD9", "#E6D4A9", "#94BD9C", "#4FA89B", "#267585", "#144A66"]
+  },
+  {
+    "name": "富春山居图 (Dwelling in the Fuchun Mountains)",
+    "category": "东方美学",
+    "colors": ["#E8DFCA", "#C8BFA8", "#A59E8B", "#827D6F", "#605C53", "#3E3C38"]
+  },
+  {
+    "name": "洛神赋图 (The Nymph of the Luo River)",
+    "category": "东方美学",
+    "colors": ["#F5F0E6", "#E1D5C7", "#C4A792", "#7C6756", "#554738", "#2E211C"]
+  },
+  {
+    "name": "步辇图 (Imperial Carriage)",
+    "category": "东方美学",
+    "colors": ["#EDE6D8", "#D4C5AB", "#B09E7E", "#8B7359", "#674E3F", "#3D2C22"]
+  },
+  {
+    "name": "唐宫仕女图 (Court Ladies of the Tang Dynasty)",
+    "category": "东方美学",
+    "colors": ["#F8EDE9", "#F0C9C5", "#D7959A", "#A74D5B", "#7A2E3C", "#4D1622"]
+  },
+  {
+    "name": "五牛图 (Five Oxen)",
+    "category": "东方美学",
+    "colors": ["#EFEBE0", "#D6C6A1", "#BDA862", "#9C7C3C", "#7A5A21", "#523B14"]
+  },
+  {
+    "name": "韩熙载夜宴图 (The Night Revels of Han Xizai)",
+    "category": "东方美学",
+    "colors": ["#F4EFE7", "#E8DBC8", "#C9A989", "#A87D5F", "#7D5537", "#51301D"]
+  },
+  {
+    "name": "清明上河图 (Along the River During the Qingming Festival)",
+    "category": "东方美学",
+    "colors": ["#F1EDDE", "#DAD4B4", "#B6B08B", "#817A5E", "#595340", "#363123"]
+  },
+  {
+    "name": "汉宫春晓图 (Spring Morning in the Han Palace)",
+    "category": "东方美学",
+    "colors": ["#F0F1E9", "#D7DDCB", "#AEC0A1", "#7FA37A", "#5A7F5C", "#3A5B40"]
+  },
+  {
+    "name": "百骏图 (One Hundred Horses)",
+    "category": "东方美学",
+    "colors": ["#E8EEE5", "#C7D8CC", "#9FBCA9", "#6F9B83", "#4A785F", "#2E553F"]
+  },
+  {
+    "name": "洛神赋全图 (The Ode of the Goddess of the Luo)",
+    "category": "东方美学",
+    "colors": ["#F3F1EC", "#E0D7CC", "#B8AA9A", "#8F7D69", "#6B5948", "#45372B"]
+  },
+  {
+    "name": "女史箴图 (The Admonitions Scroll)",
+    "category": "东方美学",
+    "colors": ["#F2EDE5", "#DBCFBD", "#B8A28A", "#917559", "#6C533E", "#463528"]
   }
+]
 ]
