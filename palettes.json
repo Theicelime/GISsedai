@@ -1413,5 +1413,66 @@
     "name": "听琴图 (Listening to the Qin)",
     "category": "东方美学",
     "colors": ["#DED9C8", "#B8C2B0", "#8FA68F", "#67826F", "#465E50", "#26362E"]
+  },
+  {
+    "name": "千里江山图 (A Thousand Li of Rivers and Mountains)",
+    "category": "东方美学",
+    "colors": ["#F2EBD9", "#D6CFA1", "#94BD9C", "#4FA89B", "#267585", "#144A66"]
+  },
+  {
+    "name": "富春山居图 (Dwelling in the Fuchun Mountains)",
+    "category": "东方美学",
+    "colors": ["#F5F5F0", "#E3E1D1", "#C7C4B1", "#9C9989", "#737063", "#4A473E"]
+  },
+  {
+    "name": "瑞鹤图 (Auspicious Cranes)",
+    "category": "东方美学",
+    "colors": ["#F7FAFC", "#D9E8F5", "#A8CDE6", "#70A6D1", "#4282B3", "#235C8A"]
+  },
+  {
+    "name": "清明上河图 (Along the River During the Qingming Festival)",
+    "category": "东方美学",
+    "colors": ["#EBE3D3", "#D4C2A3", "#B8A382", "#947E5E", "#705C40", "#4F3E29"]
+  },
+  {
+    "name": "桃源仙境图 (Pavilions in Mountains of the Immortals)",
+    "category": "东方美学",
+    "colors": ["#F2F7E8", "#CCDECF", "#89C9B8", "#45A1A3", "#277080", "#164A57"]
+  },
+  {
+    "name": "簪花仕女图 (Court Ladies Wearing Flowered Headdresses)",
+    "category": "东方美学",
+    "colors": ["#F2E6DC", "#E8C8B5", "#D9988C", "#C26155", "#99332E", "#661414"]
+  },
+  {
+    "name": "洛神赋图 (Nymph of the Luo River)",
+    "category": "东方美学",
+    "colors": ["#E0D6C3", "#C2B595", "#9CA37E", "#728562", "#4D6345", "#2C402E"]
+  },
+  {
+    "name": "汉宫春晓图 (Spring Morning in the Han Palace)",
+    "category": "东方美学",
+    "colors": ["#F5F2E9", "#D9E3CC", "#A8C9B5", "#70A395", "#4D8076", "#3E5C56"]
+  },
+  {
+    "name": "韩熙载夜宴图 (The Night Revels of Han Xizai)",
+    "category": "东方美学",
+    "colors": ["#EBE0CC", "#C2B499", "#8F9C86", "#5C7561", "#365243", "#1D2E24"]
+  },
+  {
+    "name": "早春图 (Early Spring)",
+    "category": "东方美学",
+    "colors": ["#E8E3D8", "#CFC6B4", "#B0A48D", "#8F8066", "#6B5D45", "#473B29"]
+  },
+  {
+    "name": "虢国夫人游春图 (Lady Guoguo's Spring Outing)",
+    "category": "东方美学",
+    "colors": ["#F7F2EB", "#EBD6D3", "#D4ACAC", "#B58282", "#945C5C", "#693838"]
+  },
+  {
+    "name": "五牛图 (Five Oxen)",
+    "category": "东方美学",
+    "colors": ["#F2ECDE", "#E6D5A8", "#CCB37A", "#AD9257", "#8A7039", "#5E4922"]
   }
+]
 ]
