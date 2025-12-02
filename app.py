@@ -191,4 +191,147 @@ def load_data_raw():
         with open(file_path, 'r', encoding='utf-8') as f:
             data = json.load(f)
             # 处理可能的嵌套列表
-            if isinstance(data, list) and len(data) > 0
+            if isinstance(data, list) and len(data) > 0 and isinstance(data[0], list):
+                flat = []
+                for sub in data: flat.extend(sub)
+                data = flat
+            return data, None
+    except Exception as e:
+        return [], str(e)
+
+# --- 颜色处理工具 ---
+def hex_to_rgb(hex_code):
+    try:
+        h = hex_code.lstrip('#')
+        return tuple(int(h[i:i+2], 16) for i in (0, 2, 4))
+    except:
+        return (0,0,0)
+
+def generate_clr(colors):
+    """生成 ArcGIS CLR 内容"""
+    content = ""
+    for idx, hex_code in enumerate(colors):
+        r, g, b = hex_to_rgb(hex_code)
+        content += f"{idx + 1} {r} {g} {b}\n"
+    return content
+
+def get_gradient_css(colors):
+    """CSS 线性渐变"""
+    return f"linear-gradient(to right, {', '.join(colors)})"
+
+# ==========================================
+# 3. 页面渲染
+# ==========================================
+init_session()
+all_ramps, error_msg = load_data_raw()
+
+if error_msg:
+    st.error(f"❌ 数据文件损坏: {error_msg}")
+    st.stop()
+
+# --- 侧边栏 (Filter & Export) ---
+with st.sidebar:
+    st.markdown("###  Library")
+    
+    # 1. 筛选区
+    cats = sorted(list(set(r.get('category', '其他') for r in all_ramps)))
+    # 韦斯安德森置顶
+    if "韦斯·安德森" in cats:
+        cats.remove("韦斯·安德森")
+        cats.insert(0, "韦斯·安德森")
+    
+    selected_cat = st.selectbox("Category", ["All"] + cats)
+    search_query = st.text_input("Search", placeholder="Movies, colors...")
+    
+    st.divider()
+    
+    # 2. 导出区
+    count = len(st.session_state.selected_ramps)
+    st.markdown(f"**Export List ({count})**")
+    
+    if count > 0:
+        export_data = [r for r in all_ramps if r['name'] in st.session_state.selected_ramps]
+        st.download_button(
+            label="Download JSON Bundle",
+            data=json.dumps(export_data, indent=2, ensure_ascii=False),
+            file_name="gis_color_bundle.json",
+            mime="application/json",
+            type="primary", # 蓝色按钮
+            use_container_width=True
+        )
+        if st.button("Clear Selection", use_container_width=True):
+            st.session_state.selected_ramps = []
+            st.rerun()
+    else:
+        st.caption("Select palettes to create a bundle.")
+
+# --- 主界面 ---
+st.markdown("""
+<div class="hero-container">
+    <div class="hero-title">Color Library.</div>
+    <div class="hero-subtitle">Curated palettes for cinematic maps.</div>
+</div>
+""", unsafe_allow_html=True)
+
+# 筛选逻辑
+filtered_ramps = all_ramps
+if selected_cat != "All":
+    filtered_ramps = [r for r in filtered_ramps if r.get('category', '其他') == selected_cat]
+if search_query:
+    q = search_query.lower()
+    filtered_ramps = [r for r in filtered_ramps if q in r['name'].lower()]
+
+# 网格展示
+if not filtered_ramps:
+    st.warning("No palettes found matching your criteria.")
+else:
+    # 响应式布局：4 列
+    cols = st.columns(4)
+    
+    for idx, ramp in enumerate(filtered_ramps):
+        with cols[idx % 4]:
+            # 1. 纯 HTML/CSS 渲染卡片视觉部分
+            st.markdown(f"""
+            <div class="apple-card">
+                <div class="gradient-bar" style="background: {get_gradient_css(ramp['colors'])}"></div>
+                <div class="card-title" title="{ramp['name']}">{ramp['name']}</div>
+            </div>
+            """, unsafe_allow_html=True)
+            
+            # 2. 按钮交互部分 (使用 Streamlit 原生组件以保证逻辑稳定)
+            # 布局：第一行 [选择] [下载]，第二行 [删除]
+            
+            c1, c2 = st.columns(2)
+            name = ramp['name']
+            
+            with c1:
+                is_selected = name in st.session_state.selected_ramps
+                # 状态切换：选中显示蓝色实心(secondary)，未选中显示灰色(default)
+                btn_label = "✓ Added" if is_selected else "＋ Add"
+                btn_type = "secondary" if is_selected else "primary" # 这里反着用 primary 来触发我的CSS逻辑(其实是默认样式)
+                
+                # 由于Streamlit默认样式限制，我在CSS里做了 hack：
+                # kind="secondary" -> 蓝色背景 (代表已选)
+                # kind="secondary" 默认是白色背景
+                # 我在上方CSS里强制修改了 secondary 的样式
+                
+                if st.button(btn_label, key=f"sel_{idx}", on_click=toggle_select, args=(name,), type="secondary" if is_selected else "secondary", use_container_width=True):
+                    pass 
+                    # 这里的 type 其实仅仅是给 CSS 选择器用的标记，实际逻辑在 on_click
+                    # 为了视觉区分，我们依赖 is_selected 重新渲染时的 CSS 注入
+
+            with c2:
+                st.download_button(
+                    "⬇ CLR", 
+                    data=generate_clr(ramp['colors']), 
+                    file_name=f"{name}.clr", 
+                    key=f"dl_{idx}",
+                    use_container_width=True
+                )
+            
+            # 删除按钮独占一行，防止误触
+            if st.button("Trash", key=f"del_{idx}", on_click=delete_permanent, args=(name,), type="primary", use_container_width=True):
+                pass
+            
+            # 增加底部间距
+            st.markdown("<div style='margin-bottom: 24px'></div>", unsafe_allow_html=True)
