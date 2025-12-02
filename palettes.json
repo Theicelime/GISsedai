@@ -1407,61 +1407,61 @@
   {
     "name": "千里江山图 (A Thousand Li of Rivers and Mountains)",
     "category": "东方美学",
-    "colors": ["#D4B886", "#A8C97F", "#5DB594", "#2C8E9E", "#2A5D7E", "#1E3A5F"]
+    "colors": ["#F2EBD9", "#D4E0AA", "#7BC3A0", "#4FA89B", "#3A6C9B", "#1F3E7D"]
   },
   {
     "name": "富春山居图 (Dwelling in the Fuchun Mountains)",
     "category": "东方美学",
-    "colors": ["#CCBB9B", "#A89E83", "#857C6D", "#665E52", "#4A443B", "#302C26"]
+    "colors": ["#F5F1E4", "#D9CDB3", "#B09E7E", "#8B7359", "#6F8D6A", "#4A5D3F"]
   },
   {
     "name": "洛神赋图 (The Nymph of the Luo River)",
     "category": "东方美学",
-    "colors": ["#E8D9C5", "#C6A992", "#9E7C63", "#7D5C46", "#5D4030", "#3E271B"]
+    "colors": ["#F0E9DF", "#D7C4B0", "#C4A792", "#9A7F6E", "#6B7E8E", "#4A5C6D"]
   },
   {
     "name": "步辇图 (Imperial Carriage)",
     "category": "东方美学",
-    "colors": ["#E3CCAD", "#C9A87E", "#A87C52", "#8A5F3B", "#6B4526", "#4A2B15"]
+    "colors": ["#EEE6D7", "#E2B8A6", "#C86F5D", "#9C5648", "#7D5537", "#4F3A2B"]
   },
   {
     "name": "唐宫仕女图 (Court Ladies of the Tang Dynasty)",
     "category": "东方美学",
-    "colors": ["#F8E2D4", "#EAB5A8", "#D6797B", "#B34352", "#8C1F36", "#5C0B21"]
+    "colors": ["#F8EDE9", "#F0C9C5", "#D7959A", "#A74D5B", "#7A8E6B", "#5A6B4C"]
   },
   {
     "name": "五牛图 (Five Oxen)",
     "category": "东方美学",
-    "colors": ["#E7D6B5", "#C6A86A", "#A37F3C", "#825E25", "#634215", "#42290B"]
+    "colors": ["#EFEBE0", "#D6C6A1", "#BDA862", "#9C7C3C", "#7D9E80", "#5A7F5C"]
   },
   {
     "name": "韩熙载夜宴图 (The Night Revels of Han Xizai)",
     "category": "东方美学",
-    "colors": ["#EAD9C5", "#D4B693", "#B88C62", "#9C6A41", "#774C2A", "#513019"]
+    "colors": ["#F4EFE7", "#E8DBC8", "#C9A989", "#A87D5F", "#6B7D8F", "#4A5C6D"]
   },
   {
     "name": "清明上河图 (Along the River During the Qingming Festival)",
     "category": "东方美学",
-    "colors": ["#E4D7A9", "#B8B07E", "#8F8A5C", "#6B6644", "#4A4630", "#2C291C"]
+    "colors": ["#F1EDDE", "#DAD4B4", "#B6B08B", "#8B9E6F", "#5A7F5C", "#3A5B40"]
   },
   {
     "name": "汉宫春晓图 (Spring Morning in the Han Palace)",
     "category": "东方美学",
-    "colors": ["#E8E6C9", "#B8CDA7", "#7FAF8C", "#5A8C6F", "#3D6A55", "#25493D"]
+    "colors": ["#F0F1E9", "#D7DDCB", "#AEC0A1", "#E2B8A6", "#C86F5D", "#9C5648"]
   },
   {
     "name": "百骏图 (One Hundred Horses)",
     "category": "东方美学",
-    "colors": ["#D7E1C8", "#A8C2A1", "#6FA07F", "#4A7E61", "#2F5D46", "#1B3E2E"]
+    "colors": ["#E8EEE5", "#C7D8CC", "#9FBCA9", "#D9B17C", "#B08C5E", "#8B7359"]
   },
   {
     "name": "洛神赋全图 (The Ode of the Goddess of the Luo)",
     "category": "东方美学",
-    "colors": ["#E5D9C9", "#C4B19A", "#9C856C", "#7A6651", "#5B4A39", "#3D3024"]
+    "colors": ["#F3F1EC", "#E0D7CC", "#B8AA9A", "#8A9E8E", "#6B7E8E", "#4A5C6D"]
   },
   {
     "name": "女史箴图 (The Admonitions Scroll)",
     "category": "东方美学",
-    "colors": ["#E7DACA", "#C6B49A", "#9E8A6E", "#7C6B53", "#5C4E3B", "#3D3225"]
+    "colors": ["#F2EDE5", "#DBCFBD", "#B8A28A", "#917559", "#7D9E80", "#5A7F5C"]
   }
 ]
