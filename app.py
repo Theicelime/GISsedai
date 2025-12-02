@@ -177,8 +177,9 @@ def delete_permanent(name_to_delete):
         # 清理 session
         if name_to_delete in st.session_state.selected_ramps:
             st.session_state.selected_ramps.remove(name_to_delete)
+        
+        # 修复点：删除了 st.rerun()，因为 on_click 结束后会自动 rerun
             
-        st.rerun()
     except Exception as e:
         st.error(f"无法删除: {e}")
 
@@ -308,17 +309,9 @@ else:
                 is_selected = name in st.session_state.selected_ramps
                 # 状态切换：选中显示蓝色实心(secondary)，未选中显示灰色(default)
                 btn_label = "✓ Added" if is_selected else "＋ Add"
-                btn_type = "secondary" if is_selected else "primary" # 这里反着用 primary 来触发我的CSS逻辑(其实是默认样式)
-                
-                # 由于Streamlit默认样式限制，我在CSS里做了 hack：
-                # kind="secondary" -> 蓝色背景 (代表已选)
-                # kind="secondary" 默认是白色背景
-                # 我在上方CSS里强制修改了 secondary 的样式
                 
                 if st.button(btn_label, key=f"sel_{idx}", on_click=toggle_select, args=(name,), type="secondary" if is_selected else "secondary", use_container_width=True):
                     pass 
-                    # 这里的 type 其实仅仅是给 CSS 选择器用的标记，实际逻辑在 on_click
-                    # 为了视觉区分，我们依赖 is_selected 重新渲染时的 CSS 注入
 
             with c2:
                 st.download_button(
@@ -329,7 +322,7 @@ else:
                     use_container_width=True
                 )
             
-            # 删除按钮独占一行，防止误触
+            # 删除按钮
             if st.button("Trash", key=f"del_{idx}", on_click=delete_permanent, args=(name,), type="primary", use_container_width=True):
                 pass
             
