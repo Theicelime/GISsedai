@@ -690,11 +690,6 @@
     "colors": ["#0c0e24", "#181a38", "#25284d", "#323561", "#3f4376", "#4c508a", "#595e9f", "#666bb3", "#7379c8", "#8086dc"]
   },
   {
-    "name": "禅意花园",
-    "category": "东方美学",
-    "colors": ["#2e2e2e", "#454545", "#5c5c5c", "#737373", "#8a8a8a", "#8f9e8a", "#7a946e", "#658a52", "#4f8036"]
-  },
-  {
     "name": "京都之秋",
     "category": "东方美学",
     "colors": ["#2b0a0a", "#4a1212", "#691a1a", "#882222", "#a72a2a", "#c63232", "#e53a3a", "#e87a56", "#ebb972"]
@@ -1362,51 +1357,61 @@
   {
     "name": "千里江山图 (A Thousand Li of Rivers and Mountains)",
     "category": "东方美学",
-    "colors": ["#EBDBC5", "#D4C596", "#99B898", "#45998D", "#246B85", "#183D5E"]
+    "colors": ["#F2E6D0", "#D6C887", "#A1BFA3", "#4FA69E", "#267385", "#10425E"]
   },
   {
     "name": "瑞鹤图 (Auspicious Cranes)",
     "category": "东方美学",
-    "colors": ["#F0F4F7", "#D1E3F0", "#94C2E0", "#5CA6D6", "#3B82B5", "#265980"]
+    "colors": ["#F5F7FA", "#D4E6F2", "#A6CBE3", "#75AEDB", "#4A8AC2", "#265B8A"]
   },
   {
     "name": "清明上河图 (Along the River During the Qingming Festival)",
     "category": "东方美学",
-    "colors": ["#F2E6D8", "#E0D0B8", "#C2B091", "#A69272", "#7A664B", "#52412E"]
+    "colors": ["#F0E6D5", "#D9C8AC", "#C2AB88", "#A68C65", "#806646", "#523F28"]
   },
   {
     "name": "富春山居图 (Dwelling in the Fuchun Mountains)",
     "category": "东方美学",
-    "colors": ["#F5F5F0", "#E0E0D6", "#B8B8AD", "#8F8F85", "#66665C", "#3D3D36"]
-  },
-  {
-    "name": "簪花仕女图 (Court Ladies Wearing Flowered Headdresses)",
-    "category": "东方美学",
-    "colors": ["#F2E3D5", "#E6B8A8", "#D98075", "#B34239", "#8C2323", "#591212"]
-  },
-  {
-    "name": "洛神赋图 (Nymph of the Luo River)",
-    "category": "东方美学",
-    "colors": ["#D9CDB8", "#B8AA8E", "#8C9973", "#63735D", "#3E4D3F", "#243329"]
-  },
-  {
-    "name": "韩熙载夜宴图 (The Night Revels of Han Xizai)",
-    "category": "东方美学",
-    "colors": ["#E6D5B8", "#BF9C88", "#597A68", "#2E5945", "#1A3326", "#0D1A14"]
+    "colors": ["#F2F2EB", "#E0E0D6", "#C2C2B8", "#99998F", "#707066", "#42423B"]
   },
   {
     "name": "桃源仙境图 (Pavilions in Mountains of the Immortals)",
     "category": "东方美学",
-    "colors": ["#F7F9E8", "#CDE6C1", "#8DCF9E", "#4CA8A8", "#2B7085", "#194252"]
+    "colors": ["#F2F7E6", "#CBE6CA", "#96D1B3", "#58B5B3", "#308291", "#175261"]
   },
   {
-    "name": "虢国夫人游春图 (Lady Guoguo's Spring Outing)",
+    "name": "簪花仕女图 (Court Ladies Wearing Flowered Headdresses)",
     "category": "东方美学",
-    "colors": ["#F2EBE3", "#EBD3D1", "#D9A8A8", "#B37D6F", "#8C5748", "#59332A"]
+    "colors": ["#EBE0D1", "#D9BCA7", "#C99180", "#B35C50", "#8F332D", "#661A1A"]
+  },
+  {
+    "name": "洛神赋图 (Nymph of the Luo River)",
+    "category": "东方美学",
+    "colors": ["#D9D0C1", "#B8B59C", "#949C80", "#6D8065", "#496147", "#2A3D2E"]
+  },
+  {
+    "name": "韩熙载夜宴图 (The Night Revels of Han Xizai)",
+    "category": "东方美学",
+    "colors": ["#E3D5C3", "#C2A88D", "#8C9176", "#506953", "#6E3E3E", "#3B2626"]
   },
   {
     "name": "五牛图 (Five Oxen)",
     "category": "东方美学",
-    "colors": ["#F0EAD2", "#E0D0A6", "#C7B27C", "#A68F58", "#856E3D", "#5C4A26"]
+    "colors": ["#F0E8D3", "#D9C69A", "#BFAB73", "#A68D53", "#806634", "#54401D"]
+  },
+  {
+    "name": "溪山行旅图 (Travelers Among Mountains and Streams)",
+    "category": "东方美学",
+    "colors": ["#E3DECF", "#C7BFA3", "#A69D80", "#80755C", "#5C523D", "#383124"]
+  },
+  {
+    "name": "虢国夫人游春图 (Lady Guoguo's Spring Outing)",
+    "category": "东方美学",
+    "colors": ["#F5F0E6", "#E8D5D1", "#D1ABA6", "#A8C2A8", "#7A997A", "#5E4637"]
+  },
+  {
+    "name": "听琴图 (Listening to the Qin)",
+    "category": "东方美学",
+    "colors": ["#DED9C8", "#B8C2B0", "#8FA68F", "#67826F", "#465E50", "#26362E"]
   }
 ]
