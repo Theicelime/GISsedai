@@ -1425,53 +1425,63 @@
     "colors": ["#F5F5F0", "#E3E1D1", "#C7C4B1", "#9C9989", "#737063", "#4A473E"]
   },
   {
-    "name": "瑞鹤图 (Auspicious Cranes)",
+    "name": "千里江山图 (青绿山水)",
     "category": "东方美学",
-    "colors": ["#F7FAFC", "#D9E8F5", "#A8CDE6", "#70A6D1", "#4282B3", "#235C8A"]
+    "colors": ["#F2E6C2", "#C7D98C", "#85BFA1", "#2E8C74", "#185957", "#0D3040"]
   },
   {
-    "name": "清明上河图 (Along the River During the Qingming Festival)",
+    "name": "富春山居图 (水墨雅韵)",
     "category": "东方美学",
-    "colors": ["#EBE3D3", "#D4C2A3", "#B8A382", "#947E5E", "#705C40", "#4F3E29"]
+    "colors": ["#F0EAD2", "#D9D2B6", "#A6A292", "#737168", "#4A4945"]
   },
   {
-    "name": "桃源仙境图 (Pavilions in Mountains of the Immortals)",
+    "name": "清明上河图 (市井烟火)",
     "category": "东方美学",
-    "colors": ["#F2F7E8", "#CCDECF", "#89C9B8", "#45A1A3", "#277080", "#164A57"]
+    "colors": ["#EBE1CE", "#D4C7B0", "#B0A38D", "#8C7E6A", "#636658", "#59473E"]
   },
   {
-    "name": "簪花仕女图 (Court Ladies Wearing Flowered Headdresses)",
+    "name": "洛神赋图 (高古奇幻)",
     "category": "东方美学",
-    "colors": ["#F2E6DC", "#E8C8B5", "#D9988C", "#C26155", "#99332E", "#661414"]
+    "colors": ["#D9C5A0", "#BF7A6F", "#A64B4B", "#664F3C", "#2F4238"]
   },
   {
-    "name": "洛神赋图 (Nymph of the Luo River)",
+    "name": "唐宫仕女图 (盛世红妆)",
     "category": "东方美学",
-    "colors": ["#E0D6C3", "#C2B595", "#9CA37E", "#728562", "#4D6345", "#2C402E"]
+    "colors": ["#F7E8D3", "#F2C6A9", "#E08573", "#BF4545", "#8C2329", "#4F2A38"]
   },
   {
-    "name": "汉宫春晓图 (Spring Morning in the Han Palace)",
+    "name": "韩熙载夜宴图 (沉郁夜色)",
     "category": "东方美学",
-    "colors": ["#F5F2E9", "#D9E3CC", "#A8C9B5", "#70A395", "#4D8076", "#3E5C56"]
+    "colors": ["#E6DCC8", "#D98880", "#BF4141", "#596B58", "#2E4038", "#1A2626"]
   },
   {
-    "name": "韩熙载夜宴图 (The Night Revels of Han Xizai)",
+    "name": "五牛图 (淳朴黄褐)",
     "category": "东方美学",
-    "colors": ["#EBE0CC", "#C2B499", "#8F9C86", "#5C7561", "#365243", "#1D2E24"]
+    "colors": ["#F5F0E1", "#E0CBA8", "#BFA071", "#8C6E46", "#594228"]
   },
   {
-    "name": "早春图 (Early Spring)",
+    "name": "汉宫春晓图 (仇英青绿)",
     "category": "东方美学",
-    "colors": ["#E8E3D8", "#CFC6B4", "#B0A48D", "#8F8066", "#6B5D45", "#473B29"]
+    "colors": ["#F7F7F2", "#D1EBE8", "#94D9C9", "#5FA8A6", "#3E6B73", "#2A4059"]
   },
   {
-    "name": "虢国夫人游春图 (Lady Guoguo's Spring Outing)",
+    "name": "瑞鹤图 (瘦金天青)",
     "category": "东方美学",
-    "colors": ["#F7F2EB", "#EBD6D3", "#D4ACAC", "#B58282", "#945C5C", "#693838"]
+    "colors": ["#D9D9D9", "#A6C2CC", "#7398A8", "#4F7080", "#8C6A48", "#593E26"]
   },
   {
-    "name": "五牛图 (Five Oxen)",
+    "name": "步辇图 (大唐威仪)",
     "category": "东方美学",
-    "colors": ["#F2ECDE", "#E6D5A8", "#CCB37A", "#AD9257", "#8A7039", "#5E4922"]
+    "colors": ["#D9CBB8", "#C77C65", "#A63F3F", "#732C2C", "#594739", "#332E29"]
+  },
+  {
+    "name": "百骏图 (郎世宁西风)",
+    "category": "东方美学",
+    "colors": ["#D4E1E6", "#B4C7D9", "#94A882", "#738C5D", "#8C7152", "#5E4632"]
+  },
+  {
+    "name": "桃源仙境图 (苍翠欲滴)",
+    "category": "东方美学",
+    "colors": ["#E6F0F2", "#B3D9D0", "#6EC2B3", "#3C8C80", "#245952", "#143333"]
   }
 ]
