@@ -1368,5 +1368,55 @@
     "name": "亨利·休格的神奇故事 (Henry Sugar)",
     "category": "韦斯·安德森",
     "colors": ["#A6C2D9", "#C4D6E6", "#E6E1D3", "#D9C0A3", "#BF9169", "#8C6046"]
+  },
+  {
+    "name": "千里江山图 (A Thousand Li of Rivers and Mountains)",
+    "category": "东方美学",
+    "colors": ["#EBDBC5", "#D4C596", "#99B898", "#45998D", "#246B85", "#183D5E"]
+  },
+  {
+    "name": "瑞鹤图 (Auspicious Cranes)",
+    "category": "东方美学",
+    "colors": ["#F0F4F7", "#D1E3F0", "#94C2E0", "#5CA6D6", "#3B82B5", "#265980"]
+  },
+  {
+    "name": "清明上河图 (Along the River During the Qingming Festival)",
+    "category": "东方美学",
+    "colors": ["#F2E6D8", "#E0D0B8", "#C2B091", "#A69272", "#7A664B", "#52412E"]
+  },
+  {
+    "name": "富春山居图 (Dwelling in the Fuchun Mountains)",
+    "category": "东方美学",
+    "colors": ["#F5F5F0", "#E0E0D6", "#B8B8AD", "#8F8F85", "#66665C", "#3D3D36"]
+  },
+  {
+    "name": "簪花仕女图 (Court Ladies Wearing Flowered Headdresses)",
+    "category": "东方美学",
+    "colors": ["#F2E3D5", "#E6B8A8", "#D98075", "#B34239", "#8C2323", "#591212"]
+  },
+  {
+    "name": "洛神赋图 (Nymph of the Luo River)",
+    "category": "东方美学",
+    "colors": ["#D9CDB8", "#B8AA8E", "#8C9973", "#63735D", "#3E4D3F", "#243329"]
+  },
+  {
+    "name": "韩熙载夜宴图 (The Night Revels of Han Xizai)",
+    "category": "东方美学",
+    "colors": ["#E6D5B8", "#BF9C88", "#597A68", "#2E5945", "#1A3326", "#0D1A14"]
+  },
+  {
+    "name": "桃源仙境图 (Pavilions in Mountains of the Immortals)",
+    "category": "东方美学",
+    "colors": ["#F7F9E8", "#CDE6C1", "#8DCF9E", "#4CA8A8", "#2B7085", "#194252"]
+  },
+  {
+    "name": "虢国夫人游春图 (Lady Guoguo's Spring Outing)",
+    "category": "东方美学",
+    "colors": ["#F2EBE3", "#EBD3D1", "#D9A8A8", "#B37D6F", "#8C5748", "#59332A"]
+  },
+  {
+    "name": "五牛图 (Five Oxen)",
+    "category": "东方美学",
+    "colors": ["#F0EAD2", "#E0D0A6", "#C7B27C", "#A68F58", "#856E3D", "#5C4A26"]
   }
 ]
