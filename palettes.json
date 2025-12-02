@@ -1404,7 +1404,6 @@
     "category": "东方美学",
     "colors": ["#F5F0E6", "#E8D5D1", "#D1ABA6", "#A8C2A8", "#7A997A", "#5E4637"]
   },
-  [
   {
     "name": "千里江山图 (A Thousand Li of Rivers and Mountains)",
     "category": "东方美学",
@@ -1465,5 +1464,4 @@
     "category": "东方美学",
     "colors": ["#F2EDE5", "#DBCFBD", "#B8A28A", "#917559", "#6C533E", "#463528"]
   }
-]
 ]
