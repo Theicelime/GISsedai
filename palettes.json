@@ -1463,5 +1463,10 @@
     "name": "女史箴图 (The Admonitions Scroll)",
     "category": "东方美学",
     "colors": ["#F2EDE5", "#DBCFBD", "#B8A28A", "#917559", "#7D9E80", "#5A7F5C"]
+  },
+  {
+    "name": "Vintage Teal Orange (复古青橙)",
+    "category": "现代设计",
+    "colors": ["#274753", "#297270", "#299d8f", "#8ab07c", "#e7c66b", "#f3a361", "#e66d50"]
   }
 ]
