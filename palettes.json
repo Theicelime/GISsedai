@@ -1465,6 +1465,11 @@
     "colors": ["#F2EDE5", "#DBCFBD", "#B8A28A", "#917559", "#7D9E80", "#5A7F5C"]
   },
   {
+    "name": "Spectral Vibrant (红黄蓝)",
+    "category": "科学标准",
+    "colors": ["#a30543", "#f36f43", "#fbda83", "#e9f4a3", "#80cba4", "#4965b0"]
+  },
+  {
     "name": "Vintage Teal Orange (复古青橙)",
     "category": "现代设计",
     "colors": ["#274753", "#297270", "#299d8f", "#8ab07c", "#e7c66b", "#f3a361", "#e66d50"]
